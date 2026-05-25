@@ -85,11 +85,18 @@ pour le détail fonctionnel.
 
 ## Phase 5 — Contenu, PWA, mise en ligne
 
-- [~] **Corpus réel** — pipeline TSV + loader/validateur en place
+- [x] **Corpus réel** — pipeline TSV + loader/validateur en place
   (`src/data/corpus/{words,phrases,examples}.tsv`, `src/data/corpus/index.ts`).
-  Premier lot : 130 mots de contenu NGSL + 30 expressions + 50 exemples.
-  `corpus.sample.ts` supprimé. **Reste à curer ~870 mots et ~70 expressions
-  supplémentaires pour atteindre l'objectif PRD des ~1000 items.**
+  Corpus à deux paliers : **2000 mots de contenu** (NGSL filtré, rangs 1-2000,
+  mots-outils exclus) + **151 expressions toutes faites** + **2010 phrases
+  d'exemple**, soit **2151 items**. Palier 1 (rangs 1-906) = aisance de base
+  (~85 % de couverture orale) ; palier 2 (rangs 907-2000) = aisance
+  conversationnelle (~95 %). `corpus.sample.ts` supprimé. IPA générée puis
+  normalisée (eng-to-ipa, style maison). Chaque mot a une phrase d'exemple.
+- [ ] **Recalibrer la jauge de couverture** — `computeCoverage()` divise par le
+  total du corpus ; avec 2000 mots le dénominateur a doublé. Pondérer par rang
+  (ou plafonner sur le palier 1) pour que la jauge reflète la couverture
+  conversationnelle réelle, non linéaire en nombre de mots.
 - [ ] **Vérifier l'install PWA et le hors-ligne** — instructions dans
   `README.md` (section « Tester la PWA en local »). À faire toi-même :
   `pnpm run build && pnpm run preview`, installer, Network → Offline, recharger.

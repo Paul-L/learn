@@ -34,3 +34,124 @@ rank	textEn	translationFr	category	blank	distractors
 28	Do you speak English?	parlez-vous anglais ?	question	Do	Are|Can|Will
 29	I need some help	j'ai besoin d'aide	request	some	any|much|more
 30	It's too expensive	c'est trop cher	social	too	so|very|much
+31	Good morning	bonjour (le matin)	social	morning	evening|night|afternoon
+32	Good evening	bonsoir	social	evening	morning|night|afternoon
+33	Good night	bonne nuit	social	night	morning|evening|day
+34	See you later	à plus tard	social	later	soon|then|now
+35	Have a nice day	bonne journée	social	nice	good|great|fine
+36	Take care	prends soin de toi	social	care	time|rest|easy
+37	How is it going?	comment ça va ?	social	going	doing|coming|working
+38	I'm fine, thank you	je vais bien, merci	social	fine	good|well|okay
+39	Welcome	bienvenue	social	Welcome	Hello|Sorry|Goodbye
+40	Congratulations	félicitations	social	Congratulations	Welcome|Goodbye|Sorry
+41	Happy birthday	joyeux anniversaire	social	birthday	holiday|day|year
+42	Of course	bien sûr	social	course	sure|yes|fine
+43	No problem	pas de problème	social	problem	trouble|worry|matter
+44	Don't worry	ne t'inquiète pas	social	worry	mind|move|stop
+45	Me too	moi aussi	social	too	also|so|as
+46	I think so	je crois que oui	social	think	hope|guess|know
+47	I hope so	je l'espère	social	hope	think|wish|guess
+48	Here you are	voici / tenez	social	Here	There|Where|Now
+49	I am lost	je suis perdu	social	lost	late|tired|here
+50	I feel sick	je me sens malade	social	sick	tired|cold|hot
+51	I'm hungry	j'ai faim	social	hungry	thirsty|tired|cold
+52	I'm thirsty	j'ai soif	social	thirsty	hungry|tired|hot
+53	I'm tired	je suis fatigué	social	tired	hungry|busy|sick
+54	It's a nice day	il fait beau	social	nice	cold|bad|long
+55	Could you speak more slowly?	pourriez-vous parler plus lentement ?	request	slowly	quickly|loudly|clearly
+56	Can you write it down?	pouvez-vous l'écrire ?	request	write	say|read|spell
+57	Could you show me?	pourriez-vous me montrer ?	request	show	tell|give|help
+58	Can I have the bill, please?	puis-je avoir l'addition ?	request	bill	menu|card|table
+59	Can I have the menu, please?	puis-je avoir la carte ?	request	menu	bill|table|water
+60	I would like a glass of water	je voudrais un verre d'eau	request	water	wine|juice|milk
+61	Can I try it on?	puis-je l'essayer ?	request	try	take|buy|use
+62	Could you call a taxi?	pourriez-vous appeler un taxi ?	request	taxi	bus|car|train
+63	Can you wait a moment?	pouvez-vous attendre un instant ?	request	wait	stay|stop|hold
+64	Please sit down	asseyez-vous, je vous prie	request	sit	come|stand|get
+65	Please come in	entrez, je vous prie	request	come	sit|go|get
+66	Can I ask you something?	puis-je te demander quelque chose ?	request	ask	tell|say|give
+67	Can you turn on the light?	peux-tu allumer la lumière ?	request	light	door|window|phone
+68	One ticket, please	un billet, s'il vous plaît	request	ticket	table|coffee|room
+69	I'll have the same	je prendrai la même chose	request	same	other|one|menu
+70	Where are you from?	d'où viens-tu ?	question	from	to|at|in
+71	How old are you?	quel âge as-tu ?	question	old	tall|big|young
+72	What do you do?	que fais-tu dans la vie ?	question	do	are|did|make
+73	Where is the station?	où est la gare ?	question	Where	What|How|When
+74	How do I get there?	comment y aller ?	question	get	go|come|find
+75	Is it far from here?	est-ce loin d'ici ?	question	far	near|close|long
+76	What would you like?	que désirez-vous ?	question	like	want|need|have
+77	Can I help you?	puis-je vous aider ?	question	help	ask|give|show
+78	What's the matter?	qu'est-ce qui ne va pas ?	question	matter	problem|trouble|wrong
+79	Which one do you want?	lequel veux-tu ?	question	Which	What|Whose|Who
+80	When does it open?	quand est-ce que ça ouvre ?	question	open	close|start|end
+81	How long does it take?	combien de temps ça prend ?	question	long	much|many|far
+82	How many people are there?	combien de personnes y a-t-il ?	question	many	much|long|old
+83	What is this?	qu'est-ce que c'est ?	question	What	Where|Who|How
+84	Who is that?	qui est-ce ?	question	Who	What|Where|Whose
+85	Why not?	pourquoi pas ?	question	Why	How|What|When
+86	Are you ready?	es-tu prêt ?	question	ready	sure|tired|busy
+87	Do you have a room?	avez-vous une chambre ?	question	room	table|seat|ticket
+88	Can I pay in cash?	puis-je payer en espèces ?	question	cash	card|euros|now
+89	Where can I buy a ticket?	où puis-je acheter un billet ?	question	buy	get|find|take
+90	What time does the train leave?	à quelle heure part le train ?	question	leave	arrive|come|stop
+91	There is a problem	il y a un problème	structure	is	are|was|be
+92	There are many people	il y a beaucoup de gens	structure	are	is|were|be
+93	I have to go	je dois y aller	structure	have	has|had|having
+94	I would like to go	je voudrais y aller	structure	would	will|could|should
+95	I can speak English	je sais parler anglais	structure	can	could|will|may
+96	I am going to leave	je vais partir	structure	going	go|gone|went
+97	I don't have time	je n'ai pas le temps	structure	don't	doesn't|didn't|won't
+98	I'm not sure	je ne suis pas sûr	structure	not	no|never|none
+99	Let's go now	allons-y maintenant	structure	go	come|run|stay
+100	It depends	ça dépend	other	depends	matters|works|helps
+101	I think you are right	je pense que tu as raison	social	think	hope|guess|know
+102	In my opinion	à mon avis	other	opinion	view|mind|idea
+103	That is a good idea	c'est une bonne idée	social	idea	plan|point|thing
+104	I agree with you	je suis d'accord avec toi	social	agree	think|stay|talk
+105	I do not agree	je ne suis pas d'accord	social	agree	think|know|mind
+106	You are right	tu as raison	social	right	wrong|sure|kind
+107	You are wrong	tu as tort	social	wrong	right|late|sure
+108	It does not matter	ça n'a pas d'importance	other	matter	mind|count|help
+109	It is up to you	c'est comme tu veux	other	up	on|in|over
+110	I do not mind	ça ne me dérange pas	social	mind	matter|care|want
+111	I would rather stay	je préférerais rester	structure	rather	better|sooner|prefer
+112	That sounds great	ça a l'air super	social	sounds	looks|feels|seems
+113	What do you think?	qu'en penses-tu ?	question	think	say|mean|want
+114	I have no idea	je n'en ai aucune idée	social	idea	clue|mind|thought
+115	It is worth it	ça en vaut la peine	other	worth	worthy|value|good
+116	That is too bad	c'est dommage	social	bad	sad|much|far
+117	Never mind	laisse tomber / tant pis	social	mind	matter|worry|care
+118	Of course not	bien sûr que non	social	course	sure|way|chance
+119	Let me think about it	laisse-moi y réfléchir	social	think	look|see|know
+120	I will be right back	je reviens tout de suite	social	back	here|soon|now
+121	Make yourself at home	fais comme chez toi	social	home	house|ease|rest
+122	Help yourself	sers-toi	social	Help	Take|Serve|Give
+123	What a pity	quel dommage	social	pity	shame|loss|sad
+124	Good luck	bonne chance	social	luck	day|trip|time
+125	Well done	bien joué / bravo	social	done	made|played|good
+126	Cheers	santé / à la tienne	social	Cheers	Hello|Thanks|Sorry
+127	Bless you	à tes souhaits	social	Bless	Help|Thank|Save
+128	Take your time	prends ton temps	social	time	way|rest|turn
+129	Calm down	calme-toi	social	Calm	Slow|Sit|Stay
+130	Watch out	attention / fais gaffe	social	out	up|off|in
+131	Hold on	attends / un instant	social	Hold	Stay|Wait|Stop
+132	Go ahead	vas-y	social	ahead	away|on|out
+133	Let me know	tiens-moi au courant	social	know	tell|see|hear
+134	Could I have a moment?	puis-je avoir un instant ?	request	moment	minute|second|while
+135	Would you like a drink?	veux-tu boire quelque chose ?	question	like	want|need|have
+136	Do you mind if I sit here?	ça te dérange si je m'assieds ici ?	question	mind	care|matter|want
+137	Could you do me a favor?	pourrais-tu me rendre un service ?	request	favor	help|service|thing
+138	How can I help you?	comment puis-je vous aider ?	question	help	ask|serve|do
+139	What would you recommend?	que recommanderiez-vous ?	question	recommend	suggest|prefer|choose
+140	Can I have a look?	puis-je jeter un œil ?	request	look	see|try|watch
+141	Could you wait here?	pourriez-vous attendre ici ?	request	wait	stay|stop|sit
+142	Is everything okay?	tout va bien ?	question	okay	fine|right|good
+143	I used to live here	j'habitais ici (avant)	structure	used	use|like|want
+144	I have just arrived	je viens d'arriver	structure	just	yet|already|only
+145	I have not finished yet	je n'ai pas encore fini	structure	yet	still|now|already
+146	It might rain later	il pourrait pleuvoir plus tard	structure	might	may|could|would
+147	You should rest	tu devrais te reposer	structure	should	would|could|must
+148	I was about to leave	j'étais sur le point de partir	structure	about	ready|going|near
+149	There is nothing to do	il n'y a rien à faire	structure	nothing	anything|something|nobody
+150	That is exactly right	c'est tout à fait ça	social	exactly	totally|clearly|surely
+151	I am on my way	je suis en route	social	way	road|path|trip

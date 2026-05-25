@@ -135,3 +135,1873 @@ rank	lemma	pos	translationFr	ipa
 128	cold	adjective	froid	/koʊld/
 129	hot	adjective	chaud	/hɒt/
 130	today	adverb	aujourd'hui	/təˈdeɪ/
+131	become	verb	devenir	/bɪˈkʌm/
+132	begin	verb	commencer	/bɪˈɡɪn/
+133	start	verb	commencer / démarrer	/stɑːrt/
+134	keep	verb	garder	/kiːp/
+135	turn	verb	tourner	/tɜːrn/
+136	hold	verb	tenir	/hoʊld/
+137	bring	verb	apporter	/brɪŋ/
+138	happen	verb	arriver / se passer	/ˈhæpən/
+139	sit	verb	s'asseoir	/sɪt/
+140	stand	verb	être debout	/stænd/
+141	talk	verb	parler	/tɔːk/
+142	meet	verb	rencontrer / retrouver	/miːt/
+143	lose	verb	perdre	/luːz/
+144	win	verb	gagner	/wɪn/
+145	stay	verb	rester	/steɪ/
+146	fall	verb	tomber	/fɔːl/
+147	walk	verb	marcher	/wɔːk/
+148	send	verb	envoyer	/sɛnd/
+149	spend	verb	dépenser / passer (du temps)	/spɛnd/
+150	grow	verb	grandir / pousser	/ɡroʊ/
+151	build	verb	construire	/bɪld/
+152	follow	verb	suivre	/ˈfɑːloʊ/
+153	watch	verb	regarder	/wɔːtʃ/
+154	stop	verb	arrêter	/stɑːp/
+155	change	verb	changer	/tʃeɪndʒ/
+156	love	verb	aimer / adorer	/lʌv/
+157	hope	verb	espérer	/hoʊp/
+158	listen	verb	écouter	/ˈlɪsən/
+159	remember	verb	se souvenir	/rɪˈmɛmbər/
+160	forget	verb	oublier	/fərˈɡɛt/
+161	believe	verb	croire	/bɪˈliːv/
+162	choose	verb	choisir	/tʃuːz/
+163	decide	verb	décider	/ˌdɪˈsaɪd/
+164	explain	verb	expliquer	/ɪkˈspleɪn/
+165	answer	verb	répondre	/ˈænsər/
+166	repeat	verb	répéter	/rɪˈpiːt/
+167	continue	verb	continuer	/kənˈtɪnjuː/
+168	finish	verb	finir / terminer	/ˈfɪnɪʃ/
+169	return	verb	retourner / rendre	/rɪˈtɜːrn/
+170	arrive	verb	arriver	/əraɪv/
+171	enter	verb	entrer	/ˈɛnər/
+172	carry	verb	porter / transporter	/ˈkɛri/
+173	push	verb	pousser	/pʊʃ/
+174	pull	verb	tirer	/pʊl/
+175	throw	verb	lancer / jeter	/θroʊ/
+176	catch	verb	attraper	/kætʃ/
+177	cut	verb	couper	/kʌt/
+178	break	verb	casser	/breɪk/
+179	fix	verb	réparer	/fɪks/
+180	clean	verb	nettoyer	/kliːn/
+181	wash	verb	laver	/wɑːʃ/
+182	cook	verb	cuisiner	/kʊk/
+183	wear	verb	porter (un vêtement)	/wɛr/
+184	sell	verb	vendre	/sɛl/
+185	cost	verb	coûter	/kɔːst/
+186	count	verb	compter	/kaʊnt/
+187	save	verb	économiser / sauver	/seɪv/
+188	share	verb	partager	/ʃɛr/
+189	drive	verb	conduire	/draɪv/
+190	fly	verb	voler	/flaɪ/
+191	ride	verb	rouler / monter (à vélo…)	/raɪd/
+192	swim	verb	nager	/swɪm/
+193	jump	verb	sauter	/dʒʌmp/
+194	dance	verb	danser	/dæns/
+195	sing	verb	chanter	/sɪŋ/
+196	laugh	verb	rire	/læf/
+197	smile	verb	sourire	/smaɪl/
+198	cry	verb	pleurer	/kraɪ/
+199	sleep	verb	dormir	/sliːp/
+200	dream	verb	rêver	/driːm/
+201	rest	verb	se reposer	/rɛst/
+202	hurt	verb	faire mal / blesser	/hɜːrt/
+203	mean	verb	vouloir dire	/miːn/
+204	agree	verb	être d'accord	/əˈɡriː/
+205	seem	verb	sembler	/siːm/
+206	check	verb	vérifier	/tʃɛk/
+207	visit	verb	rendre visite / visiter	/ˈvɪzɪt/
+208	travel	verb	voyager	/ˈtrævəl/
+209	add	verb	ajouter	/æd/
+210	baby	noun	le bébé	/ˈbeɪbi/
+211	boy	noun	le garçon	/bɔɪ/
+212	girl	noun	la fille	/ɡɜːrl/
+213	guy	noun	le gars / le type	/ɡaɪ/
+214	person	noun	la personne	/ˈpɜːrsən/
+215	husband	noun	le mari	/ˈhʌzbənd/
+216	wife	noun	l'épouse	/waɪf/
+217	son	noun	le fils	/sʌn/
+218	daughter	noun	la fille (enfant)	/ˈdɔːtər/
+219	brother	noun	le frère	/ˈbrʌðər/
+220	sister	noun	la sœur	/ˈsɪstər/
+221	neighbor	noun	le·la voisin·e	/ˈneɪbər/
+222	doctor	noun	le médecin	/ˈdɔːktər/
+223	nurse	noun	l'infirmier·ère	/nɜːrs/
+224	couple	noun	le couple	/ˈkʌpəl/
+225	adult	noun	l'adulte	/ˈædəlt/
+226	lady	noun	la dame	/ˈleɪdi/
+227	king	noun	le roi	/kɪŋ/
+228	queen	noun	la reine	/kwiːn/
+229	president	noun	le·la président·e	/ˈprɛzɪdənt/
+230	boss	noun	le·la patron·ne	/bɔːs/
+231	worker	noun	le·la travailleur·euse	/ˈwɜːrkər/
+232	artist	noun	l'artiste	/ˈɑːrtɪst/
+233	writer	noun	l'écrivain·e	/ˈraɪtər/
+234	singer	noun	le·la chanteur·euse	/ˈsɪŋər/
+235	actor	noun	l'acteur·rice	/ˈæktər/
+236	driver	noun	le·la conducteur·rice	/ˈdraɪvər/
+237	waiter	noun	le serveur	/ˈweɪtər/
+238	customer	noun	le·la client·e	/ˈkʌstəmər/
+239	visitor	noun	le·la visiteur·euse	/ˈvɪzɪtər/
+240	stranger	noun	l'inconnu·e	/ˈstreɪndʒər/
+241	arm	noun	le bras	/ɑːrm/
+242	leg	noun	la jambe	/lɛɡ/
+243	foot	noun	le pied	/fʊt/
+244	finger	noun	le doigt	/ˈfɪŋɡər/
+245	hair	noun	les cheveux	/hɛr/
+246	ear	noun	l'oreille	/ɪr/
+247	nose	noun	le nez	/noʊz/
+248	mouth	noun	la bouche	/maʊθ/
+249	tooth	noun	la dent	/tuːθ/
+250	neck	noun	le cou	/nɛk/
+251	back	noun	le dos	/bæk/
+252	heart	noun	le cœur	/hɑːrt/
+253	skin	noun	la peau	/skɪn/
+254	knee	noun	le genou	/niː/
+255	shoulder	noun	l'épaule	/ˈʃoʊldər/
+256	stomach	noun	l'estomac / le ventre	/ˈstʌmək/
+257	blood	noun	le sang	/blʌd/
+258	bone	noun	l'os	/boʊn/
+259	lip	noun	la lèvre	/lɪp/
+260	toe	noun	l'orteil	/toʊ/
+261	chest	noun	la poitrine	/tʃɛst/
+262	kitchen	noun	la cuisine	/ˈkɪtʃən/
+263	bathroom	noun	la salle de bain	/ˈbæθˌruːm/
+264	bedroom	noun	la chambre	/ˈbɛˌdruːm/
+265	floor	noun	le sol	/flɔːr/
+266	wall	noun	le mur	/wɔːl/
+267	window	noun	la fenêtre	/ˈwɪndoʊ/
+268	roof	noun	le toit	/rʊf/
+269	garden	noun	le jardin	/ˈɡɑːrdən/
+270	key	noun	la clé	/kiː/
+271	bed	noun	le lit	/bɛd/
+272	chair	noun	la chaise	/tʃɛr/
+273	desk	noun	le bureau (meuble)	/dɛsk/
+274	lamp	noun	la lampe	/læmp/
+275	clock	noun	l'horloge / la pendule	/klɑːk/
+276	mirror	noun	le miroir	/ˈmɪrər/
+277	towel	noun	la serviette	/taʊəl/
+278	soap	noun	le savon	/soʊp/
+279	shelf	noun	l'étagère	/ʃɛlf/
+280	garage	noun	le garage	/ɡərɑːʒ/
+281	stairs	noun	l'escalier	/stɛrz/
+282	yard	noun	la cour	/jɑːrd/
+283	gate	noun	le portail	/ɡeɪt/
+284	fence	noun	la clôture / la barrière	/fɛns/
+285	closet	noun	le placard / l'armoire	/ˈklɑːzət/
+286	ceiling	noun	le plafond	/ˈsiːlɪŋ/
+287	corner	noun	le coin	/ˈkɔːrnər/
+288	entrance	noun	l'entrée	/ˈɛntrəns/
+289	apartment	noun	l'appartement	/əˈpɑːrtmənt/
+290	building	noun	le bâtiment / l'immeuble	/ˈbɪldɪŋ/
+291	bag	noun	le sac	/bæɡ/
+292	box	noun	la boîte	/bɑːks/
+293	bottle	noun	la bouteille	/ˈbɑːtəl/
+294	cup	noun	la tasse	/kʌp/
+295	glass	noun	le verre	/ɡlæs/
+296	plate	noun	l'assiette	/pleɪt/
+297	knife	noun	le couteau	/naɪf/
+298	fork	noun	la fourchette	/fɔːrk/
+299	spoon	noun	la cuillère	/spuːn/
+300	clothes	noun	les vêtements	/kloʊðz/
+301	shirt	noun	la chemise	/ʃɜːrt/
+302	dress	noun	la robe	/drɛs/
+303	shoe	noun	la chaussure	/ʃuː/
+304	hat	noun	le chapeau	/hæt/
+305	coat	noun	le manteau	/koʊt/
+306	jacket	noun	la veste	/ˈdʒækɪt/
+307	ring	noun	la bague	/rɪŋ/
+308	glasses	noun	les lunettes	/ˈɡlæsɪz/
+309	pocket	noun	la poche	/ˈpɑːkət/
+310	camera	noun	l'appareil photo	/ˈkæmərə/
+311	tea	noun	le thé	/tiː/
+312	milk	noun	le lait	/mɪlk/
+313	juice	noun	le jus	/dʒuːs/
+314	wine	noun	le vin	/waɪn/
+315	beer	noun	la bière	/bɪr/
+316	sugar	noun	le sucre	/ˈʃʊɡər/
+317	salt	noun	le sel	/sɔːlt/
+318	pepper	noun	le poivre	/ˈpɛpər/
+319	egg	noun	l'œuf	/ɛɡ/
+320	cheese	noun	le fromage	/tʃiːz/
+321	butter	noun	le beurre	/ˈbʌtər/
+322	meat	noun	la viande	/miːt/
+323	chicken	noun	le poulet	/ˈtʃɪkən/
+324	fish	noun	le poisson	/fɪʃ/
+325	rice	noun	le riz	/raɪs/
+326	pasta	noun	les pâtes	/ˈpɑːstə/
+327	soup	noun	la soupe	/suːp/
+328	salad	noun	la salade	/ˈsæləd/
+329	fruit	noun	le fruit	/fruːt/
+330	apple	noun	la pomme	/ˈæpəl/
+331	banana	noun	la banane	/bəˈnænə/
+332	orange	noun	l'orange	/ˈɔːrɪndʒ/
+333	vegetable	noun	le légume	/ˈvɛdʒtəbəl/
+334	potato	noun	la pomme de terre	/pəˈteɪˌtoʊ/
+335	tomato	noun	la tomate	/təˈmɑːˌtoʊ/
+336	onion	noun	l'oignon	/ˈʌnjən/
+337	cake	noun	le gâteau	/keɪk/
+338	chocolate	noun	le chocolat	/ˈtʃɔːklət/
+339	breakfast	noun	le petit-déjeuner	/ˈbrɛkfəst/
+340	lunch	noun	le déjeuner	/lʌntʃ/
+341	dinner	noun	le dîner	/ˈdɪnər/
+342	meal	noun	le repas	/miːl/
+343	snack	noun	l'en-cas / le snack	/snæk/
+344	menu	noun	le menu / la carte	/ˈmɛnjuː/
+345	restaurant	noun	le restaurant	/ˈrɛˌstrɑːnt/
+346	sun	noun	le soleil	/sʌn/
+347	moon	noun	la lune	/muːn/
+348	star	noun	l'étoile	/stɑːr/
+349	sky	noun	le ciel	/skaɪ/
+350	sea	noun	la mer	/siː/
+351	river	noun	la rivière / le fleuve	/ˈrɪvər/
+352	lake	noun	le lac	/leɪk/
+353	mountain	noun	la montagne	/ˈmaʊntən/
+354	hill	noun	la colline	/hɪl/
+355	tree	noun	l'arbre	/triː/
+356	flower	noun	la fleur	/flaʊər/
+357	grass	noun	l'herbe	/ɡræs/
+358	forest	noun	la forêt	/ˈfɔːrɪst/
+359	beach	noun	la plage	/biːtʃ/
+360	island	noun	l'île	/ˈaɪlənd/
+361	rock	noun	le rocher	/rɑːk/
+362	stone	noun	la pierre	/stoʊn/
+363	sand	noun	le sable	/sænd/
+364	fire	noun	le feu	/faɪər/
+365	ice	noun	la glace	/aɪs/
+366	snow	noun	la neige	/snoʊ/
+367	rain	noun	la pluie	/reɪn/
+368	wind	noun	le vent	/wɪnd/
+369	cloud	noun	le nuage	/klaʊd/
+370	weather	noun	le temps (météo)	/ˈwɛðər/
+371	nature	noun	la nature	/ˈneɪtʃər/
+372	air	noun	l'air	/ɛr/
+373	wood	noun	le bois	/wʊd/
+374	field	noun	le champ	/fiːld/
+375	animal	noun	l'animal	/ˈænəməl/
+376	dog	noun	le chien	/dɔːɡ/
+377	cat	noun	le chat	/kæt/
+378	bird	noun	l'oiseau	/bɜːrd/
+379	horse	noun	le cheval	/hɔːrs/
+380	cow	noun	la vache	/kaʊ/
+381	sheep	noun	le mouton	/ʃiːp/
+382	pig	noun	le cochon	/pɪɡ/
+383	mouse	noun	la souris	/maʊs/
+384	rabbit	noun	le lapin	/ˈræbɪt/
+385	insect	noun	l'insecte	/ˈɪnˌsɛkt/
+386	town	noun	la ville (petite)	/taʊn/
+387	village	noun	le village	/ˈvɪlɪdʒ/
+388	park	noun	le parc	/pɑːrk/
+389	shop	noun	le magasin / la boutique	/ʃɑːp/
+390	market	noun	le marché	/ˈmɑːrkɪt/
+391	hotel	noun	l'hôtel	/hoʊˈtɛl/
+392	hospital	noun	l'hôpital	/ˈhɑːˌspɪtəl/
+393	station	noun	la gare / la station	/ˈsteɪʃən/
+394	airport	noun	l'aéroport	/ˈɛrˌpɔːrt/
+395	church	noun	l'église	/tʃɜːrtʃ/
+396	museum	noun	le musée	/mˈjuːziəm/
+397	library	noun	la bibliothèque	/ˈlaɪbrɛˌriː/
+398	bank	noun	la banque	/bæŋk/
+399	office	noun	le bureau (lieu)	/ˈɔːfəs/
+400	factory	noun	l'usine	/ˈfæktəri/
+401	farm	noun	la ferme	/fɑːrm/
+402	bridge	noun	le pont	/brɪdʒ/
+403	road	noun	la route	/roʊd/
+404	square	noun	la place (publique)	/skwɛr/
+405	afternoon	noun	l'après-midi	/ˌæftərˈnuːn/
+406	evening	noun	le soir	/ˈiːvnɪŋ/
+407	weekend	noun	le week-end	/ˈwiːˌkɪnd/
+408	holiday	noun	les vacances / le jour férié	/ˈhɑːlɪˌdeɪ/
+409	birthday	noun	l'anniversaire	/ˈbɜːrθˌdeɪ/
+410	summer	noun	l'été	/ˈsʌmər/
+411	winter	noun	l'hiver	/ˈwɪntər/
+412	spring	noun	le printemps	/spərɪŋ/
+413	autumn	noun	l'automne	/ˈɔːtəm/
+414	season	noun	la saison	/ˈsiːzən/
+415	moment	noun	le moment / l'instant	/ˈmoʊmənt/
+416	future	noun	le futur / l'avenir	/fˈjuːtʃər/
+417	bad	adjective	mauvais	/bæd/
+418	high	adjective	haut / élevé	/haɪ/
+419	low	adjective	bas	/loʊ/
+420	large	adjective	grand / vaste	/lɑːrdʒ/
+421	nice	adjective	agréable / sympa	/niːs/
+422	young	adjective	jeune	/jʌŋ/
+423	fine	adjective	bien / correct	/faɪn/
+424	real	adjective	réel / vrai	/riːl/
+425	special	adjective	spécial / particulier	/ˈspɛʃəl/
+426	strong	adjective	fort	/strɔːŋ/
+427	possible	adjective	possible	/ˈpɑːsəbəl/
+428	whole	adjective	entier / tout	/hoʊl/
+429	clear	adjective	clair / net	/klɪr/
+430	main	adjective	principal	/meɪn/
+431	common	adjective	courant / commun	/ˈkɑːmən/
+432	dark	adjective	sombre / foncé	/dɑːrk/
+433	bright	adjective	lumineux / vif	/braɪt/
+434	simple	adjective	simple	/ˈsɪmpəl/
+435	difficult	adjective	difficile	/ˈdɪfəkəlt/
+436	fast	adjective	rapide	/fæst/
+437	slow	adjective	lent	/sloʊ/
+438	quick	adjective	rapide / vif	/kwɪk/
+439	late	adjective	tard / en retard	/leɪt/
+440	early	adjective	tôt / précoce	/ˈɜːrli/
+441	warm	adjective	chaud (agréable)	/wɔːrm/
+442	cool	adjective	frais	/kuːl/
+443	dry	adjective	sec	/draɪ/
+444	wet	adjective	mouillé / humide	/wɛt/
+445	fresh	adjective	frais (récent)	/frɛʃ/
+446	heavy	adjective	lourd	/ˈhɛvi/
+447	tall	adjective	grand (de taille)	/tɔːl/
+448	short	adjective	court / petit	/ʃɔːrt/
+449	wide	adjective	large	/waɪd/
+450	narrow	adjective	étroit	/ˈnɛroʊ/
+451	deep	adjective	profond	/diːp/
+452	thick	adjective	épais	/θɪk/
+453	thin	adjective	mince / fin	/θɪn/
+454	huge	adjective	énorme	/juːdʒ/
+455	tiny	adjective	minuscule	/ˈtaɪni/
+456	perfect	adjective	parfait	/ˈpɜːrˌfɪkt/
+457	wonderful	adjective	merveilleux	/ˈwʌndərfəl/
+458	terrible	adjective	terrible / affreux	/ˈtɛrəbəl/
+459	excellent	adjective	excellent	/ˈɛksələnt/
+460	poor	adjective	pauvre	/puːr/
+461	rich	adjective	riche	/rɪtʃ/
+462	modern	adjective	moderne	/ˈmɑːdərn/
+463	recent	adjective	récent	/ˈriːsənt/
+464	dangerous	adjective	dangereux	/ˈdeɪndʒərəs/
+465	safe	adjective	sûr / sans danger	/seɪf/
+466	beautiful	adjective	beau / magnifique	/ˈbjuːtəfəl/
+467	pretty	adjective	joli	/ˈprɪti/
+468	ugly	adjective	laid / moche	/ˈʌɡli/
+469	lovely	adjective	charmant / adorable	/ˈlʌvli/
+470	famous	adjective	célèbre	/ˈfeɪməs/
+471	popular	adjective	populaire / apprécié	/ˈpɑːpjələr/
+472	normal	adjective	normal	/ˈnɔːrməl/
+473	strange	adjective	étrange / bizarre	/streɪndʒ/
+474	usual	adjective	habituel	/ˈjuːʒəwəl/
+475	similar	adjective	semblable / similaire	/ˈsɪmələr/
+476	particular	adjective	particulier	/ˌpɑːˈtɪkjələr/
+477	general	adjective	général	/ˈdʒɛnərəl/
+478	public	adjective	public	/ˈpʌblɪk/
+479	private	adjective	privé	/ˈpraɪvət/
+480	social	adjective	social	/ˈsoʊʃəl/
+481	national	adjective	national	/ˈnæʃənəl/
+482	local	adjective	local	/ˈloʊkəl/
+483	correct	adjective	correct / juste	/kərˈɛkt/
+484	wrong	adjective	faux / incorrect	/rɔːŋ/
+485	false	adjective	faux	/fɔːls/
+486	necessary	adjective	nécessaire	/ˈnɛsəˌsɛri/
+487	useful	adjective	utile	/ˈjuːsfəl/
+488	certain	adjective	certain / sûr	/ˈsɜːrtən/
+489	enough	adjective	assez / suffisant	/ɪˈnʌf/
+490	several	adjective	plusieurs	/ˈsɛvərəl/
+491	various	adjective	divers / varié	/ˈvɛriəs/
+492	single	adjective	seul / unique	/ˈsɪŋɡəl/
+493	double	adjective	double	/ˈdʌbəl/
+494	empty	adjective	vide	/ˈɛmti/
+495	broken	adjective	cassé	/ˈbroʊkən/
+496	tired	adjective	fatigué	/taɪərd/
+497	sick	adjective	malade	/sɪk/
+498	ill	adjective	malade / souffrant	/ɪl/
+499	healthy	adjective	en bonne santé / sain	/ˈhɛlθi/
+500	angry	adjective	en colère / fâché	/ˈæŋɡri/
+501	afraid	adjective	effrayé / qui a peur	/əˈfreɪd/
+502	scared	adjective	effrayé / apeuré	/skɛrd/
+503	sad	adjective	triste	/sæd/
+504	glad	adjective	content / ravi	/ɡlæd/
+505	sorry	adjective	désolé	/ˈsɑːri/
+506	calm	adjective	calme	/kɑːm/
+507	nervous	adjective	nerveux / anxieux	/ˈnɜːrvəs/
+508	excited	adjective	enthousiaste / impatient	/ɪkˈsaɪtɪd/
+509	bored	adjective	qui s'ennuie	/bɔːrd/
+510	surprised	adjective	surpris	/səˈpraɪzd/
+511	proud	adjective	fier	/praʊd/
+512	comfortable	adjective	confortable	/ˈkʌmfərtəbəl/
+513	hungry	adjective	qui a faim / affamé	/ˈhʌŋɡri/
+514	thirsty	adjective	qui a soif / assoiffé	/ˈθɜːrsti/
+515	busy	adjective	occupé	/ˈbɪzi/
+516	lazy	adjective	paresseux	/ˈleɪzi/
+517	kind	adjective	gentil	/kaɪnd/
+518	friendly	adjective	amical / sympathique	/ˈfrɛndli/
+519	funny	adjective	drôle	/ˈfʌni/
+520	serious	adjective	sérieux	/ˈsɪriəs/
+521	honest	adjective	honnête	/ˈɑːnəst/
+522	brave	adjective	courageux	/breɪv/
+523	polite	adjective	poli	/pəˈlaɪt/
+524	rude	adjective	impoli / grossier	/ruːd/
+525	smart	adjective	intelligent	/smɑːrt/
+526	clever	adjective	malin / astucieux	/ˈklɛvər/
+527	wise	adjective	sage / avisé	/waɪz/
+528	gentle	adjective	doux / délicat	/ˈdʒɛnəl/
+529	quiet	adjective	calme / silencieux	/kwaɪət/
+530	loud	adjective	fort / bruyant	/laʊd/
+531	soft	adjective	doux / mou	/sɔːft/
+532	sharp	adjective	tranchant / aigu	/ʃɑːrp/
+533	sweet	adjective	sucré / doux	/swiːt/
+534	salty	adjective	salé	/ˈsɔːlti/
+535	favorite	adjective	préféré	/ˈfeɪvərɪt/
+536	final	adjective	final / dernier	/ˈfaɪnəl/
+537	total	adjective	total	/ˈtoʊtəl/
+538	equal	adjective	égal	/ˈiːkwəl/
+539	dead	adjective	mort	/dɛd/
+540	alive	adjective	vivant / en vie	/əˈlaɪv/
+541	married	adjective	marié	/ˈmɛrid/
+542	alone	adjective	seul	/əˈloʊn/
+543	foreign	adjective	étranger	/ˈfɔːrən/
+544	weak	adjective	faible	/wiːk/
+545	red	adjective	rouge	/rɛd/
+546	blue	adjective	bleu	/bluː/
+547	green	adjective	vert	/ɡriːn/
+548	yellow	adjective	jaune	/ˈjɛloʊ/
+549	black	adjective	noir	/blæk/
+550	white	adjective	blanc	/waɪt/
+551	brown	adjective	marron / brun	/braʊn/
+552	pink	adjective	rose	/pɪŋk/
+553	grey	adjective	gris	/ɡreɪ/
+554	purple	adjective	violet	/ˈpɜːrpəl/
+555	now	adverb	maintenant	/naʊ/
+556	here	adverb	ici	/hiːr/
+557	there	adverb	là / là-bas	/ðɛr/
+558	then	adverb	ensuite / alors	/ðɛn/
+559	soon	adverb	bientôt	/suːn/
+560	already	adverb	déjà	/ɔːˈrɛdi/
+561	yesterday	adverb	hier	/ˈjɛstərˌdeɪ/
+562	tomorrow	adverb	demain	/təˈmɑːˌroʊ/
+563	always	adverb	toujours	/ˈɔːlˌweɪz/
+564	never	adverb	jamais	/ˈnɛvər/
+565	often	adverb	souvent	/ˈɔːfən/
+566	sometimes	adverb	parfois	/ˈsʌmˌtaɪmz/
+567	usually	adverb	d'habitude	/ˈjuːʒəwəli/
+568	again	adverb	de nouveau / encore	/əˈɡɛn/
+569	together	adverb	ensemble	/təˈɡɛðər/
+570	outside	adverb	dehors	/ˈaʊtˈsaɪd/
+571	inside	adverb	dedans / à l'intérieur	/ˌɪnˈsaɪd/
+572	away	adverb	au loin / absent	/əˈweɪ/
+573	everywhere	adverb	partout	/ˈɛvriˌwɛr/
+574	somewhere	adverb	quelque part	/ˈsʌmˌwɛr/
+575	anywhere	adverb	nulle part / n'importe où	/ˈɛniˌwɛr/
+576	almost	adverb	presque	/ˈɔːlˌmoʊst/
+577	nearly	adverb	presque	/ˈnɪrli/
+578	really	adverb	vraiment	/ˈrɪli/
+579	probably	adverb	probablement	/ˈprɑːbəˌbliː/
+580	maybe	adverb	peut-être	/ˈmeɪbi/
+581	perhaps	adverb	peut-être	/pərˈhæps/
+582	certainly	adverb	certainement	/ˈsɜːrtənli/
+583	exactly	adverb	exactement	/ɪɡˈzæktli/
+584	especially	adverb	surtout / spécialement	/əˈspɛʃəli/
+585	finally	adverb	enfin / finalement	/ˈfaɪnəli/
+586	suddenly	adverb	soudain / tout à coup	/ˈsʌdənli/
+587	quickly	adverb	rapidement / vite	/kˈwɪkli/
+588	slowly	adverb	lentement	/sˈloʊli/
+589	carefully	adverb	avec soin / prudemment	/ˈkɛrfəli/
+590	easily	adverb	facilement	/ˈiːzəli/
+591	well	adverb	bien	/wɛl/
+592	one	other	un	/wʌn/
+593	two	other	deux	/tuː/
+594	three	other	trois	/θriː/
+595	four	other	quatre	/fɔːr/
+596	five	other	cinq	/faɪv/
+597	six	other	six	/sɪks/
+598	seven	other	sept	/ˈsɛvən/
+599	eight	other	huit	/eɪt/
+600	nine	other	neuf	/naɪn/
+601	ten	other	dix	/tɛn/
+602	eleven	other	onze	/ˈiːlɛvən/
+603	twelve	other	douze	/twɛlv/
+604	twenty	other	vingt	/tˈwɛnti/
+605	thirty	other	trente	/ˈθɜːrˌdiː/
+606	forty	other	quarante	/ˈfɔːrti/
+607	fifty	other	cinquante	/ˈfɪfti/
+608	sixty	other	soixante	/ˈsɪksti/
+609	seventy	other	soixante-dix	/ˈsɛvənti/
+610	eighty	other	quatre-vingts	/ˈeɪti/
+611	ninety	other	quatre-vingt-dix	/ˈnaɪnti/
+612	hundred	other	cent	/ˈhʌnərd/
+613	thousand	other	mille	/ˈθaʊzənd/
+614	million	other	million	/ˈmɪljən/
+615	first	adjective	premier	/fɜːrst/
+616	second	adjective	deuxième / second	/ˈsɛkənd/
+617	third	adjective	troisième	/θɜːrd/
+618	Monday	noun	lundi	/ˈmʌnˌdeɪ/
+619	Tuesday	noun	mardi	/ˈtuːzˌdeɪ/
+620	Wednesday	noun	mercredi	/ˈwɛnzˌdeɪ/
+621	Thursday	noun	jeudi	/ˈθɜːrzˌdeɪ/
+622	Friday	noun	vendredi	/ˈfraɪˌdeɪ/
+623	Saturday	noun	samedi	/ˈsæˌtɪˌdeɪ/
+624	Sunday	noun	dimanche	/ˈsʌnˌdiː/
+625	January	noun	janvier	/ˈdʒænjuːˌɛri/
+626	February	noun	février	/ˈfɛbruːˌɛri/
+627	March	noun	mars	/mɑːrtʃ/
+628	April	noun	avril	/ˈeɪprəl/
+629	May	noun	mai	/meɪ/
+630	June	noun	juin	/dʒuːn/
+631	July	noun	juillet	/ˌdʒuːˈlaɪ/
+632	August	noun	août	/ˈɔːɡəst/
+633	September	noun	septembre	/sɛpˈtɛmbər/
+634	October	noun	octobre	/ɑːkˈtoʊbər/
+635	November	noun	novembre	/noʊˈvɛmbər/
+636	December	noun	décembre	/dɪˈsɛmbər/
+637	business	noun	les affaires / l'entreprise	/ˈbɪznɪs/
+638	service	noun	le service	/ˈsɜːrvɪs/
+639	price	noun	le prix	/praɪs/
+640	system	noun	le système	/ˈsɪstəm/
+641	order	noun	la commande / l'ordre	/ˈɔːrdər/
+642	plan	noun	le plan / le projet	/plæn/
+643	meeting	noun	la réunion	/ˈmiːtɪŋ/
+644	project	noun	le projet	/ˈprɑːdʒɛkt/
+645	report	noun	le rapport	/rɪˈpɔːrt/
+646	result	noun	le résultat	/rɪˈzʌlt/
+647	reason	noun	la raison	/ˈriːzən/
+648	chance	noun	la chance / l'occasion	/tʃæns/
+649	choice	noun	le choix	/tʃɔɪs/
+650	mistake	noun	l'erreur / la faute	/mɪˈsteɪk/
+651	example	noun	l'exemple	/ɪɡˈzæmpəl/
+652	list	noun	la liste	/lɪst/
+653	note	noun	la note / le mot	/noʊt/
+654	letter	noun	la lettre	/ˈlɛtər/
+655	message	noun	le message	/ˈmɛsɪdʒ/
+656	news	noun	les nouvelles / l'actualité	/nuːz/
+657	voice	noun	la voix	/vɔɪs/
+658	sound	noun	le son / le bruit	/saʊnd/
+659	music	noun	la musique	/mˈjuːzɪk/
+660	song	noun	la chanson	/sɔːŋ/
+661	film	noun	le film	/fɪlm/
+662	movie	noun	le film	/ˈmuːvi/
+663	art	noun	l'art	/ɑːrt/
+664	picture	noun	l'image / le tableau	/ˈpɪktʃər/
+665	photo	noun	la photo	/ˈfoʊˌtoʊ/
+666	color	noun	la couleur	/ˈkʌlər/
+667	light	noun	la lumière	/laɪt/
+668	language	noun	la langue	/ˈlæŋɡwɪdʒ/
+669	history	noun	l'histoire (matière)	/ˈhɪstəri/
+670	science	noun	la science	/saɪəns/
+671	math	noun	les maths	/mæθ/
+672	subject	noun	le sujet / la matière	/ˈsʌbdʒɪkt/
+673	lesson	noun	la leçon / le cours	/ˈlɛsən/
+674	class	noun	la classe / le cours	/klæs/
+675	course	noun	le cours / la formation	/kɔːrs/
+676	exam	noun	l'examen	/ɪɡˈzæm/
+677	test	noun	le test / le contrôle	/tɛst/
+678	grade	noun	la note (scolaire)	/ɡreɪd/
+679	university	noun	l'université	/ˌjuːnəˈvɜːrsəti/
+680	college	noun	la fac / l'établissement	/ˈkɑːlɪdʒ/
+681	knowledge	noun	le savoir / la connaissance	/ˈnɑːlɪdʒ/
+682	power	noun	le pouvoir / la puissance	/paʊər/
+683	government	noun	le gouvernement	/ˈɡʌvərnmənt/
+684	law	noun	la loi	/lɔː/
+685	police	noun	la police	/pəˈliːs/
+686	war	noun	la guerre	/wɔːr/
+687	peace	noun	la paix	/piːs/
+688	nation	noun	la nation	/ˈneɪʃən/
+689	society	noun	la société	/soʊˈsaɪɪti/
+690	community	noun	la communauté	/kəmˈjuːnɪti/
+691	culture	noun	la culture	/ˈkʌltʃər/
+692	religion	noun	la religion	/rɪˈlɪdʒən/
+693	party	noun	la fête / le parti	/ˈpɑːrti/
+694	event	noun	l'événement	/ɪˈvɛnt/
+695	bill	noun	l'addition / la facture	/bɪl/
+696	account	noun	le compte	/əˈkaʊnt/
+697	card	noun	la carte	/kɑːrd/
+698	cash	noun	l'argent liquide	/kæʃ/
+699	credit	noun	le crédit	/ˈkrɛdɪt/
+700	tax	noun	l'impôt / la taxe	/tæks/
+701	salary	noun	le salaire	/ˈsæləri/
+702	deal	noun	l'accord / l'affaire	/diːl/
+703	offer	noun	l'offre / la proposition	/ˈɔːfər/
+704	value	noun	la valeur	/ˈvæljuː/
+705	amount	noun	la quantité / le montant	/əˈmaʊnt/
+706	rate	noun	le taux	/reɪt/
+707	percent	noun	le pour cent	/pərˈsɛnt/
+708	half	noun	la moitié	/hæf/
+709	piece	noun	le morceau	/piːs/
+710	pair	noun	la paire	/pɛr/
+711	side	noun	le côté	/saɪd/
+712	top	noun	le haut / le sommet	/tɔːp/
+713	bottom	noun	le bas / le fond	/ˈbɑːtəm/
+714	middle	noun	le milieu	/ˈmɪdəl/
+715	center	noun	le centre	/ˈsɛnər/
+716	edge	noun	le bord	/ɛdʒ/
+717	line	noun	la ligne / la file	/laɪn/
+718	row	noun	la rangée	/roʊ/
+719	level	noun	le niveau	/ˈlɛvəl/
+720	type	noun	le type / le genre	/taɪp/
+721	form	noun	le formulaire	/fɔːrm/
+722	shape	noun	la forme	/ʃeɪp/
+723	size	noun	la taille	/saɪz/
+724	space	noun	l'espace / la place	/speɪs/
+725	distance	noun	la distance	/ˈdɪstəns/
+726	direction	noun	la direction	/dɪˈrɛkʃɪn/
+727	map	noun	la carte / le plan	/mæp/
+728	trip	noun	le voyage / l'excursion	/trɪp/
+729	journey	noun	le trajet / le voyage	/ˈdʒɜːrni/
+730	tour	noun	la visite / le tour	/tʊr/
+731	flight	noun	le vol	/flaɪt/
+732	speed	noun	la vitesse	/spiːd/
+733	traffic	noun	la circulation	/ˈtræfɪk/
+734	product	noun	le produit	/ˈprɑːdəkt/
+735	winner	noun	le·la gagnant·e	/ˈwɪnər/
+736	prize	noun	le prix / la récompense	/praɪz/
+737	goal	noun	le but	/ɡoʊl/
+738	player	noun	le·la joueur·euse	/pleɪər/
+739	sport	noun	le sport	/spɔːrt/
+740	match	noun	le match	/mætʃ/
+741	guitar	noun	la guitare	/ɡɪˈtɑːr/
+742	ball	noun	le ballon / la balle	/bɔːl/
+743	toy	noun	le jouet	/tɔɪ/
+744	gift	noun	le cadeau	/ɡɪft/
+745	page	noun	la page	/peɪdʒ/
+746	pen	noun	le stylo	/pɛn/
+747	pencil	noun	le crayon	/ˈpɛnsəl/
+748	paper	noun	le papier	/ˈpeɪpər/
+749	action	noun	l'action	/ˈækʃən/
+750	activity	noun	l'activité	/ækˈtɪvɪti/
+751	situation	noun	la situation	/ˌsɪtʃuːˈeɪʃən/
+752	condition	noun	l'état / la condition	/kənˈdɪʃən/
+753	experience	noun	l'expérience	/ɪkˈspɪriəns/
+754	feeling	noun	le sentiment	/ˈfiːlɪŋ/
+755	emotion	noun	l'émotion	/ˈiːˌmoʊʃən/
+756	mind	noun	l'esprit	/maɪnd/
+757	thought	noun	la pensée	/θɔːt/
+758	memory	noun	la mémoire / le souvenir	/ˈmɛməri/
+759	fear	noun	la peur	/fɪr/
+760	joy	noun	la joie	/dʒɔɪ/
+761	fun	noun	l'amusement	/fʌn/
+762	surprise	noun	la surprise	/səˈpraɪz/
+763	trouble	noun	les ennuis / le souci	/ˈtrʌbəl/
+764	danger	noun	le danger	/ˈdeɪndʒər/
+765	safety	noun	la sécurité	/ˈseɪfti/
+766	care	noun	le soin / l'attention	/kɛr/
+767	attention	noun	l'attention	/əˈtɛnʃən/
+768	interest	noun	l'intérêt	/ˈɪntəˌrɛst/
+769	effort	noun	l'effort	/ˈɛfərt/
+770	success	noun	le succès / la réussite	/səkˈsɛs/
+771	difference	noun	la différence	/ˈdɪfərəns/
+772	advice	noun	le conseil	/ədˈvaɪs/
+773	opinion	noun	l'opinion / l'avis	/əˈpɪnjən/
+774	support	verb	soutenir	/səˈpɔːrt/
+775	control	verb	contrôler / maîtriser	/kənˈtroʊl/
+776	expect	verb	s'attendre à	/ɪkˈspɛkt/
+777	include	verb	inclure / comprendre	/ˌɪnˈkluːd/
+778	describe	verb	décrire	/dɪˈskraɪb/
+779	discuss	verb	discuter de	/dɪˈskʌs/
+780	mention	verb	mentionner	/ˈmɛnʃən/
+781	suggest	verb	suggérer / proposer	/səˈdʒɛst/
+782	provide	verb	fournir	/prəˈvaɪd/
+783	produce	verb	produire	/ˈproʊduːs/
+784	create	verb	créer	/kriˈeɪt/
+785	develop	verb	développer	/dɪˈvɛləp/
+786	improve	verb	améliorer	/ˌɪmˈpruːv/
+787	increase	verb	augmenter	/ˌɪnˈkriːs/
+788	reduce	verb	réduire	/rɪˈduːs/
+789	raise	verb	lever / élever	/reɪz/
+790	lift	verb	soulever	/lɪft/
+791	drop	verb	laisser tomber	/drɔːp/
+792	hang	verb	accrocher / suspendre	/hæŋ/
+793	hit	verb	frapper	/hɪt/
+794	kick	verb	donner un coup de pied	/kɪk/
+795	knock	verb	frapper (à la porte)	/nɑːk/
+796	shake	verb	secouer	/ʃeɪk/
+797	touch	verb	toucher	/tʌtʃ/
+798	press	verb	appuyer	/prɛs/
+799	kill	verb	tuer	/kɪl/
+800	die	verb	mourir	/daɪ/
+801	fight	verb	se battre	/faɪt/
+802	join	verb	rejoindre	/dʒɔɪn/
+803	belong	verb	appartenir	/bɪˈlɔːŋ/
+804	own	verb	posséder	/oʊn/
+805	lend	verb	prêter	/lɛnd/
+806	borrow	verb	emprunter	/ˈbɑːˌroʊ/
+807	earn	verb	gagner (de l'argent)	/ɜːrn/
+808	serve	verb	servir	/sɜːrv/
+809	taste	verb	goûter	/teɪst/
+810	smell	verb	sentir	/smɛl/
+811	notice	verb	remarquer	/ˈnoʊtɪs/
+812	realize	verb	se rendre compte	/ˈriːəˌlaɪz/
+813	wonder	verb	se demander	/ˈwʌndər/
+814	guess	verb	deviner	/ɡɛs/
+815	imagine	verb	imaginer	/ˌɪˈmædʒən/
+816	prepare	verb	préparer	/priˈpɛr/
+817	consider	verb	considérer / envisager	/kənˈsɪdər/
+818	study	verb	étudier	/ˈstʌdi/
+819	hate	verb	détester	/heɪt/
+820	manage	verb	gérer / réussir à	/ˈmænɪdʒ/
+821	wish	verb	souhaiter	/wɪʃ/
+822	marry	verb	se marier / épouser	/ˈmɛri/
+823	introduce	verb	présenter (qqn)	/ˌɪntrəˈduːs/
+824	invite	verb	inviter	/ˌɪnˈvaɪt/
+825	thank	verb	remercier	/θæŋk/
+826	promise	verb	promettre	/ˈprɑːməs/
+827	complete	verb	terminer / compléter	/kəmˈpliːt/
+828	fill	verb	remplir	/fɪl/
+829	pour	verb	verser	/pɔːr/
+830	mix	verb	mélanger	/mɪks/
+831	cover	verb	couvrir	/ˈkʌvər/
+832	remove	verb	enlever / retirer	/riˈmuːv/
+833	pick	verb	choisir / cueillir	/pɪk/
+834	search	verb	chercher	/sɜːrtʃ/
+835	discover	verb	découvrir	/dɪˈskʌvər/
+836	appear	verb	apparaître / sembler	/əˈpɪr/
+837	remain	verb	rester / demeurer	/rɪˈmeɪn/
+838	hurry	verb	se dépêcher	/ˈhɜːri/
+839	relax	verb	se détendre	/rɪˈlæks/
+840	enjoy	verb	apprécier / aimer	/ˌɛnˈdʒɔɪ/
+841	bike	noun	le vélo	/baɪk/
+842	plane	noun	l'avion	/pleɪn/
+843	boat	noun	le bateau	/boʊt/
+844	ship	noun	le navire	/ʃɪp/
+845	truck	noun	le camion	/trʌk/
+846	taxi	noun	le taxi	/ˈtæksi/
+847	engine	noun	le moteur	/ˈɪndʒən/
+848	wheel	noun	la roue	/wiːl/
+849	machine	noun	la machine	/məˈʃiːn/
+850	computer	noun	l'ordinateur	/kəmˈpjuːtər/
+851	screen	noun	l'écran	/skriːn/
+852	internet	noun	Internet	/ˈɪntərˌnɛt/
+853	website	noun	le site web	/ˈwɛbˌsaɪt/
+854	email	noun	l'e-mail / le courriel	/iˈmeɪl/
+855	file	noun	le fichier / le dossier	/faɪl/
+856	program	noun	le programme / l'émission	/ˈproʊˌɡræm/
+857	video	noun	la vidéo	/ˈvɪdioʊ/
+858	television	noun	la télévision	/ˈtɛləˌvɪʒən/
+859	radio	noun	la radio	/ˈreɪdiˌoʊ/
+860	newspaper	noun	le journal	/ˈnuːzˌpeɪpər/
+861	magazine	noun	le magazine	/ˈmæɡəˌziːn/
+862	tool	noun	l'outil	/tuːl/
+863	ground	noun	le sol / la terre	/ɡraʊnd/
+864	earth	noun	la Terre	/ɜːrθ/
+865	century	noun	le siècle	/ˈsɛntʃəri/
+866	date	noun	la date	/deɪt/
+867	age	noun	l'âge	/eɪdʒ/
+868	pool	noun	la piscine	/puːl/
+869	step	noun	le pas / l'étape	/stɛp/
+870	button	noun	le bouton	/ˈbʌtən/
+871	bell	noun	la cloche / la sonnette	/bɛl/
+872	candle	noun	la bougie	/ˈkændəl/
+873	lock	noun	la serrure	/lɑːk/
+874	basket	noun	le panier	/ˈbæskət/
+875	blanket	noun	la couverture	/ˈblæŋkɪt/
+876	pillow	noun	l'oreiller	/ˈpɪloʊ/
+877	curtain	noun	le rideau	/ˈkɜːrtən/
+878	carpet	noun	le tapis / la moquette	/ˈkɑːrpət/
+879	drawer	noun	le tiroir	/drɔːr/
+880	umbrella	noun	le parapluie	/ˈʌmˌbrɛlə/
+881	wallet	noun	le portefeuille	/ˈwɔːlət/
+882	medicine	noun	le médicament	/ˈmɛdəsən/
+883	pain	noun	la douleur	/peɪn/
+884	fever	noun	la fièvre	/ˈfiːvər/
+885	dish	noun	le plat	/dɪʃ/
+886	sock	noun	la chaussette	/sɑːk/
+887	glove	noun	le gant	/ɡlʌv/
+888	scarf	noun	l'écharpe	/skɑːrf/
+889	leaf	noun	la feuille (arbre)	/liːf/
+890	branch	noun	la branche	/bræntʃ/
+891	plant	noun	la plante	/plænt/
+892	seed	noun	la graine	/siːd/
+893	wave	noun	la vague	/weɪv/
+894	storm	noun	la tempête / l'orage	/stɔːrm/
+895	lion	noun	le lion	/laɪən/
+896	tiger	noun	le tigre	/ˈtaɪɡər/
+897	elephant	noun	l'éléphant	/ˈɛləfənt/
+898	duck	noun	le canard	/dʌk/
+899	monkey	noun	le singe	/ˈmʌŋki/
+900	bear	noun	l'ours	/bɛr/
+901	zoo	noun	le zoo	/zuː/
+902	cinema	noun	le cinéma	/ˈsɪnəmə/
+903	theater	noun	le théâtre	/ˈθiːeɪtər/
+904	bakery	noun	la boulangerie	/ˈbeɪkəri/
+905	supermarket	noun	le supermarché	/ˈsuːpərˌmɑːrkɪt/
+906	pharmacy	noun	la pharmacie	/ˈfɑːrməsi/
+907	accept	verb	accepter	/əkˈsɛpt/
+908	achieve	verb	accomplir / réaliser	/əˈtʃiːv/
+909	act	verb	agir	/ækt/
+910	admit	verb	admettre / reconnaître	/ədˈmɪt/
+911	advise	verb	conseiller	/ədˈvaɪz/
+912	affect	verb	affecter / influer sur	/əˈfɛkt/
+913	allow	verb	permettre / autoriser	/əˈlaʊ/
+914	apologize	verb	s'excuser	/əˈpɑːləˌdʒaɪz/
+915	apply	verb	postuler / appliquer	/əˈplaɪ/
+916	argue	verb	se disputer / argumenter	/ˈɑːrɡjuː/
+917	arrange	verb	organiser / arranger	/əreɪndʒ/
+918	attack	verb	attaquer	/əˈtæk/
+919	attend	verb	assister à	/əˈtɛnd/
+920	attract	verb	attirer	/əˈtrækt/
+921	avoid	verb	éviter	/əˈvɔɪd/
+922	bake	verb	faire cuire au four	/beɪk/
+923	beat	verb	battre	/biːt/
+924	bend	verb	plier / courber	/bɛnd/
+925	bite	verb	mordre	/baɪt/
+926	blame	verb	blâmer / accuser	/bleɪm/
+927	blow	verb	souffler	/bloʊ/
+928	boil	verb	bouillir / faire bouillir	/bɔɪl/
+929	bother	verb	déranger	/ˈbɑːðər/
+930	breathe	verb	respirer	/briːð/
+931	burn	verb	brûler	/bɜːrn/
+932	bury	verb	enterrer	/ˈbɛri/
+933	calculate	verb	calculer	/ˈkælkjəˌleɪt/
+934	cancel	verb	annuler	/ˈkænsəl/
+935	celebrate	verb	fêter / célébrer	/ˈsɛləˌbreɪt/
+936	charge	verb	facturer / charger	/tʃɑːrdʒ/
+937	chase	verb	poursuivre	/tʃeɪs/
+938	cheat	verb	tricher	/tʃiːt/
+939	climb	verb	grimper / escalader	/klaɪm/
+940	collect	verb	collectionner / ramasser	/kəˈlɛkt/
+941	combine	verb	combiner	/ˈkɑːmbaɪn/
+942	communicate	verb	communiquer	/kəmˈjuːnəˌkeɪt/
+943	compare	verb	comparer	/kəmˈpɛr/
+944	compete	verb	rivaliser / concourir	/kəmˈpiːt/
+945	complain	verb	se plaindre	/kəmˈpleɪn/
+946	concentrate	verb	se concentrer	/ˈkɑːnsənˌtreɪt/
+947	confirm	verb	confirmer	/kənˈfɜːrm/
+948	connect	verb	connecter / relier	/kəˈnɛkt/
+949	contact	verb	contacter	/ˈkɑːnˌtækt/
+950	copy	verb	copier	/ˈkɑːpi/
+951	crash	verb	s'écraser / avoir un accident	/kræʃ/
+952	criticize	verb	critiquer	/ˈkrɪtɪˌsaɪz/
+953	cross	verb	traverser	/krɔːs/
+954	dare	verb	oser	/dɛr/
+955	deliver	verb	livrer	/dɪˈlɪvər/
+956	demand	verb	exiger	/dɪˈmænd/
+957	deny	verb	nier	/dɪˈnaɪ/
+958	deserve	verb	mériter	/dɪˈzɜːrv/
+959	destroy	verb	détruire	/dɪˈstrɔɪ/
+960	divide	verb	diviser / partager	/dɪˈvaɪd/
+961	download	verb	télécharger	/ˈdaʊnˌloʊd/
+962	educate	verb	éduquer / instruire	/ˈɛdʒəˌkeɪt/
+963	elect	verb	élire	/ɪˈlɛkt/
+964	employ	verb	employer / embaucher	/ɪmˈplɔɪ/
+965	encourage	verb	encourager	/ɪnˈkɜːrədʒ/
+966	escape	verb	s'échapper	/ɪˈskeɪp/
+967	examine	verb	examiner	/ɪɡˈzæmɪn/
+968	exist	verb	exister	/ɪɡˈzɪst/
+969	express	verb	exprimer	/ɪkˈsprɛs/
+970	fail	verb	échouer / rater	/feɪl/
+971	feed	verb	nourrir	/fiːd/
+972	fetch	verb	aller chercher	/fɛtʃ/
+973	float	verb	flotter	/floʊt/
+974	fold	verb	plier	/foʊld/
+975	freeze	verb	geler / congeler	/friːz/
+976	gain	verb	gagner / acquérir	/ɡeɪn/
+977	glance	verb	jeter un coup d'œil	/ɡlæns/
+978	greet	verb	saluer / accueillir	/ɡriːt/
+979	handle	verb	gérer / manier	/ˈhændəl/
+980	heat	verb	chauffer	/hiːt/
+981	hide	verb	cacher / se cacher	/haɪd/
+982	hunt	verb	chasser	/hʌnt/
+983	identify	verb	identifier	/aɪˈdɛntəˌfaɪ/
+984	ignore	verb	ignorer	/ˌɪɡˈnɔːr/
+985	indicate	verb	indiquer	/ˈɪndəˌkeɪt/
+986	inform	verb	informer	/ˌɪnˈfɔːrm/
+987	injure	verb	blesser	/ˈɪndʒər/
+988	intend	verb	avoir l'intention de	/ˌɪnˈtɛnd/
+989	interrupt	verb	interrompre	/ˌɪntərˈʌpt/
+990	invent	verb	inventer	/ˌɪnˈvɛnt/
+991	judge	verb	juger	/dʒʌdʒ/
+992	kneel	verb	s'agenouiller	/niːl/
+993	last	verb	durer	/læst/
+994	lay	verb	poser / déposer	/leɪ/
+995	lean	verb	s'appuyer / se pencher	/liːn/
+996	lie	verb	mentir	/laɪ/
+997	load	verb	charger	/loʊd/
+998	look	verb	regarder / avoir l'air	/lʊk/
+999	mark	verb	marquer / noter	/mɑːrk/
+1000	measure	verb	mesurer	/ˈmɛʒər/
+1001	melt	verb	fondre	/mɛlt/
+1002	miss	verb	manquer / rater	/mɪs/
+1003	obey	verb	obéir	/oʊˈbeɪ/
+1004	observe	verb	observer	/əbˈzɜːrv/
+1005	occur	verb	se produire / survenir	/əˈkɜːr/
+1006	organize	verb	organiser	/ˈɔːrɡəˌnaɪz/
+1007	paint	verb	peindre	/peɪnt/
+1008	perform	verb	jouer / interpréter	/pərˈfɔːrm/
+1009	persuade	verb	persuader / convaincre	/pərsˈweɪd/
+1010	pray	verb	prier	/preɪ/
+1011	predict	verb	prédire	/prɪˈdɪkt/
+1012	prefer	verb	préférer	/prɪˈfɜːr/
+1013	prevent	verb	empêcher / prévenir	/prɪˈvɛnt/
+1014	print	verb	imprimer	/prɪnt/
+1015	protect	verb	protéger	/prəˈtɛkt/
+1016	prove	verb	prouver	/pruːv/
+1017	publish	verb	publier	/ˈpʌblɪʃ/
+1018	punish	verb	punir	/ˈpʌnɪʃ/
+1019	quit	verb	arrêter / quitter	/kwɪt/
+1020	reach	verb	atteindre	/riːtʃ/
+1021	receive	verb	recevoir	/rɪˈsiːv/
+1022	recognize	verb	reconnaître	/ˈrɛkəɡˌnaɪz/
+1023	recommend	verb	recommander	/ˌrɛkəˈmɛnd/
+1024	record	verb	enregistrer	/ˈrɛkərd/
+1025	recover	verb	se rétablir / récupérer	/rɪˈkʌvər/
+1026	ability	noun	la capacité	/əˈbɪləˌtiː/
+1027	advantage	noun	l'avantage	/ædˈvæntɪdʒ/
+1028	aim	noun	le but / l'objectif	/eɪm/
+1029	approach	noun	l'approche / la démarche	/əˈproʊtʃ/
+1030	argument	noun	la dispute / l'argument	/ˈɑːrɡjəmənt/
+1031	aspect	noun	l'aspect	/ˈæˌspɛkt/
+1032	attempt	noun	la tentative	/əˈtɛmpt/
+1033	attitude	noun	l'attitude	/ˈætəˌtuːd/
+1034	average	noun	la moyenne	/ˈævərɪdʒ/
+1035	background	noun	le contexte / le parcours	/ˈbækˌɡraʊnd/
+1036	balance	noun	l'équilibre	/ˈbæləns/
+1037	basis	noun	la base / le fondement	/ˈbeɪsɪs/
+1038	behavior	noun	le comportement	/bɪˈheɪvjər/
+1039	belief	noun	la croyance / la conviction	/bɪˈliːf/
+1040	benefit	noun	l'avantage / le bénéfice	/ˈbɛnəfɪt/
+1041	capacity	noun	la capacité	/kəˈpæsɪti/
+1042	category	noun	la catégorie	/ˈkætəˌɡɔːri/
+1043	comfort	noun	le confort	/ˈkʌmfərt/
+1044	concept	noun	le concept / la notion	/ˈkɑːnsɛpt/
+1045	concern	noun	l'inquiétude / la préoccupation	/kənˈsɜːrn/
+1046	conclusion	noun	la conclusion	/kənˈkluːʒən/
+1047	confidence	noun	la confiance (en soi)	/ˈkɑːnfədɛns/
+1048	connection	noun	la connexion / le lien	/kəˈnɛkʃən/
+1049	consequence	noun	la conséquence	/ˈkɑːnsəkwəns/
+1050	content	noun	le contenu	/ˈkɑːntɛnt/
+1051	context	noun	le contexte	/ˈkɑːntɛkst/
+1052	contrast	noun	le contraste	/ˈkɑːntræst/
+1053	courage	noun	le courage	/kərɪdʒ/
+1054	crowd	noun	la foule	/kraʊd/
+1055	debate	noun	le débat	/dəˈbeɪt/
+1056	decade	noun	la décennie	/ˈdɛkeɪd/
+1057	degree	noun	le degré / le diplôme	/dɪˈɡriː/
+1058	departure	noun	le départ	/dɪˈpɑːrtʃər/
+1059	description	noun	la description	/dɪˈskrɪpʃən/
+1060	detail	noun	le détail	/ˈdiːteɪl/
+1061	development	noun	le développement	/dɪˈvɛləpmənt/
+1062	discussion	noun	la discussion	/dɪˈskʌʃən/
+1063	doubt	noun	le doute	/daʊt/
+1064	duty	noun	le devoir	/ˈduːti/
+1065	element	noun	l'élément	/ˈɛləmənt/
+1066	emergency	noun	l'urgence	/ˈiːmərdʒənsi/
+1067	entry	noun	l'entrée / l'inscription	/ˈɛntri/
+1068	evidence	noun	la preuve	/ˈɛvədəns/
+1069	exception	noun	l'exception	/ɪkˈsɛpʃən/
+1070	expression	noun	l'expression	/ɪkˈsprɛʃən/
+1071	factor	noun	le facteur	/ˈfæktər/
+1072	failure	noun	l'échec	/ˈfeɪljər/
+1073	feature	noun	la caractéristique	/ˈfiːtʃər/
+1074	focus	noun	la concentration / le point central	/ˈfoʊkɪs/
+1075	force	noun	la force	/fɔːrs/
+1076	freedom	noun	la liberté	/ˈfriːdəm/
+1077	function	noun	la fonction	/ˈfʌŋkʃən/
+1078	habit	noun	l'habitude	/ˈhæbət/
+1079	honor	noun	l'honneur	/ˈɑːnər/
+1080	humor	noun	l'humour	/ˈhjuːmər/
+1081	identity	noun	l'identité	/aɪˈdɛntəˌtiː/
+1082	image	noun	l'image	/ˈɪmɪdʒ/
+1083	importance	noun	l'importance	/ˌɪmˈpɔːrtəns/
+1084	impression	noun	l'impression	/ˌɪmˈprɛʃən/
+1085	improvement	noun	l'amélioration	/ˌɪmˈpruːvmənt/
+1086	influence	noun	l'influence	/ˈɪnfluːəns/
+1087	instance	noun	l'exemple / le cas	/ˈɪnstəns/
+1088	instruction	noun	la consigne / l'instruction	/ˌɪnˈstrʌkʃən/
+1089	intention	noun	l'intention	/ˌɪnˈtɛntʃən/
+1090	item	noun	l'article / l'élément	/ˈaɪtəm/
+1091	justice	noun	la justice	/ˈdʒʌstɪs/
+1092	lack	noun	le manque	/læk/
+1093	limit	noun	la limite	/ˈlɪmət/
+1094	link	noun	le lien	/lɪŋk/
+1095	loss	noun	la perte	/lɔːs/
+1096	majority	noun	la majorité	/məˈdʒɔːrəti/
+1097	manner	noun	la manière / la façon	/ˈmænər/
+1098	matter	noun	la question / l'affaire	/ˈmætər/
+1099	meaning	noun	le sens / la signification	/ˈmiːnɪŋ/
+1100	decision	noun	la décision	/dɪˈsɪʒən/
+1101	method	noun	la méthode	/ˈmɛθəd/
+1102	mood	noun	l'humeur	/muːd/
+1103	notion	noun	la notion / l'idée	/ˈnoʊʃən/
+1104	objective	noun	l'objectif	/əˈbdʒɛktɪv/
+1105	occasion	noun	l'occasion	/əˈkeɪʒən/
+1106	option	noun	l'option / le choix	/ˈɔːpʃən/
+1107	origin	noun	l'origine	/ˈɔːrədʒən/
+1108	outcome	noun	le résultat / l'issue	/ˈaʊtˌkʌm/
+1109	pattern	noun	le motif / le schéma	/ˈpætərn/
+1110	phase	noun	la phase / l'étape	/feɪz/
+1111	phrase	noun	l'expression / la locution	/freɪz/
+1112	policy	noun	la politique (règle)	/ˈpɑːləsi/
+1113	position	noun	la position	/pəˈzɪʃən/
+1114	possibility	noun	la possibilité	/ˌpɑːsəˈbɪləˌtiː/
+1115	practice	noun	la pratique / l'entraînement	/ˈpræktɪs/
+1116	preference	noun	la préférence	/ˈprɛfərəns/
+1117	presence	noun	la présence	/ˈprɛzəns/
+1118	pressure	noun	la pression	/ˈprɛʃər/
+1119	principle	noun	le principe	/ˈprɪnsəpəl/
+1120	priority	noun	la priorité	/praɪˈɔːrəti/
+1121	procedure	noun	la procédure	/prəˈsiːdʒər/
+1122	process	noun	le processus / le procédé	/ˈprɔːˌsɛs/
+1123	profit	noun	le profit / le bénéfice	/ˈprɑːfɪt/
+1124	progress	noun	le progrès	/ˈprɑːˌɡrɛs/
+1125	proposal	noun	la proposition	/prəˈpoʊzəl/
+1126	purpose	noun	le but / l'objectif	/ˈpɜːrpəs/
+1127	quality	noun	la qualité	/kˈwɑːləti/
+1128	quantity	noun	la quantité	/kˈwɑːntəti/
+1129	range	noun	la gamme / l'éventail	/reɪndʒ/
+1130	reaction	noun	la réaction	/riˈækʃən/
+1131	reality	noun	la réalité	/ˌriːˈæləˌtiː/
+1132	reference	noun	la référence	/ˈrɛfərəns/
+1133	region	noun	la région	/ˈriːdʒən/
+1134	relationship	noun	la relation	/riˈleɪʃənˌʃɪp/
+1135	relief	noun	le soulagement	/rɪˈliːf/
+1136	reputation	noun	la réputation	/ˌrɛpjəˈteɪʃən/
+1137	request	noun	la demande	/rɪkˈwɛst/
+1138	respect	noun	le respect	/rɪˈspɛkt/
+1139	response	noun	la réponse	/rɪˈspɑːns/
+1140	responsibility	noun	la responsabilité	/riˌspɑːnsəˈbɪləti/
+1141	risk	noun	le risque	/rɪsk/
+1142	role	noun	le rôle	/roʊl/
+1143	routine	noun	la routine	/ruːˈtiːn/
+1144	rule	noun	la règle	/ruːl/
+1145	scene	noun	la scène	/siːn/
+1146	sense	noun	le sens	/sɛns/
+1147	sequence	noun	la séquence / la suite	/ˈsiːkwəns/
+1148	session	noun	la séance / la session	/ˈsɛʃən/
+1149	setting	noun	le cadre / le réglage	/ˈsɛtɪŋ/
+1150	shame	noun	la honte	/ʃeɪm/
+1151	shift	noun	le quart / l'équipe de travail	/ʃɪft/
+1152	sight	noun	la vue	/saɪt/
+1153	sign	noun	le panneau / le signe	/saɪn/
+1154	signal	noun	le signal	/ˈsɪɡnəl/
+1155	silence	noun	le silence	/ˈsaɪləns/
+1156	skill	noun	la compétence	/skɪl/
+1157	solution	noun	la solution	/səˈluːʃən/
+1158	sort	noun	la sorte / le genre	/sɔːrt/
+1159	source	noun	la source	/sɔːrs/
+1160	spirit	noun	l'esprit / le moral	/ˈspɪrɪt/
+1161	standard	noun	la norme / le niveau	/ˈstændərd/
+1162	statement	noun	la déclaration	/ˈsteɪtmənt/
+1163	status	noun	le statut	/ˈstætəs/
+1164	strength	noun	la force	/strɛŋθ/
+1165	stress	noun	le stress / la tension	/strɛs/
+1166	structure	noun	la structure	/ˈstrʌktʃər/
+1167	struggle	noun	la lutte / le combat	/ˈstrʌɡəl/
+1168	style	noun	le style	/staɪl/
+1169	substance	noun	la substance	/ˈsʌbstəns/
+1170	summary	noun	le résumé	/ˈsʌməri/
+1171	surface	noun	la surface	/ˈsɜːrfəs/
+1172	symbol	noun	le symbole	/ˈsɪmbəl/
+1173	talent	noun	le talent	/ˈtælənt/
+1174	task	noun	la tâche	/tæsk/
+1175	technique	noun	la technique	/tɛkˈniːk/
+1176	tendency	noun	la tendance	/ˈtɛndənsi/
+1177	tension	noun	la tension	/ˈtɛnʃən/
+1178	term	noun	le terme	/tɜːrm/
+1179	theme	noun	le thème	/θiːm/
+1180	theory	noun	la théorie	/ˈθɪri/
+1181	threat	noun	la menace	/θrɛt/
+1182	topic	noun	le sujet / le thème	/ˈtɑːpɪk/
+1183	trend	noun	la tendance / la mode	/trɛnd/
+1184	trust	noun	la confiance	/trʌst/
+1185	truth	noun	la vérité	/truːθ/
+1186	unit	noun	l'unité	/ˈjuːnɪt/
+1187	variety	noun	la variété	/vərˈaɪəti/
+1188	version	noun	la version	/ˈvɜːrʒən/
+1189	victory	noun	la victoire	/ˈvɪktəri/
+1190	view	noun	la vue / l'avis	/vjuː/
+1191	vision	noun	la vision / la vue	/ˈvɪʒən/
+1192	volume	noun	le volume	/ˈvɑːljuːm/
+1193	warning	noun	l'avertissement	/ˈwɔːrnɪŋ/
+1194	wealth	noun	la richesse	/wɛlθ/
+1195	wisdom	noun	la sagesse	/ˈwɪzdəm/
+1196	worth	noun	la valeur	/wɜːrθ/
+1197	aunt	noun	la tante	/ɔːnt/
+1198	uncle	noun	l'oncle	/ˈʌŋkəl/
+1199	cousin	noun	le·la cousin·e	/ˈkʌzən/
+1200	nephew	noun	le neveu	/ˈnɛfjuː/
+1201	niece	noun	la nièce	/niːs/
+1202	grandmother	noun	la grand-mère	/ˈɡrændˌmʌðər/
+1203	grandfather	noun	le grand-père	/ˈɡrænˌfɑːðər/
+1204	grandparent	noun	le grand-parent	/ˈɡrændˌpɛrənt/
+1205	grandson	noun	le petit-fils	/ˈɡrændˌsʌn/
+1206	granddaughter	noun	la petite-fille	/ˈɡrænˌdɔːtər/
+1207	twin	noun	le·la jumeau·jumelle	/twɪn/
+1208	teenager	noun	l'adolescent·e	/ˈtiːˌneɪdʒər/
+1209	youth	noun	la jeunesse	/juːθ/
+1210	gentleman	noun	le monsieur	/ˈdʒɛnəlmən/
+1211	member	noun	le membre	/ˈmɛmbər/
+1212	leader	noun	le·la dirigeant·e	/ˈliːdər/
+1213	expert	noun	l'expert·e	/ˈɛkspərt/
+1214	professor	noun	le·la professeur·e (univ.)	/prəˈfɛsər/
+1215	scientist	noun	le·la scientifique	/ˈsaɪəntɪst/
+1216	engineer	noun	l'ingénieur·e	/ˈɛndʒəˈnɪr/
+1217	lawyer	noun	l'avocat·e	/ˈlɔːjər/
+1218	manager	noun	le·la responsable / le manager	/ˈmænɪdʒər/
+1219	director	noun	le·la directeur·rice	/dɪˈrɛktər/
+1220	officer	noun	l'agent / l'officier	/ˈɔːfɪsər/
+1221	soldier	noun	le·la soldat·e	/ˈsoʊldʒər/
+1222	captain	noun	le·la capitaine	/ˈkæptən/
+1223	guard	noun	le·la garde	/ɡɑːrd/
+1224	pilot	noun	le·la pilote	/ˈpaɪlət/
+1225	sailor	noun	le·la marin	/ˈseɪlər/
+1226	chef	noun	le chef (cuisinier)	/ʃɛf/
+1227	baker	noun	le·la boulanger·ère	/ˈbeɪkər/
+1228	butcher	noun	le·la boucher·ère	/ˈbʊtʃər/
+1229	farmer	noun	le·la fermier·ère	/ˈfɑːrmər/
+1230	painter	noun	le·la peintre	/ˈpeɪnər/
+1231	plumber	noun	le·la plombier·ère	/ˈplʌmər/
+1232	mechanic	noun	le·la mécanicien·ne	/mɪˈkænɪk/
+1233	dentist	noun	le·la dentiste	/ˈdɛntɪst/
+1234	secretary	noun	le·la secrétaire	/ˈsɛkrəˌtɛri/
+1235	assistant	noun	l'assistant·e	/əˈsɪstənt/
+1236	employee	noun	l'employé·e	/ɪmˈplɔɪi/
+1237	employer	noun	l'employeur·euse	/ɪmˈplɔɪər/
+1238	colleague	noun	le·la collègue	/ˈkɑːliɡ/
+1239	partner	noun	le·la partenaire	/ˈpɑːrtnər/
+1240	citizen	noun	le·la citoyen·ne	/ˈsɪtɪzən/
+1241	guest	noun	l'invité·e	/ɡɛst/
+1242	host	noun	l'hôte / l'hôtesse	/hoʊst/
+1243	owner	noun	le·la propriétaire	/ˈoʊnər/
+1244	tourist	noun	le·la touriste	/ˈtʊrɪst/
+1245	passenger	noun	le·la passager·ère	/ˈpæsəndʒər/
+1246	client	noun	le·la client·e	/klaɪənt/
+1247	patient	noun	le·la patient·e	/ˈpeɪʃənt/
+1248	champion	noun	le·la champion·ne	/ˈtʃæmpiən/
+1249	hero	noun	le héros	/ˈhɪroʊ/
+1250	genius	noun	le génie	/ˈdʒiːnjəs/
+1251	master	noun	le maître	/ˈmæstər/
+1252	servant	noun	le·la serviteur·servante	/ˈsɜːrvənt/
+1253	thief	noun	le·la voleur·euse	/θiːf/
+1254	criminal	noun	le·la criminel·le	/ˈkrɪmənəl/
+1255	prisoner	noun	le·la prisonnier·ère	/ˈprɪzənər/
+1256	victim	noun	la victime	/ˈvɪktɪm/
+1257	witness	noun	le·la témoin	/ˈwɪtnəs/
+1258	enemy	noun	l'ennemi·e	/ˈɛnəmi/
+1259	fan	noun	le·la fan / le·la supporter	/fæn/
+1260	mayor	noun	le·la maire	/meɪər/
+1261	priest	noun	le prêtre	/priːst/
+1262	ankle	noun	la cheville	/ˈæŋkəl/
+1263	beard	noun	la barbe	/bɪrd/
+1264	brain	noun	le cerveau	/breɪn/
+1265	cheek	noun	la joue	/tʃiːk/
+1266	chin	noun	le menton	/tʃɪn/
+1267	elbow	noun	le coude	/ˈɛlˌboʊ/
+1268	eyebrow	noun	le sourcil	/ˈaɪˌbraʊ/
+1269	fist	noun	le poing	/fɪst/
+1270	forehead	noun	le front	/ˈfɔːrhɛd/
+1271	heel	noun	le talon	/hiːl/
+1272	hip	noun	la hanche	/hɪp/
+1273	jaw	noun	la mâchoire	/dʒɔː/
+1274	muscle	noun	le muscle	/ˈmʌsəl/
+1275	nail	noun	l'ongle / le clou	/neɪl/
+1276	throat	noun	la gorge	/θroʊt/
+1277	thumb	noun	le pouce	/θʌm/
+1278	tongue	noun	la langue (organe)	/tʌŋ/
+1279	waist	noun	la taille (corps)	/weɪst/
+1280	wrist	noun	le poignet	/rɪst/
+1281	lung	noun	le poumon	/lʌŋ/
+1282	nerve	noun	le nerf / le courage	/nɜːrv/
+1283	ache	noun	la douleur	/eɪk/
+1284	breath	noun	le souffle / la respiration	/brɛθ/
+1285	cough	noun	la toux	/kɔːf/
+1286	cure	noun	le remède	/kjʊr/
+1287	diet	noun	le régime / l'alimentation	/daɪət/
+1288	disease	noun	la maladie	/dɪˈziːz/
+1289	exercise	noun	l'exercice	/ˈɛksərˌsaɪz/
+1290	headache	noun	le mal de tête	/ˈhɛˌdeɪk/
+1291	illness	noun	la maladie	/ˈɪlnəs/
+1292	injury	noun	la blessure	/ˈɪndʒəri/
+1293	operation	noun	l'opération	/ˌɑːpərˈeɪʃən/
+1294	pill	noun	le comprimé / la pilule	/pɪl/
+1295	recovery	noun	la guérison / le rétablissement	/rɪˈkʌvəri/
+1296	treatment	noun	le traitement	/ˈtriːtmənt/
+1297	wound	noun	la blessure / la plaie	/wuːnd/
+1298	weight	noun	le poids	/weɪt/
+1299	grape	noun	le raisin	/ɡreɪp/
+1300	lemon	noun	le citron	/ˈlɛmən/
+1301	strawberry	noun	la fraise	/ˈstrɔːˌbɛri/
+1302	cherry	noun	la cerise	/ˈtʃɛri/
+1303	peach	noun	la pêche (fruit)	/piːtʃ/
+1304	pear	noun	la poire	/pɛr/
+1305	pineapple	noun	l'ananas	/ˈpaɪˌnæpəl/
+1306	melon	noun	le melon	/ˈmɛlən/
+1307	nut	noun	la noix	/nʌt/
+1308	carrot	noun	la carotte	/ˈkɛrət/
+1309	bean	noun	le haricot	/biːn/
+1310	pea	noun	le petit pois	/piː/
+1311	corn	noun	le maïs	/kɔːrn/
+1312	cabbage	noun	le chou	/ˈkæbɪdʒ/
+1313	lettuce	noun	la laitue	/ˈlɛtəs/
+1314	cucumber	noun	le concombre	/ˈkjuːkəmbər/
+1315	mushroom	noun	le champignon	/ˈmʌʃruːm/
+1316	garlic	noun	l'ail	/ˈɡɑːrlɪk/
+1317	pumpkin	noun	la citrouille / le potiron	/ˈpʌmpkɪn/
+1318	beef	noun	le bœuf	/biːf/
+1319	pork	noun	le porc	/pɔːrk/
+1320	lamb	noun	l'agneau	/læm/
+1321	ham	noun	le jambon	/hæm/
+1322	bacon	noun	le bacon / le lard	/ˈbeɪkən/
+1323	sausage	noun	la saucisse	/ˈsɔːsɪdʒ/
+1324	steak	noun	le steak	/steɪk/
+1325	shrimp	noun	la crevette	/ʃrɪmp/
+1326	flour	noun	la farine	/flaʊər/
+1327	oil	noun	l'huile	/ɔɪl/
+1328	honey	noun	le miel	/ˈhʌni/
+1329	jam	noun	la confiture	/dʒæm/
+1330	cream	noun	la crème	/kriːm/
+1331	yogurt	noun	le yaourt	/ˈjoʊɡərt/
+1332	biscuit	noun	le biscuit	/ˈbɪskət/
+1333	cookie	noun	le cookie	/ˈkʊki/
+1334	pie	noun	la tarte	/paɪ/
+1335	sandwich	noun	le sandwich	/ˈsænwɪtʃ/
+1336	pizza	noun	la pizza	/ˈpiːtsə/
+1337	noodle	noun	la nouille	/ˈnuːdəl/
+1338	cereal	noun	les céréales	/ˈsɪriəl/
+1339	toast	noun	le pain grillé	/toʊst/
+1340	candy	noun	le bonbon	/ˈkændi/
+1341	dessert	noun	le dessert	/dɪˈzɜːrt/
+1342	sauce	noun	la sauce	/sɔːs/
+1343	spice	noun	l'épice	/spaɪs/
+1344	recipe	noun	la recette	/ˈrɛsəpi/
+1345	ingredient	noun	l'ingrédient	/ˌɪnˈɡriːdiənt/
+1346	bowl	noun	le bol	/boʊl/
+1347	jar	noun	le pot / le bocal	/dʒɑːr/
+1348	tray	noun	le plateau	/treɪ/
+1349	napkin	noun	la serviette (de table)	/ˈnæpkɪn/
+1350	fridge	noun	le frigo / le réfrigérateur	/frɪdʒ/
+1351	freezer	noun	le congélateur	/ˈfriːzər/
+1352	grill	noun	le gril / le barbecue	/ɡrɪl/
+1353	mug	noun	la tasse / le mug	/mʌɡ/
+1354	kettle	noun	la bouilloire	/ˈkɛtəl/
+1355	pan	noun	la poêle	/pæn/
+1356	pot	noun	la casserole / le pot	/pɑːt/
+1357	oven	noun	le four	/ˈʌvən/
+1358	stove	noun	la cuisinière (appareil)	/stoʊv/
+1359	boot	noun	la botte	/buːt/
+1360	sweater	noun	le pull	/sˈwɛtər/
+1361	suit	noun	le costume	/suːt/
+1362	tie	noun	la cravate	/taɪ/
+1363	belt	noun	la ceinture	/bɛlt/
+1364	jeans	noun	le jean	/dʒiːnz/
+1365	shorts	noun	le short	/ʃɔːrts/
+1366	skirt	noun	la jupe	/skɜːrt/
+1367	uniform	noun	l'uniforme	/ˈjuːnəˌfɔːrm/
+1368	sleeve	noun	la manche	/sliːv/
+1369	collar	noun	le col	/ˈkɑːlər/
+1370	cap	noun	la casquette	/kæp/
+1371	apron	noun	le tablier	/ˈeɪprən/
+1372	brush	noun	la brosse	/brʌʃ/
+1373	comb	noun	le peigne	/koʊm/
+1374	toothbrush	noun	la brosse à dents	/ˈtuːθbrəʃ/
+1375	toothpaste	noun	le dentifrice	/ˈtuːθˌpeɪst/
+1376	shampoo	noun	le shampoing	/ʃæmˈpuː/
+1377	razor	noun	le rasoir	/ˈreɪzər/
+1378	perfume	noun	le parfum	/pərfˈjuːm/
+1379	tissue	noun	le mouchoir	/ˈtɪʃuː/
+1380	makeup	noun	le maquillage	/ˈmeɪˌkʌp/
+1381	sunglasses	noun	les lunettes de soleil	/ˈsʌnˌɡlæsɪz/
+1382	valley	noun	la vallée	/ˈvæli/
+1383	desert	noun	le désert	/ˈdɛzərt/
+1384	jungle	noun	la jungle	/ˈdʒʌŋɡəl/
+1385	cave	noun	la grotte	/keɪv/
+1386	cliff	noun	la falaise	/klɪf/
+1387	coast	noun	la côte	/koʊst/
+1388	shore	noun	le rivage	/ʃɔːr/
+1389	pond	noun	l'étang / la mare	/pɑːnd/
+1390	stream	noun	le ruisseau	/striːm/
+1391	waterfall	noun	la cascade	/ˈwɔːtərˌfɔːl/
+1392	volcano	noun	le volcan	/vɑːlˈkeɪnoʊ/
+1393	soil	noun	la terre / le sol	/sɔɪl/
+1394	mud	noun	la boue	/mʌd/
+1395	dust	noun	la poussière	/dʌst/
+1396	rainbow	noun	l'arc-en-ciel	/ˈreɪnˌboʊ/
+1397	lightning	noun	l'éclair / la foudre	/ˈlaɪtnɪŋ/
+1398	thunder	noun	le tonnerre	/ˈθʌndər/
+1399	fog	noun	le brouillard	/fɔːɡ/
+1400	shadow	noun	l'ombre	/ˈʃæˌdoʊ/
+1401	sunset	noun	le coucher de soleil	/ˈsʌnˌsɛt/
+1402	sunrise	noun	le lever de soleil	/ˈsʌnˌraɪz/
+1403	planet	noun	la planète	/ˈplænət/
+1404	universe	noun	l'univers	/ˈjuːnəˌvɜːrs/
+1405	root	noun	la racine	/ruːt/
+1406	bush	noun	le buisson	/bʊʃ/
+1407	log	noun	la bûche / le rondin	/lɔːɡ/
+1408	wolf	noun	le loup	/wʊlf/
+1409	fox	noun	le renard	/fɑːks/
+1410	deer	noun	le cerf / la biche	/dɪr/
+1411	goat	noun	la chèvre	/ɡoʊt/
+1412	donkey	noun	l'âne	/ˈdɔːŋki/
+1413	camel	noun	le chameau	/ˈkæməl/
+1414	giraffe	noun	la girafe	/dʒəræf/
+1415	zebra	noun	le zèbre	/ˈziːbrə/
+1416	snake	noun	le serpent	/sneɪk/
+1417	frog	noun	la grenouille	/frɑːɡ/
+1418	turtle	noun	la tortue	/ˈtɜːrtəl/
+1419	crocodile	noun	le crocodile	/ˈkrɑːkəˌdaɪl/
+1420	dolphin	noun	le dauphin	/ˈdɑːlfən/
+1421	whale	noun	la baleine	/weɪl/
+1422	shark	noun	le requin	/ʃɑːrk/
+1423	crab	noun	le crabe	/kræb/
+1424	butterfly	noun	le papillon	/ˈbʌtərˌflaɪ/
+1425	bee	noun	l'abeille	/biː/
+1426	ant	noun	la fourmi	/ænt/
+1427	spider	noun	l'araignée	/ˈspaɪdər/
+1428	mosquito	noun	le moustique	/məˈskiːtoʊ/
+1429	worm	noun	le ver	/wɜːrm/
+1430	snail	noun	l'escargot	/sneɪl/
+1431	owl	noun	le hibou / la chouette	/aʊl/
+1432	eagle	noun	l'aigle	/ˈiːɡəl/
+1433	parrot	noun	le perroquet	/ˈpɛrət/
+1434	penguin	noun	le manchot / le pingouin	/ˈpɛŋɡwən/
+1435	hen	noun	la poule	/hɛn/
+1436	goose	noun	l'oie	/ɡuːs/
+1437	pigeon	noun	le pigeon	/ˈpɪdʒɪn/
+1438	bat	noun	la chauve-souris	/bæt/
+1439	castle	noun	le château	/ˈkæsəl/
+1440	palace	noun	le palais	/ˈpæləs/
+1441	tower	noun	la tour	/taʊər/
+1442	prison	noun	la prison	/ˈprɪzən/
+1443	port	noun	le port	/pɔːrt/
+1444	harbor	noun	le port (de plaisance)	/ˈhɑːrbər/
+1445	stadium	noun	le stade	/ˈsteɪdiəm/
+1446	gym	noun	la salle de sport	/dʒɪm/
+1447	playground	noun	l'aire de jeux	/ˈpleɪˌɡraʊnd/
+1448	parking	noun	le parking	/ˈpɑːrkɪŋ/
+1449	cafe	noun	le café (lieu)	/kəˈfeɪ/
+1450	bar	noun	le bar	/bɑːr/
+1451	club	noun	le club	/klʌb/
+1452	clinic	noun	la clinique	/ˈklɪnɪk/
+1453	court	noun	le court / le tribunal	/kɔːrt/
+1454	border	noun	la frontière	/ˈbɔːrdər/
+1455	neighborhood	noun	le quartier	/ˈneɪbərˌhʊd/
+1456	countryside	noun	la campagne	/ˈkʌntriˌsaɪd/
+1457	capital	noun	la capitale	/ˈkæpɪtəl/
+1458	address	noun	l'adresse	/ˈæˌdrɛs/
+1459	rope	noun	la corde	/roʊp/
+1460	chain	noun	la chaîne	/tʃeɪn/
+1461	hammer	noun	le marteau	/ˈhæmər/
+1462	screw	noun	la vis	/skruː/
+1463	ladder	noun	l'échelle	/ˈlædər/
+1464	bucket	noun	le seau	/ˈbʌkɪt/
+1465	broom	noun	le balai	/bruːm/
+1466	scissors	noun	les ciseaux	/ˈsɪzərz/
+1467	needle	noun	l'aiguille	/ˈniːdəl/
+1468	thread	noun	le fil (à coudre)	/θrɛd/
+1469	glue	noun	la colle	/ɡluː/
+1470	tape	noun	le ruban adhésif	/teɪp/
+1471	battery	noun	la pile / la batterie	/ˈbætəri/
+1472	wire	noun	le fil (métallique)	/waɪər/
+1473	plug	noun	la prise / la fiche	/plʌɡ/
+1474	switch	noun	l'interrupteur	/swɪtʃ/
+1475	bulb	noun	l'ampoule	/bʌlb/
+1476	torch	noun	la lampe de poche	/tɔːrtʃ/
+1477	calendar	noun	le calendrier	/ˈkæləndər/
+1478	diary	noun	le journal intime / l'agenda	/ˈdaɪəri/
+1479	notebook	noun	le carnet / le cahier	/ˈnoʊtˌbʊk/
+1480	envelope	noun	l'enveloppe	/ˈɛnvəˌloʊp/
+1481	stamp	noun	le timbre	/stæmp/
+1482	ruler	noun	la règle (objet)	/ˈruːlər/
+1483	eraser	noun	la gomme	/ɪˈreɪsər/
+1484	folder	noun	le dossier / la chemise	/ˈfoʊldər/
+1485	bin	noun	la poubelle	/bɪn/
+1486	vase	noun	le vase	/vɑːz/
+1487	frame	noun	le cadre	/freɪm/
+1488	doll	noun	la poupée	/dɑːl/
+1489	kite	noun	le cerf-volant	/kaɪt/
+1490	puzzle	noun	le puzzle / le casse-tête	/ˈpʌzəl/
+1491	balloon	noun	le ballon (gonflable)	/bəˈluːn/
+1492	drum	noun	le tambour / la batterie	/drʌm/
+1493	piano	noun	le piano	/piˈænə/
+1494	violin	noun	le violon	/vaɪəˈlɪn/
+1495	coin	noun	la pièce (de monnaie)	/kɔɪn/
+1496	brick	noun	la brique	/brɪk/
+1497	flag	noun	le drapeau	/flæɡ/
+1498	label	noun	l'étiquette	/ˈleɪbəl/
+1499	ribbon	noun	le ruban	/ˈrɪbən/
+1500	string	noun	la ficelle	/strɪŋ/
+1501	lid	noun	le couvercle	/lɪd/
+1502	able	adjective	capable	/ˈeɪbəl/
+1503	active	adjective	actif	/ˈæktɪv/
+1504	actual	adjective	réel / véritable	/ˈæktʃəwəl/
+1505	amazing	adjective	incroyable / extraordinaire	/əˈmeɪzɪŋ/
+1506	ancient	adjective	ancien / antique	/ˈeɪntʃənt/
+1507	annual	adjective	annuel	/ˈænjuːəl/
+1508	anxious	adjective	anxieux / inquiet	/ˈæŋʃəs/
+1509	appropriate	adjective	approprié / convenable	/əˈproʊpriˌeɪt/
+1510	asleep	adjective	endormi	/əsˈliːp/
+1511	available	adjective	disponible	/əˈveɪləbəl/
+1512	awake	adjective	éveillé / réveillé	/əˈweɪk/
+1513	aware	adjective	conscient / au courant	/əˈwɛr/
+1514	awful	adjective	affreux / horrible	/ˈɔːfəl/
+1515	basic	adjective	élémentaire / de base	/ˈbeɪsɪk/
+1516	bitter	adjective	amer	/ˈbɪtər/
+1517	blind	adjective	aveugle	/blaɪnd/
+1518	brief	adjective	bref / court	/briːf/
+1519	brilliant	adjective	brillant / génial	/ˈbrɪljənt/
+1520	broad	adjective	large / vaste	/brɔːd/
+1521	capable	adjective	capable	/ˈkeɪpəbəl/
+1522	careful	adjective	prudent / soigneux	/ˈkɛrfəl/
+1523	careless	adjective	négligent / imprudent	/ˈkɛrlɛs/
+1524	central	adjective	central	/ˈsɛntrəl/
+1525	cheap	adjective	bon marché / pas cher	/tʃiːp/
+1526	chief	adjective	principal / en chef	/tʃiːf/
+1527	classic	adjective	classique	/ˈklæsɪk/
+1528	closed	adjective	fermé	/kloʊzd/
+1529	cloudy	adjective	nuageux	/ˈklaʊdi/
+1530	complex	adjective	complexe	/ˈkɑːmplɛks/
+1531	confident	adjective	confiant / sûr de soi	/ˈkɑːnfədənt/
+1532	confused	adjective	confus / perdu	/kənfˈjuːzd/
+1533	convenient	adjective	pratique / commode	/kənˈviːnjənt/
+1534	creative	adjective	créatif	/kriˈeɪtɪv/
+1535	critical	adjective	critique	/ˈkrɪtɪkəl/
+1536	crowded	adjective	bondé	/ˈkraʊdɪd/
+1537	cruel	adjective	cruel	/kruːəl/
+1538	curious	adjective	curieux	/ˈkjʊriəs/
+1539	current	adjective	actuel	/ˈkɑːrənt/
+1540	daily	adjective	quotidien	/ˈdeɪli/
+1541	deaf	adjective	sourd	/dɛf/
+1542	dear	adjective	cher (affection)	/dɪr/
+1543	decent	adjective	décent / convenable	/ˈdiːsənt/
+1544	delicious	adjective	délicieux	/dɪˈlɪʃəs/
+1545	desperate	adjective	désespéré	/ˈdɛspərɪt/
+1546	digital	adjective	numérique	/ˈdɪdʒɪtəl/
+1547	direct	adjective	direct	/dɪˈrɛkt/
+1548	dirty	adjective	sale	/ˈdɜːrti/
+1549	distant	adjective	lointain / éloigné	/ˈdɪstənt/
+1550	dull	adjective	terne / ennuyeux	/dʌl/
+1551	eager	adjective	impatient / avide	/ˈiːɡər/
+1552	economic	adjective	économique	/ˌɛkəˈnɑːmɪk/
+1553	effective	adjective	efficace	/ˈiːfɛktɪv/
+1554	efficient	adjective	efficace / performant	/ɪˈfɪʃənt/
+1555	elderly	adjective	âgé	/ˈɛldərli/
+1556	electric	adjective	électrique	/ɪˈlɛktrɪk/
+1557	elegant	adjective	élégant	/ˈɛləɡənt/
+1558	embarrassed	adjective	gêné / embarrassé	/ɪmˈbɛrəst/
+1559	enormous	adjective	énorme	/ɪˈnɔːrmɪs/
+1560	entire	adjective	entier / tout	/ɪnˈtaɪər/
+1561	essential	adjective	essentiel	/ɛˈsɛnʃəl/
+1562	exact	adjective	exact / précis	/ɪɡˈzækt/
+1563	expensive	adjective	cher / coûteux	/ɪkˈspɛnsɪv/
+1564	extra	adjective	supplémentaire	/ˈɛkstrə/
+1565	extreme	adjective	extrême	/ɪkˈstriːm/
+1566	fair	adjective	juste / équitable	/fɛr/
+1567	familiar	adjective	familier / connu	/fəˈmɪljər/
+1568	fantastic	adjective	fantastique / formidable	/fænˈtæstɪk/
+1569	fat	adjective	gros / gras	/fæt/
+1570	female	adjective	féminin / femelle	/ˈfiːˌmeɪl/
+1571	financial	adjective	financier	/ˌfaɪˈnænʃəl/
+1572	firm	adjective	ferme	/fɜːrm/
+1573	flat	adjective	plat	/flæt/
+1574	flexible	adjective	flexible / souple	/ˈflɛksəbəl/
+1575	fluent	adjective	courant (langue)	/fluːənt/
+1576	foolish	adjective	idiot / insensé	/ˈfuːlɪʃ/
+1577	formal	adjective	formel	/ˈfɔːrməl/
+1578	frequent	adjective	fréquent	/ˈfriːkˌwɛnt/
+1579	frightened	adjective	effrayé	/ˈfraɪtənd/
+1580	frozen	adjective	gelé / congelé	/ˈfroʊzən/
+1581	genuine	adjective	authentique / sincère	/ˈdʒɛnjuːˌaɪn/
+1582	giant	adjective	géant	/dʒaɪənt/
+1583	global	adjective	mondial / global	/ˈɡloʊbəl/
+1584	grateful	adjective	reconnaissant	/ˈɡreɪtfəl/
+1585	guilty	adjective	coupable	/ˈɡɪlti/
+1586	handsome	adjective	beau (homme)	/ˈhænsəm/
+1587	helpful	adjective	serviable / utile	/ˈhɛlpfəl/
+1588	hidden	adjective	caché	/ˈhɪdən/
+1589	hollow	adjective	creux	/ˈhɑːloʊ/
+1590	horrible	adjective	horrible / affreux	/ˈhɔːrəbəl/
+1591	human	adjective	humain	/ˈjuːmən/
+1592	ideal	adjective	idéal	/aɪˈdiːl/
+1593	immediate	adjective	immédiat	/ˌɪˈmiːˌdiːət/
+1594	impatient	adjective	impatient	/ˌɪmˈpeɪʃənt/
+1595	impossible	adjective	impossible	/ˌɪmˈpɑːsəbəl/
+1596	incredible	adjective	incroyable	/ˌɪnˈkrɛdəbəl/
+1597	independent	adjective	indépendant	/ˌɪndɪˈpɛndənt/
+1598	individual	adjective	individuel	/ˌɪndəˈvɪdʒəwəl/
+1599	industrial	adjective	industriel	/ˌɪnˈdʌstriəl/
+1600	inner	adjective	intérieur	/ˈɪnər/
+1601	innocent	adjective	innocent	/ˈɪnəsənt/
+1602	intelligent	adjective	intelligent	/ˌɪnˈtɛlədʒənt/
+1603	intense	adjective	intense	/ˌɪnˈtɛns/
+1604	internal	adjective	interne	/ˌɪnˈtɜːrnəl/
+1605	international	adjective	international	/ˌɪnərˈnæʃənɑːl/
+1606	jealous	adjective	jaloux	/ˈdʒɛləs/
+1607	keen	adjective	passionné / désireux	/kiːn/
+1608	legal	adjective	légal	/ˈliːɡəl/
+1609	lonely	adjective	seul / solitaire	/ˈloʊnli/
+1610	loose	adjective	lâche / desserré	/luːs/
+1611	loyal	adjective	loyal / fidèle	/lɔɪəl/
+1612	lucky	adjective	chanceux	/ˈlʌki/
+1613	mad	adjective	fou / en colère	/mæd/
+1614	magic	adjective	magique	/ˈmædʒɪk/
+1615	major	adjective	majeur / important	/ˈmeɪdʒər/
+1616	male	adjective	masculin / mâle	/meɪl/
+1617	massive	adjective	massif / énorme	/ˈmæsɪv/
+1618	mature	adjective	mûr	/məˈtʃʊr/
+1619	medical	adjective	médical	/ˈmɛdɪkəl/
+1620	mental	adjective	mental	/ˈmɛntəl/
+1621	mild	adjective	doux (météo)	/maɪld/
+1622	minor	adjective	mineur / secondaire	/ˈmaɪnər/
+1623	missing	adjective	manquant / disparu	/ˈmɪsɪŋ/
+1624	modest	adjective	modeste	/ˈmɑːdəst/
+1625	moral	adjective	moral	/ˈmɔːrəl/
+1626	mysterious	adjective	mystérieux	/mɪˈstɪriəs/
+1627	native	adjective	natal / maternel	/ˈneɪtɪv/
+1628	natural	adjective	naturel	/ˈnætʃərəl/
+1629	naughty	adjective	vilain / coquin	/ˈnɔːti/
+1630	nearby	adjective	proche / voisin	/ˈnɪrˈbaɪ/
+1631	neat	adjective	soigné / bien rangé	/niːt/
+1632	negative	adjective	négatif	/ˈnɛɡətɪv/
+1633	noisy	adjective	bruyant	/ˈnɔɪzi/
+1634	obvious	adjective	évident	/ˈɑːbviəs/
+1635	official	adjective	officiel	/əˈfɪʃəl/
+1636	opposite	adjective	opposé / contraire	/ˈɑːpəzɪt/
+1637	ordinary	adjective	ordinaire / banal	/ˈɔːrdəˌnɛri/
+1638	original	adjective	original / d'origine	/ərˈɪdʒənəl/
+1639	painful	adjective	douloureux	/ˈpeɪnfəl/
+1640	pale	adjective	pâle	/peɪl/
+1641	peaceful	adjective	paisible / calme	/ˈpiːsfəl/
+1642	permanent	adjective	permanent / définitif	/ˈpɜːrmɑːˌnɛnt/
+1643	personal	adjective	personnel	/ˈpɜːrsɪnəl/
+1644	physical	adjective	physique	/ˈfɪzɪkəl/
+1645	plain	adjective	simple / uni	/pleɪn/
+1646	pleasant	adjective	agréable	/ˈplɛzənt/
+1647	political	adjective	politique	/pəˈlɪtɪkəl/
+1648	positive	adjective	positif	/ˈpɑːzətɪv/
+1649	powerful	adjective	puissant	/ˈpaʊərfəl/
+1650	practical	adjective	pratique	/ˈpræktɪkəl/
+1651	precious	adjective	précieux	/ˈprɛʃəs/
+1652	precise	adjective	précis	/prɪˈsaɪs/
+1653	pregnant	adjective	enceinte	/ˈprɛɡnənt/
+1654	present	adjective	présent	/ˈprɛzənt/
+1655	previous	adjective	précédent / antérieur	/ˈpriːviəs/
+1656	primary	adjective	primaire / principal	/ˈpraɪˌmɛri/
+1657	professional	adjective	professionnel	/prəˈfɛʃənəl/
+1658	proper	adjective	correct / convenable	/ˈprɑːpər/
+1659	pure	adjective	pur	/pjʊr/
+1660	rapid	adjective	rapide	/ˈræpɪd/
+1661	rare	adjective	rare	/rɛr/
+1662	raw	adjective	cru	/rɑː/
+1663	reasonable	adjective	raisonnable	/ˈriːzənəbəl/
+1664	regular	adjective	régulier	/ˈrɛɡjələr/
+1665	relevant	adjective	pertinent	/ˈrɛləvənt/
+1666	reliable	adjective	fiable	/rɪˈlaɪəbəl/
+1667	remote	adjective	éloigné / isolé	/rɪˈmoʊt/
+1668	responsible	adjective	responsable	/riˈspɑːnsəbəl/
+1669	ridiculous	adjective	ridicule	/rɪˈdɪkjələs/
+1670	rough	adjective	rude / rugueux	/rʌf/
+1671	round	adjective	rond	/raʊnd/
+1672	royal	adjective	royal	/rɔɪəl/
+1673	secret	adjective	secret	/ˈsiːkrɪt/
+1674	secure	adjective	sûr / sécurisé	/sɪˈkjʊr/
+1675	senior	adjective	senior / supérieur	/ˈsiːnjər/
+1676	sensible	adjective	sensé / raisonnable	/ˈsɛnsəbəl/
+1677	sensitive	adjective	sensible	/ˈsɛnsɪtɪv/
+1678	severe	adjective	grave / sévère	/səˈvɪr/
+1679	shiny	adjective	brillant / luisant	/ˈʃaɪni/
+1680	shocked	adjective	choqué / abasourdi	/ʃɑːkt/
+1681	shy	adjective	timide	/ʃaɪ/
+1682	significant	adjective	important / notable	/sɪɡˈnɪfɪkənt/
+1683	silent	adjective	silencieux	/ˈsaɪlənt/
+1684	silly	adjective	bête / idiot	/ˈsɪli/
+1685	slim	adjective	mince / svelte	/slɪm/
+1686	smooth	adjective	lisse / doux	/smuːð/
+1687	solid	adjective	solide	/ˈsɑːləd/
+1688	sore	adjective	douloureux / endolori	/sɔːr/
+1689	sour	adjective	aigre / acide	/saʊər/
+1690	specific	adjective	spécifique / précis	/spɪˈsɪfɪk/
+1691	spicy	adjective	épicé / piquant	/ˈspaɪsi/
+1692	steep	adjective	raide / abrupt	/stiːp/
+1693	sticky	adjective	collant / poisseux	/ˈstɪki/
+1694	straight	adjective	droit	/streɪt/
+1695	strict	adjective	strict / sévère	/strɪkt/
+1696	stupid	adjective	stupide / bête	/ˈstuːpɪd/
+1697	sudden	adjective	soudain / brusque	/ˈsʌdən/
+1698	suitable	adjective	adapté / approprié	/ˈsuːtəbəl/
+1699	sunny	adjective	ensoleillé	/ˈsʌni/
+1700	technical	adjective	technique	/ˈtɛknɪkəl/
+1701	temporary	adjective	temporaire / provisoire	/ˈtɛmpərˌɛri/
+1702	tender	adjective	tendre	/ˈtɛndər/
+1703	tense	adjective	tendu / crispé	/tɛns/
+1704	tight	adjective	serré	/taɪt/
+1705	traditional	adjective	traditionnel	/trəˈdɪʃənəl/
+1706	typical	adjective	typique	/ˈtɪpɪkəl/
+1707	unable	adjective	incapable	/əˈneɪbəl/
+1708	unhappy	adjective	malheureux	/ənˈhæpi/
+1709	unique	adjective	unique	/juːˈniːk/
+1710	united	adjective	uni	/juːˈnaɪtɪd/
+1711	unknown	adjective	inconnu	/ənˈnoʊn/
+1712	upset	adjective	contrarié / bouleversé	/ˈʌpˌsɛt/
+1713	urban	adjective	urbain	/ˈɜːrbən/
+1714	urgent	adjective	urgent	/ˈɜːrdʒənt/
+1715	useless	adjective	inutile	/ˈjuːsləs/
+1716	valuable	adjective	précieux / de valeur	/ˈvæljəbəl/
+1717	vast	adjective	vaste / immense	/væst/
+1718	violent	adjective	violent	/ˈvaɪələnt/
+1719	visible	adjective	visible	/ˈvɪzəbəl/
+1720	vital	adjective	vital / essentiel	/ˈvaɪtəl/
+1721	weird	adjective	bizarre / étrange	/wɪrd/
+1722	wild	adjective	sauvage	/waɪld/
+1723	willing	adjective	prêt / disposé	/ˈwɪlɪŋ/
+1724	wooden	adjective	en bois	/ˈwʊdən/
+1725	worried	adjective	inquiet	/ˈwɜːrid/
+1726	forward	adverb	en avant	/ˈfɔːrwərd/
+1727	backward	adverb	en arrière	/ˈbækwərd/
+1728	ahead	adverb	devant / en avance	/əˈhɛd/
+1729	abroad	adverb	à l'étranger	/əˈbrɔːd/
+1730	upstairs	adverb	en haut (étage)	/əpˈstɛrz/
+1731	downstairs	adverb	en bas (étage)	/ˈdaʊnˈstɛrz/
+1732	anyway	adverb	de toute façon	/ˈɛniˌweɪ/
+1733	instead	adverb	à la place	/ˌɪnˈstɛd/
+1734	however	adverb	cependant / pourtant	/ˌhaʊˈɛvər/
+1735	therefore	adverb	donc / par conséquent	/ˈðɛrˌfɔːr/
+1736	otherwise	adverb	sinon / autrement	/ˈʌðərˌwaɪz/
+1737	indeed	adverb	en effet / vraiment	/ˌɪnˈdiːd/
+1738	actually	adverb	en fait	/ˈæˌktʃuːəli/
+1739	generally	adverb	généralement	/ˈdʒɛnərəli/
+1740	currently	adverb	actuellement	/ˈkɜːrəntli/
+1741	immediately	adverb	immédiatement	/ˌɪˈmiːˌdiːətli/
+1742	eventually	adverb	finalement / au bout du compte	/ɪˈvɛntʃəwəli/
+1743	hardly	adverb	à peine	/ˈhɑːrdli/
+1744	simply	adverb	simplement	/ˈsɪmpli/
+1745	clearly	adverb	clairement	/ˈklɪrli/
+1746	mostly	adverb	surtout / pour la plupart	/ˈmoʊstli/
+1747	completely	adverb	complètement	/kəmˈpliːtli/
+1748	totally	adverb	totalement	/ˈtoʊtəli/
+1749	absolutely	adverb	absolument	/ˌæbsəˈluːtli/
+1750	obviously	adverb	évidemment	/ˈɑːbviəsli/
+1751	admire	verb	admirer	/ædˈmaɪr/
+1752	announce	verb	annoncer	/əˈnaʊns/
+1753	approve	verb	approuver	/əˈpruːv/
+1754	attach	verb	attacher / joindre	/əˈtætʃ/
+1755	behave	verb	se comporter	/bɪˈheɪv/
+1756	bet	verb	parier	/bɛt/
+1757	challenge	verb	défier	/ˈtʃæləndʒ/
+1758	cheer	verb	acclamer / encourager	/tʃɪr/
+1759	chew	verb	mâcher	/tʃuː/
+1760	claim	verb	affirmer / réclamer	/kleɪm/
+1761	clap	verb	applaudir	/klæp/
+1762	click	verb	cliquer	/klɪk/
+1763	collapse	verb	s'effondrer	/kəˈlæps/
+1764	confuse	verb	confondre / embrouiller	/kənfˈjuːz/
+1765	contribute	verb	contribuer	/kənˈtrɪbjuːt/
+1766	cope	verb	faire face / gérer	/koʊp/
+1767	crawl	verb	ramper / marcher à quatre pattes	/krɔːl/
+1768	damage	verb	endommager / abîmer	/ˈdæmɪdʒ/
+1769	decorate	verb	décorer	/ˈdɛkərˌeɪt/
+1770	defend	verb	défendre	/dɪˈfɛnd/
+1771	define	verb	définir	/dɪˈfaɪn/
+1772	delay	verb	retarder	/dɪˈleɪ/
+1773	dig	verb	creuser	/dɪɡ/
+1774	disagree	verb	ne pas être d'accord	/dɪsəˈɡriː/
+1775	disappoint	verb	décevoir	/ˌdɪsəˈpɔɪnt/
+1776	exchange	verb	échanger	/ɪksˈtʃeɪndʒ/
+1777	explore	verb	explorer	/ɪkˈsplɔːr/
+1778	fade	verb	se faner / pâlir	/feɪd/
+1779	fit	verb	aller / convenir (taille)	/fɪt/
+1780	flow	verb	couler	/floʊ/
+1781	drag	verb	traîner / tirer	/dræɡ/
+1782	frighten	verb	effrayer	/ˈfraɪtən/
+1783	gather	verb	rassembler / se réunir	/ˈɡæðər/
+1784	grab	verb	saisir / attraper	/ɡræb/
+1785	hire	verb	embaucher / louer	/haɪər/
+1786	hug	verb	serrer dans ses bras	/hʌɡ/
+1787	impress	verb	impressionner	/ˌɪmˈprɛs/
+1788	insist	verb	insister	/ˌɪnˈsɪst/
+1789	install	verb	installer	/ˌɪnˈstɔːl/
+1790	interview	verb	faire passer un entretien	/ˈɪntərvˌjuː/
+1791	kiss	verb	embrasser	/kɪs/
+1792	sweep	verb	balayer	/swiːp/
+1793	nod	verb	hocher la tête	/nɑːd/
+1794	operate	verb	faire fonctionner / opérer	/ˈɔːpərˌeɪt/
+1795	owe	verb	devoir (de l'argent)	/oʊ/
+1796	pack	verb	faire ses bagages / emballer	/pæk/
+1797	pause	verb	faire une pause	/pɔːz/
+1798	possess	verb	posséder	/pəˈzɛs/
+1799	pretend	verb	faire semblant	/priˈtɛnd/
+1800	pronounce	verb	prononcer	/prəˈnaʊns/
+1801	react	verb	réagir	/riækt/
+1802	reflect	verb	refléter / réfléchir	/rɪˈflɛkt/
+1803	refuse	verb	refuser	/ˈrɛfˌjuːz/
+1804	regret	verb	regretter	/rɪˈɡrɛt/
+1805	reject	verb	rejeter	/ˈriːdʒɛkt/
+1806	release	verb	libérer / sortir	/riˈliːs/
+1807	repair	verb	réparer	/rɪˈpɛr/
+1808	replace	verb	remplacer	/ˌriːˈpleɪs/
+1809	represent	verb	représenter	/ˌrɛprɪˈzɛnt/
+1810	require	verb	exiger / nécessiter	/ˌriːkˈwaɪər/
+1811	rescue	verb	sauver / secourir	/ˈrɛskjuː/
+1812	respond	verb	répondre	/rɪˈspɑːnd/
+1813	retire	verb	prendre sa retraite	/ˌriːˈtaɪər/
+1814	reveal	verb	révéler / dévoiler	/rɪˈviːl/
+1815	roll	verb	rouler	/roʊl/
+1816	rub	verb	frotter	/rʌb/
+1817	ruin	verb	gâcher / ruiner	/ruːɪn/
+1818	rush	verb	se précipiter	/rʌʃ/
+1819	sail	verb	naviguer	/seɪl/
+1820	satisfy	verb	satisfaire	/ˈsætɪsˌfaɪ/
+1821	scratch	verb	gratter / griffer	/skrætʃ/
+1822	scream	verb	crier / hurler	/skriːm/
+1823	seek	verb	chercher / rechercher	/siːk/
+1824	select	verb	sélectionner / choisir	/səˈlɛkt/
+1825	separate	verb	séparer	/ˈsɛpərˌeɪt/
+1826	settle	verb	s'installer / régler	/ˈsɛtəl/
+1827	shine	verb	briller	/ʃaɪn/
+1828	shoot	verb	tirer	/ʃuːt/
+1829	shut	verb	fermer	/ʃʌt/
+1830	slide	verb	glisser	/slaɪd/
+1831	slip	verb	glisser / déraper	/slɪp/
+1832	solve	verb	résoudre	/sɑːlv/
+1833	spell	verb	épeler	/spɛl/
+1834	spill	verb	renverser	/spɪl/
+1835	spin	verb	tourner / faire tourner	/spɪn/
+1836	split	verb	partager / fendre	/splɪt/
+1837	spoil	verb	gâcher / abîmer	/spɔɪl/
+1838	spread	verb	étaler / répandre	/sprɛd/
+1839	stare	verb	fixer du regard	/stɛr/
+1840	steal	verb	voler / dérober	/stiːl/
+1841	stick	verb	coller / se coincer	/stɪk/
+1842	stir	verb	remuer	/stɜːr/
+1843	stretch	verb	s'étirer / étendre	/strɛtʃ/
+1844	strike	verb	frapper	/straɪk/
+1845	succeed	verb	réussir	/səkˈsiːd/
+1846	suffer	verb	souffrir	/ˈsʌfər/
+1847	supply	verb	fournir / approvisionner	/səˈplaɪ/
+1848	suppose	verb	supposer	/səˈpoʊz/
+1849	survive	verb	survivre	/sərˈvaɪv/
+1850	swing	verb	se balancer	/swɪŋ/
+1851	sink	verb	couler / sombrer	/sɪŋk/
+1852	tear	verb	déchirer	/tɪr/
+1853	tend	verb	avoir tendance à	/tɛnd/
+1854	trade	verb	échanger / commercer	/treɪd/
+1855	translate	verb	traduire	/trænzˈleɪt/
+1856	treat	verb	traiter / soigner	/triːt/
+1857	twist	verb	tordre	/twɪst/
+1858	vary	verb	varier	/ˈvɛri/
+1859	vote	verb	voter	/voʊt/
+1860	wander	verb	errer / se promener	/ˈwɑːndər/
+1861	warn	verb	avertir / prévenir	/wɔːrn/
+1862	waste	verb	gaspiller	/weɪst/
+1863	weigh	verb	peser	/weɪ/
+1864	whisper	verb	chuchoter	/ˈwɪspər/
+1865	wipe	verb	essuyer	/waɪp/
+1866	wrap	verb	emballer / envelopper	/ræp/
+1867	bow	verb	s'incliner	/boʊ/
+1868	tap	verb	tapoter / taper	/tæp/
+1869	industry	noun	l'industrie	/ˈɪndəstri/
+1870	income	noun	le revenu	/ˈɪnˌkʌm/
+1871	budget	noun	le budget	/ˈbʌdʒɪt/
+1872	fee	noun	le frais / la cotisation	/fiː/
+1873	fund	noun	le fonds	/fʌnd/
+1874	expense	noun	la dépense	/ɪkˈspɛns/
+1875	debt	noun	la dette	/dɛt/
+1876	loan	noun	le prêt	/loʊn/
+1877	wage	noun	le salaire / la paie	/weɪdʒ/
+1878	economy	noun	l'économie	/ɪˈkɑːnəmi/
+1879	contract	noun	le contrat	/ˈkɑːnˌtrækt/
+1880	staff	noun	le personnel	/stæf/
+1881	crew	noun	l'équipage	/kruː/
+1882	union	noun	le syndicat / l'union	/ˈjuːnjən/
+1883	career	noun	la carrière	/kərɪr/
+1884	department	noun	le rayon / le service	/dɪˈpɑːrtmənt/
+1885	goods	noun	les marchandises / les biens	/ɡʊdz/
+1886	currency	noun	la monnaie / la devise	/ˈkɜːrənsi/
+1887	vehicle	noun	le véhicule	/ˈviːɪkəl/
+1888	route	noun	l'itinéraire	/ruːt/
+1889	fuel	noun	le carburant	/fjuːəl/
+1890	gas	noun	le gaz / l'essence	/ɡæs/
+1891	helmet	noun	le casque	/ˈhɛlmət/
+1892	scooter	noun	le scooter / la trottinette	/ˈskuːtər/
+1893	subway	noun	le métro	/ˈsʌbˌweɪ/
+1894	platform	noun	le quai / la plateforme	/ˈplætˌfɔːrm/
+1895	schedule	noun	l'emploi du temps / l'horaire	/ˈskɛdʒʊl/
+1896	luggage	noun	les bagages	/ˈlʌɡɪdʒ/
+1897	suitcase	noun	la valise	/ˈsuːtˌkeɪs/
+1898	backpack	noun	le sac à dos	/ˈbækˌpæk/
+1899	passport	noun	le passeport	/ˈpæˌspɔːrt/
+1900	visa	noun	le visa	/ˈviːzə/
+1901	ferry	noun	le ferry / le bac	/ˈfɛri/
+1902	helicopter	noun	l'hélicoptère	/ˈhɛlɪˌkɑːptər/
+1903	lecture	noun	le cours magistral / la conférence	/ˈlɛktʃər/
+1904	diploma	noun	le diplôme	/dɪˈploʊmɑː/
+1905	classroom	noun	la salle de classe	/ˈklæsˌruːm/
+1906	homework	noun	les devoirs	/ˈhoʊmˌwɜːrk/
+1907	pupil	noun	l'élève	/ˈpjuːpəl/
+1908	noon	noun	midi	/nuːn/
+1909	midnight	noun	minuit	/ˈmɪdˌnaɪt/
+1910	period	noun	la période	/ˈpɪriəd/
+1911	appointment	noun	le rendez-vous	/əˈpɔɪntmənt/
+1912	conversation	noun	la conversation	/ˌkɑːnvərˈseɪʃən/
+1913	advertisement	noun	la publicité / l'annonce	/ˌædvərˈtaɪzmənt/
+1914	article	noun	l'article	/ˈɑːrtɪkəl/
+1915	chapter	noun	le chapitre	/ˈtʃæptər/
+1916	title	noun	le titre	/ˈtaɪtəl/
+1917	author	noun	l'auteur·e	/ˈɔːθər/
+1918	novel	noun	le roman	/ˈnɑːvəl/
+1919	poem	noun	le poème	/poʊəm/
+1920	journalist	noun	le·la journaliste	/ˈdʒɜːrnəlɪst/
+1921	object	noun	l'objet	/ˈɑːbdʒɛkt/
+1922	material	noun	le matériau / la matière	/məˈtɪriəl/
+1923	metal	noun	le métal	/ˈmɛtəl/
+1924	gold	noun	l'or	/ɡoʊld/
+1925	silver	noun	l'argent (métal)	/ˈsɪlvər/
+1926	iron	noun	le fer	/aɪərn/
+1927	plastic	noun	le plastique	/ˈplæstɪk/
+1928	cotton	noun	le coton	/ˈkɔːtən/
+1929	leather	noun	le cuir	/ˈlɛðər/
+1930	wool	noun	la laine	/wʊl/
+1931	cloth	noun	le tissu / le chiffon	/klɔːθ/
+1932	favor	noun	le service (rendu)	/ˈfeɪvər/
+1933	pride	noun	la fierté	/praɪd/
+1934	dozen	noun	la douzaine	/ˈdʌzən/
+1935	bunch	noun	le bouquet / le groupe	/bʌntʃ/
+1936	portion	noun	la portion / la part	/ˈpɔːrʃən/
+1937	slice	noun	la tranche	/slaɪs/
+1938	audience	noun	le public / l'auditoire	/ˈɔːdiəns/
+1939	score	noun	le score	/skɔːr/
+1940	race	noun	la course	/reɪs/
+1941	competition	noun	la compétition / le concours	/ˌkɑːmpəˈtɪʃən/
+1942	hobby	noun	le passe-temps / le loisir	/ˈhɑːbi/
+1943	climate	noun	le climat	/ˈklaɪmɪt/
+1944	temperature	noun	la température	/ˈtɛmpərətʃər/
+1945	shade	noun	l'ombre	/ʃeɪd/
+1946	flame	noun	la flamme	/fleɪm/
+1947	smoke	noun	la fumée	/smoʊk/
+1948	pet	noun	l'animal de compagnie	/pɛt/
+1949	creature	noun	la créature	/ˈkriːtʃər/
+1950	wing	noun	l'aile	/wɪŋ/
+1951	tail	noun	la queue (animal)	/teɪl/
+1952	feather	noun	la plume	/ˈfɛðər/
+1953	fur	noun	la fourrure / le pelage	/fɜːr/
+1954	nest	noun	le nid	/nɛst/
+1955	exit	noun	la sortie	/ˈɛksət/
+1956	gap	noun	l'écart / le trou	/ɡæp/
+1957	spot	noun	la tache / l'endroit	/spɑːt/
+1958	quarter	noun	le quart / le quartier	/kˈwɔːrtər/
+1959	generation	noun	la génération	/ˌdʒɛnərˈeɪʃən/
+1960	childhood	noun	l'enfance	/ˈtʃaɪlˌdhʊd/
+1961	marriage	noun	le mariage	/ˈmɛrɪdʒ/
+1962	ceremony	noun	la cérémonie	/ˈsɛrəˌmoʊni/
+1963	festival	noun	le festival / la fête	/ˈfɛstɪvəl/
+1964	custom	noun	la coutume / l'usage	/ˈkʌstəm/
+1965	tradition	noun	la tradition	/trəˈdɪʃən/
+1966	crime	noun	le crime / le délit	/kraɪm/
+1967	crisis	noun	la crise	/ˈkraɪsəs/
+1968	accident	noun	l'accident	/ˈæksədənt/
+1969	disaster	noun	la catastrophe / le désastre	/dɪˈzæstər/
+1970	defeat	noun	la défaite	/dɪˈfiːt/
+1971	height	noun	la hauteur / la taille	/haɪt/
+1972	length	noun	la longueur	/lɛŋθ/
+1973	width	noun	la largeur	/wɪdθ/
+1974	depth	noun	la profondeur	/dɛpθ/
+1975	circle	noun	le cercle	/ˈsɜːrkəl/
+1976	triangle	noun	le triangle	/ˈtraɪˌæŋɡəl/
+1977	angle	noun	l'angle	/ˈæŋɡəl/
+1978	chemistry	noun	la chimie	/ˈkɛmɪstri/
+1979	biology	noun	la biologie	/baɪˈɑːlədʒi/
+1980	physics	noun	la physique	/ˈfɪzɪks/
+1981	geography	noun	la géographie	/dʒiˈɑːɡrəfi/
+1982	instrument	noun	l'instrument	/ˈɪnstrəmənt/
+1983	drawing	noun	le dessin	/drɔɪŋ/
+1984	painting	noun	la peinture / le tableau	/ˈpeɪnɪŋ/
+1985	tune	noun	l'air / la mélodie	/tuːn/
+1986	rhythm	noun	le rythme	/ˈrɪðəm/
+1987	band	noun	le groupe (musique)	/bænd/
+1988	concert	noun	le concert	/ˈkɑːnsərt/
+1989	stage	noun	la scène (estrade)	/steɪdʒ/
+1990	comedy	noun	la comédie	/ˈkɑːmədi/
+1991	joke	noun	la blague	/dʒoʊk/
+1992	tale	noun	le conte	/teɪl/
+1993	gallery	noun	la galerie	/ˈɡæləri/
+1994	fountain	noun	la fontaine	/ˈfaʊntən/
+1995	statue	noun	la statue	/ˈstæˌtʃuː/
+1996	treasure	noun	le trésor	/ˈtrɛʒər/
+1997	dawn	noun	l'aube	/dɔːn/
+1998	dusk	noun	le crépuscule	/dʌsk/
+1999	deadline	noun	la date limite / l'échéance	/ˈdɛˌdlaɪn/
+2000	trophy	noun	le trophée	/ˈtroʊfi/
