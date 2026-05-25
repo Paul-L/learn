@@ -13,12 +13,44 @@ body {
   background-color: #ede7dc;
 }
 
+html {
+  /* Empêche le pinch-zoom sur iOS Safari (où user-scalable=no est ignoré)
+     tout en autorisant le scroll vertical/horizontal. */
+  touch-action: pan-x pan-y;
+  /* Empêche iOS de redimensionner les textes en rotation paysage. */
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
   margin: 0;
   color: #1f1a14;
   font-family: 'Geist', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
   -webkit-font-smoothing: antialiased;
-  overscroll-behavior-y: none;
+  overscroll-behavior: none;
+  /* Pas de surbrillance grise au tap. */
+  -webkit-tap-highlight-color: transparent;
+  /* Pas de sélection accidentelle ni de menu contextuel iOS. Les inputs
+     ré-activent la sélection ci-dessous. */
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+
+input,
+textarea,
+[contenteditable='true'] {
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+/* iOS zoome sur focus quand un input a font-size < 16px. On force 16px sur
+   les appareils tactiles uniquement, pour préserver le design desktop. */
+@media (hover: none) and (pointer: coarse) {
+  input,
+  textarea,
+  select {
+    font-size: 16px;
+  }
 }
 
 /* Coque applicative : pleine hauteur dynamique (gère la barre d'adresse mobile),

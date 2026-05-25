@@ -16,8 +16,8 @@ export default defineConfig({
         description:
           "Apprendre l'anglais par la loi de Pareto : les ~1 000 mots et expressions les plus utiles.",
         lang: 'fr',
-        theme_color: '#faf7f2',
-        background_color: '#faf7f2',
+        theme_color: '#F8F5F0',
+        background_color: '#F8F5F0',
         display: 'standalone',
         orientation: 'portrait',
         start_url: '/',

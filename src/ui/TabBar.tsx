@@ -30,9 +30,11 @@ export function TabBar({ tab, setTab }: TabBarProps) {
               }`}
             >
               <Icon name={t.icon} size={22} stroke={active ? 2 : 1.6} />
-              <span className={`mt-0.5 text-[11px] ${active ? 'font-medium' : ''}`}>
-                {t.label}
-              </span>
+              {/* font-medium toujours appliqué : la différence de métrique
+                  entre regular et medium dans Geist suffisait à faire bouger
+                  la barre d'un pixel au switch d'onglet. La distinction
+                  active/inactif passe par la couleur, pas le poids. */}
+              <span className="mt-0.5 text-[11px] font-medium">{t.label}</span>
             </button>
           );
         })}

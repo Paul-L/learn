@@ -156,18 +156,11 @@ export function HomeScreen({ user, onStartSession }: HomeScreenProps) {
   return (
     <div className="fade-in absolute inset-0 flex flex-col">
       <TopSpacer />
-      <div className="scroll-y flex-1 px-6 pb-32 pt-2">
-        <div className="mb-2 flex items-center justify-between pt-2">
-          <div>
-            <div className="text-[12px] text-muted">Bonjour {user.name || 'toi'}</div>
-            <h1 className="text-[22px] font-medium tracking-tight">Prêt·e pour aujourd'hui ?</h1>
-          </div>
-          <div className="flex h-10 w-10 items-center justify-center rounded-full border border-line bg-paper text-[14px] font-medium text-ink">
-            {initial}
-          </div>
-        </div>
-
-        <div className="mt-4 rounded-3xl border border-line bg-paper p-3 pb-5 shadow-card">
+      <div className="scroll-y flex-1 px-6 pb-32 pt-3">
+        {/* L'avatar est intégré au header de la jauge — pas de greeting
+            séparé, ressenti app-first. Le palier 85 % reste matérialisé
+            par le repère sur l'arc, donc plus besoin du texte « Objectif ». */}
+        <div className="rounded-3xl border border-line bg-paper p-3 pb-5 shadow-card">
           <div className="flex items-center justify-between px-3 pt-1">
             <div className="flex items-center gap-1.5 text-muted">
               <Icon name="target" size={14} />
@@ -175,8 +168,11 @@ export function HomeScreen({ user, onStartSession }: HomeScreenProps) {
                 Ta couverture Pareto
               </span>
             </div>
-            <div className="flex items-center gap-1 text-[11px] text-muted">
-              <span>Objectif 85 %</span>
+            <div
+              className="flex h-8 w-8 items-center justify-center rounded-full bg-ink text-[11.5px] font-medium text-bone"
+              title={user.name || undefined}
+            >
+              {initial}
             </div>
           </div>
           <div className="mt-1 flex justify-center">
