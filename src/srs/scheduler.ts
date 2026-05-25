@@ -61,3 +61,29 @@ export function maturity(state: ReviewState): ReviewItemState {
   if (card.stability >= 21) return 'mature';
   return 'young';
 }
+
+/**
+ * Nombre de paliers franchissables vers la maîtrise — exposé pour les
+ * barres segmentées de l'UI (`MaturityBar`). `new` = 0 palier franchi,
+ * `mastered` = 4 paliers franchis.
+ */
+export const MATURITY_STEP_COUNT = 4;
+
+/**
+ * Mappe une maturité vers son indice de palier 0–4. Source de vérité unique
+ * pour toutes les barres segmentées : ne jamais redériver ailleurs.
+ */
+export function maturityStepIndex(s: ReviewItemState): number {
+  switch (s) {
+    case 'new':
+      return 0;
+    case 'learning':
+      return 1;
+    case 'young':
+      return 2;
+    case 'mature':
+      return 3;
+    case 'mastered':
+      return 4;
+  }
+}

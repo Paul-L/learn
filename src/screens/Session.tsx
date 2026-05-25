@@ -3,16 +3,27 @@ import { Icon } from '../ui/Icon';
 import { TopSpacer } from '../ui/SafeArea';
 import { speak } from '../lib/speech';
 import { db } from '../db/db';
-import { Rating, gradeReview } from '../srs/scheduler';
+import { Rating, gradeReview, maturity, reviewStateId } from '../srs/scheduler';
 import { loadOrCreateState, loadSession, type SessionStep } from '../srs/session';
 import { computeCoverage, loadHomeStats } from '../srs/stats';
-import type { Example, Phrase, User, Word } from '../types/models';
+import type {
+  Example,
+  ItemType,
+  Phrase,
+  ReviewItemState,
+  User,
+  Word,
+} from '../types/models';
 import type { Grade } from 'ts-fsrs';
 
 export interface ReviewedItemSummary {
   en: string;
   fr: string;
   isNew: boolean;
+  itemId: string;
+  itemType: ItemType;
+  /** Maturité de l'item APRÈS notation — la barre du bilan reflète l'état persisté. */
+  maturity: ReviewItemState;
 }
 
 export interface SessionFinishResult {
@@ -475,18 +486,26 @@ function rateAnswer(wasCorrect: boolean, elapsedMs: number): Grade {
 /**
  * Construit la liste affichée dans le bilan : 1 ligne par item touché,
  * avec un drapeau "Nouveau" pour ceux qui apparaissent comme `discover`.
+ * `maturity` est initialisée à 'new' et renseignée APRÈS persistance par
+ * `enrichWithMaturity`, pour refléter l'état FSRS réel post-notation.
  */
 function summarizeReviewed(steps: SessionStep[]): ReviewedItemSummary[] {
   const seen = new Map<string, ReviewedItemSummary>();
   for (const s of steps) {
     const key = `${s.itemType}:${s.itemId}`;
     if (seen.has(key)) continue;
+    const base = {
+      itemId: s.itemId,
+      itemType: s.itemType,
+      isNew: false,
+      maturity: 'new' as ReviewItemState,
+    };
     if (s.kind === 'discover') {
-      seen.set(key, { en: s.word.lemma, fr: s.word.translationFr, isNew: true });
+      seen.set(key, { ...base, en: s.word.lemma, fr: s.word.translationFr, isNew: true });
     } else if (s.kind === 'cloze') {
-      seen.set(key, { en: s.phrase.textEn, fr: s.phrase.translationFr, isNew: false });
+      seen.set(key, { ...base, en: s.phrase.textEn, fr: s.phrase.translationFr });
     } else {
-      seen.set(key, { en: s.word.lemma, fr: s.word.translationFr, isNew: false });
+      seen.set(key, { ...base, en: s.word.lemma, fr: s.word.translationFr });
     }
   }
   // Marquer "Nouveau" même si la découverte précède un exercice sur le même mot.
@@ -498,6 +517,24 @@ function summarizeReviewed(steps: SessionStep[]): ReviewedItemSummary[] {
     }
   }
   return Array.from(seen.values());
+}
+
+/**
+ * Renseigne `maturity` sur chaque résumé en relisant le `ReviewState` persisté
+ * (les `persistGrade` ont tous été appelés à ce stade — la base est à jour).
+ */
+async function enrichWithMaturity(
+  userId: string,
+  summaries: ReviewedItemSummary[],
+): Promise<ReviewedItemSummary[]> {
+  await Promise.all(
+    summaries.map(async (s) => {
+      const id = reviewStateId(userId, s.itemType, s.itemId);
+      const state = await db.reviewStates.get(id);
+      if (state) s.maturity = maturity(state);
+    }),
+  );
+  return summaries;
 }
 
 async function persistGrade(
@@ -558,16 +595,17 @@ export function Session({ user, onClose, onFinish, onOpenSettings }: SessionProp
     });
     // Stats post-session — calculées APRÈS l'insertion pour intégrer le jour
     // courant dans le streak.
-    const [newCov, homeAfter] = await Promise.all([
+    const [newCov, homeAfter, reviewedItems] = await Promise.all([
       computeCoverage(user.id),
       loadHomeStats(user.id),
+      enrichWithMaturity(user.id, summarizeReviewed(steps)),
     ]);
     onFinish({
       items: gradedTotal,
       correct: finalCorrect,
       prevCoverage,
       newCoverage: newCov,
-      reviewedItems: summarizeReviewed(steps),
+      reviewedItems,
       streak: homeAfter.streak,
     });
   };

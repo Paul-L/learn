@@ -3,9 +3,11 @@ import { DEFAULT_USER_ID, db } from './db';
 import {
   computeCoverage,
   loadHomeStats,
+  loadInProgressTerms,
   loadWeeklyActivity,
   vocabBreakdown,
   type HomeStats,
+  type InProgressTerm,
   type VocabBreakdown,
   type WeeklyDay,
 } from '../srs/stats';
@@ -49,4 +51,13 @@ export function useWeeklyActivity(userId: string | undefined): WeeklyDay[] | und
 
 export function useCoverage(userId: string | undefined): number | undefined {
   return useLiveQuery(() => (userId ? computeCoverage(userId) : undefined), [userId]);
+}
+
+export function useInProgressTerms(
+  userId: string | undefined,
+): InProgressTerm[] | undefined {
+  return useLiveQuery(
+    () => (userId ? loadInProgressTerms(userId) : undefined),
+    [userId],
+  );
 }

@@ -1,5 +1,6 @@
 import { CoverageGauge } from '../ui/CoverageGauge';
 import { Icon } from '../ui/Icon';
+import { MaturityBar } from '../ui/MaturityBar';
 import { TopSpacer } from '../ui/SafeArea';
 import { useSessionPreview } from '../db/hooks';
 import type { ReviewedItemSummary } from './Session';
@@ -130,17 +131,20 @@ export function Recap({
             <div className="divide-y divide-softline rounded-2xl border border-line bg-paper">
               {reviewedItems.map((it, i) => (
                 <div key={i} className="flex items-center gap-3 px-4 py-3">
-                  <div className="flex-1">
-                    <div className="text-[15px] text-ink">{it.en}</div>
-                    <div className="text-[12px] text-muted">{it.fr}</div>
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-center gap-2">
+                      <span className="truncate text-[15px] text-ink">{it.en}</span>
+                      {it.isNew && (
+                        <span className="shrink-0 text-[10.5px] uppercase tracking-wider text-accent">
+                          Nouveau
+                        </span>
+                      )}
+                    </div>
+                    <div className="truncate text-[12px] text-muted">{it.fr}</div>
                   </div>
-                  {it.isNew ? (
-                    <span className="text-[10.5px] uppercase tracking-wider text-accent">
-                      Nouveau
-                    </span>
-                  ) : (
-                    <Icon name="check" size={16} className="text-sage" />
-                  )}
+                  <div className="w-[60px] shrink-0">
+                    <MaturityBar state={it.maturity} />
+                  </div>
                 </div>
               ))}
             </div>

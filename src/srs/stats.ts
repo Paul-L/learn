@@ -1,5 +1,5 @@
 import { db } from '../db/db';
-import { isDue, maturity } from './scheduler';
+import { isDue, maturity, maturityStepIndex } from './scheduler';
 import type { ReviewItemState } from '../types/models';
 
 /** Catégories du pavé statut Progression. */
@@ -65,6 +65,50 @@ export async function vocabBreakdown(userId: string): Promise<VocabBreakdown> {
     remaining: Math.max(0, totalWords - introducedWords),
     total: totalWords,
   };
+}
+
+/** Un mot en cours d'ancrage (pas encore mûr) — alimenté à la liste « Termes en cours ». */
+export interface InProgressTerm {
+  itemId: string;
+  lemma: string;
+  translationFr: string;
+  maturity: ReviewItemState;
+  /** Stabilité FSRS brute — sert au tri secondaire à maturité égale. */
+  stability: number;
+}
+
+/**
+ * Mots déjà introduits mais pas encore mûrs (i.e. `new`/`learning`/`young`).
+ * Tri : du plus avancé au moins (effet encourageant — l'utilisateur voit
+ * d'abord ce qui progresse).
+ */
+export async function loadInProgressTerms(userId: string): Promise<InProgressTerm[]> {
+  const [states, words] = await Promise.all([
+    db.reviewStates.where('userId').equals(userId).toArray(),
+    db.words.toArray(),
+  ]);
+  const wordById = new Map(words.map((w) => [w.id, w]));
+  const out: InProgressTerm[] = [];
+  for (const s of states) {
+    if (s.itemType !== 'word') continue;
+    const m = maturity(s);
+    if (m === 'mature' || m === 'mastered') continue;
+    const w = wordById.get(s.itemId);
+    if (!w) continue;
+    out.push({
+      itemId: w.id,
+      lemma: w.lemma,
+      translationFr: w.translationFr,
+      maturity: m,
+      stability: s.card.stability,
+    });
+  }
+  out.sort((a, b) => {
+    const stepDiff = maturityStepIndex(b.maturity) - maturityStepIndex(a.maturity);
+    if (stepDiff !== 0) return stepDiff;
+    return b.stability - a.stability;
+  });
+  return out;
 }
 
 /** Couverture conversationnelle en pourcentage (0..100). */

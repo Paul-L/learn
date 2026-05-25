@@ -116,6 +116,13 @@ Petites améliorations issues du test réel de l'app.
 - [x] **Bouton « Continuer la révision » sur Recap** — relance immédiatement
   une nouvelle session depuis le bilan, sans repasser par Home. Masqué quand
   `useSessionPreview` n'a plus rien à proposer.
+- [x] **Paliers de maîtrise lisibles** — `MaturityBar` (`src/ui/MaturityBar.tsx`),
+  barre segmentée 4 paliers calquée sur le `ProgressBar` de session, alimentée
+  par `maturityStepIndex()` (source unique dans `scheduler.ts`). Sur Progression :
+  section « Termes en cours » (mots non-mûrs triés par avancement, hook
+  `useInProgressTerms`) + légende des 4 paliers en langage simple. Sur Recap :
+  `MaturityBar` à côté de chaque item, alimentée par la maturité post-notation
+  (`enrichWithMaturity()` relit les `ReviewState` persistés avant `onFinish`).
 
 ---
 

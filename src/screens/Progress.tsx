@@ -1,6 +1,20 @@
 import { Icon } from '../ui/Icon';
+import { MaturityBar } from '../ui/MaturityBar';
 import { TopSpacer } from '../ui/SafeArea';
-import { useVocabBreakdown, useWeeklyActivity } from '../db/hooks';
+import { useInProgressTerms, useVocabBreakdown, useWeeklyActivity } from '../db/hooks';
+import type { ReviewItemState } from '../types/models';
+
+/**
+ * Légende des 4 paliers de la `MaturityBar`. Volontairement sans jargon
+ * (pas « stabilité » ni « FSRS ») : on traduit en repères concrets de
+ * persistance en mémoire.
+ */
+const LEGEND: { state: ReviewItemState; label: string; note: string }[] = [
+  { state: 'learning', label: 'En apprentissage', note: 'tu viens de le rencontrer' },
+  { state: 'young', label: 'Jeune', note: 'en cours d’ancrage' },
+  { state: 'mature', label: 'Mûr', note: 'encore en mémoire dans ~3 semaines' },
+  { state: 'mastered', label: 'Maîtrisé', note: 'ancré ~3 mois et plus' },
+];
 
 /**
  * Paliers alignés sur PRD §2.5 F5 : indexés sur des seuils de MOTS MAÎTRISÉS,
@@ -28,6 +42,7 @@ interface ProgressScreenProps {
 export function ProgressScreen({ userId }: ProgressScreenProps) {
   const breakdown = useVocabBreakdown(userId);
   const weekly = useWeeklyActivity(userId) ?? [];
+  const inProgress = useInProgressTerms(userId) ?? [];
 
   if (!breakdown) {
     return (
@@ -176,6 +191,53 @@ export function ProgressScreen({ userId }: ProgressScreenProps) {
                 </div>
               );
             })}
+          </div>
+        </div>
+
+        {inProgress.length > 0 && (
+          <div className="mt-6">
+            <div className="mb-2 flex items-baseline justify-between">
+              <h3 className="text-[13px] uppercase tracking-[0.14em] text-muted">
+                Termes en cours
+              </h3>
+              <span className="text-[12px] text-muted">
+                {inProgress.length} mot{inProgress.length > 1 ? 's' : ''}
+              </span>
+            </div>
+            <div className="divide-y divide-softline rounded-2xl border border-line bg-paper">
+              {inProgress.map((term) => (
+                <div key={term.itemId} className="flex items-center gap-4 px-4 py-3">
+                  <div className="min-w-0 flex-1">
+                    <div className="truncate text-[14.5px] text-ink">{term.lemma}</div>
+                    <div className="truncate text-[12px] text-muted">
+                      {term.translationFr}
+                    </div>
+                  </div>
+                  <div className="w-[72px] shrink-0">
+                    <MaturityBar state={term.maturity} />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <div className="mt-4 rounded-2xl border border-line bg-paper p-4">
+          <div className="mb-2.5 text-[10.5px] uppercase tracking-[0.14em] text-muted">
+            Les paliers d'ancrage
+          </div>
+          <div className="space-y-2">
+            {LEGEND.map((entry) => (
+              <div key={entry.state} className="flex items-center gap-3">
+                <div className="w-[72px] shrink-0">
+                  <MaturityBar state={entry.state} />
+                </div>
+                <div className="text-[12px] leading-snug">
+                  <span className="font-medium text-ink">{entry.label}</span>
+                  <span className="text-muted"> — {entry.note}</span>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
