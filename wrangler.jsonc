@@ -8,6 +8,12 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "learn",
   "compatibility_date": "2026-05-01",
+  // Quand wrangler.jsonc est présent, Cloudflare CI saute sa détection
+  // de framework — il faut donc déclarer ici la commande de build qui
+  // produit `dist/` avant le déploiement.
+  "build": {
+    "command": "pnpm run build"
+  },
   "assets": {
     "directory": "./dist",
     // Toute route inconnue sert index.html — c'est la PWA qui route ensuite.
