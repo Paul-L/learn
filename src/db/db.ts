@@ -78,3 +78,20 @@ export async function completeOnboarding(name: string, pace: PaceKey): Promise<U
   if (!updated) throw new Error('User disparu après update');
   return updated;
 }
+
+/**
+ * Met à jour les champs modifiables du profil (Réglages).
+ * Les champs omis ne sont pas touchés. `useCurrentUser` propage le changement
+ * automatiquement à toute l'UI (live query Dexie).
+ */
+export async function updateProfile(patch: { name?: string; pace?: PaceKey }): Promise<void> {
+  const changes: Partial<User> = {};
+  if (patch.name !== undefined) {
+    changes.name = patch.name.trim() || 'Moi';
+  }
+  if (patch.pace !== undefined) {
+    changes.dailyGoal = PACE_TO_GOAL[patch.pace];
+  }
+  if (Object.keys(changes).length === 0) return;
+  await db.users.update(DEFAULT_USER_ID, changes);
+}

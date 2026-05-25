@@ -7,6 +7,7 @@ import { HomeScreen } from './screens/Home';
 import { Session, type ReviewedItemSummary, type SessionFinishResult } from './screens/Session';
 import { Recap } from './screens/Recap';
 import { ProgressScreen } from './screens/Progress';
+import { SettingsScreen } from './screens/Settings';
 import {
   DEFAULT_USER_ID,
   completeOnboarding,
@@ -141,6 +142,7 @@ export default function App() {
             <HomeScreen user={user} onStartSession={() => setRoute('session')} />
           )}
           {tab === 'progress' && <ProgressScreen userId={DEFAULT_USER_ID} />}
+          {tab === 'settings' && <SettingsScreen user={user} />}
           <TabBar tab={tab} setTab={setTab} />
         </Fragment>
       )}
@@ -149,6 +151,10 @@ export default function App() {
           user={user}
           onClose={() => setRoute('app')}
           onFinish={handleSessionFinish}
+          onOpenSettings={() => {
+            setRoute('app');
+            setTab('settings');
+          }}
         />
       )}
       {route === 'recap' && recapData && (
@@ -160,10 +166,13 @@ export default function App() {
           newCoverage={recapData.newCoverage}
           streak={recapData.streak}
           reviewedItems={recapData.reviewedItems}
+          userId={user.id}
+          dailyGoal={user.dailyGoal}
           onDone={() => {
             setRoute('app');
             setTab('home');
           }}
+          onContinue={() => setRoute('session')}
         />
       )}
     </div>

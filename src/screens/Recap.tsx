@@ -1,6 +1,7 @@
 import { CoverageGauge } from '../ui/CoverageGauge';
 import { Icon } from '../ui/Icon';
 import { TopSpacer } from '../ui/SafeArea';
+import { useSessionPreview } from '../db/hooks';
 import type { ReviewedItemSummary } from './Session';
 
 interface RecapProps {
@@ -11,7 +12,11 @@ interface RecapProps {
   newCoverage: number;
   streak: number;
   reviewedItems: ReviewedItemSummary[];
+  userId: string;
+  dailyGoal: number;
   onDone: () => void;
+  /** Relance immédiatement une nouvelle session sans repasser par Home. */
+  onContinue: () => void;
 }
 
 export function Recap({
@@ -22,10 +27,18 @@ export function Recap({
   newCoverage,
   streak,
   reviewedItems,
+  userId,
+  dailyGoal,
   onDone,
+  onContinue,
 }: RecapProps) {
   const accuracy = items > 0 ? Math.round((correct / items) * 100) : 100;
   const delta = newCoverage - prevCoverage;
+  // Aperçu live de la file post-session : sert à masquer « Continuer »
+  // quand il ne reste plus rien à réviser, plutôt que de proposer un
+  // bouton qui mènerait à l'écran « Rien à réviser ».
+  const nextPreview = useSessionPreview(userId, dailyGoal);
+  const canContinue = (nextPreview?.length ?? 0) > 0;
 
   return (
     <div className="fade-in absolute inset-0 z-40 flex flex-col bg-bone">
@@ -134,7 +147,7 @@ export function Recap({
           </div>
         )}
 
-        <div className="mt-6">
+        <div className="mt-6 space-y-2.5">
           <button
             onClick={onDone}
             className="flex w-full items-center justify-center gap-2 rounded-2xl bg-ink py-4 text-[15px] font-medium text-bone transition active:scale-[0.99]"
@@ -142,6 +155,15 @@ export function Recap({
             Retour à l'accueil
             <Icon name="arrow-right" size={18} />
           </button>
+          {canContinue && (
+            <button
+              onClick={onContinue}
+              className="flex w-full items-center justify-center gap-2 rounded-2xl border border-line bg-paper py-3.5 text-[14.5px] font-medium text-ink transition active:scale-[0.99]"
+            >
+              <Icon name="refresh" size={16} />
+              Continuer la révision
+            </button>
+          )}
         </div>
       </div>
     </div>

@@ -104,6 +104,19 @@ pour le détail fonctionnel.
   fallback, `public/_headers` cache court sw / immutable assets). À lancer :
   `pnpm dlx wrangler pages deploy dist --project-name=pareto-english`.
 
+## Itérations post-MVP — ergonomie
+
+Petites améliorations issues du test réel de l'app.
+
+- [x] **Écran Réglages** — `src/screens/Settings.tsx` (3e onglet) permet de
+  changer le prénom et le rythme quotidien à tout moment. `updateProfile()`
+  dans `src/db/db.ts` ; persistance live via `useCurrentUser`, l'objectif du
+  jour sur Home se met à jour sans rechargement. Le lien « ajuste ton rythme
+  dans tes réglages » de l'écran de session vide ouvre l'onglet directement.
+- [x] **Bouton « Continuer la révision » sur Recap** — relance immédiatement
+  une nouvelle session depuis le bilan, sans repasser par Home. Masqué quand
+  `useSessionPreview` n'a plus rien à proposer.
+
 ---
 
 **Conseils**

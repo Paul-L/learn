@@ -1,6 +1,6 @@
 import { Icon, type IconName } from './Icon';
 
-export type TabId = 'home' | 'progress';
+export type TabId = 'home' | 'progress' | 'settings';
 
 interface TabBarProps {
   tab: TabId;
@@ -10,6 +10,7 @@ interface TabBarProps {
 const TABS: { id: TabId; label: string; icon: IconName }[] = [
   { id: 'home', label: 'Accueil', icon: 'home' },
   { id: 'progress', label: 'Progression', icon: 'chart' },
+  { id: 'settings', label: 'Réglages', icon: 'settings' },
 ];
 
 export function TabBar({ tab, setTab }: TabBarProps) {

@@ -28,6 +28,8 @@ interface SessionProps {
   user: User;
   onClose: () => void;
   onFinish: (result: SessionFinishResult) => void;
+  /** Permet au lien « tes réglages » de l'écran vide d'ouvrir le bon onglet. */
+  onOpenSettings?: () => void;
 }
 
 interface ProgressBarProps {
@@ -511,7 +513,7 @@ async function persistGrade(
   await db.reviewStates.put(updated);
 }
 
-export function Session({ user, onClose, onFinish }: SessionProps) {
+export function Session({ user, onClose, onFinish, onOpenSettings }: SessionProps) {
   const [steps, setSteps] = useState<SessionStep[] | null>(null);
   const [idx, setIdx] = useState(0);
   const [correct, setCorrect] = useState(0);
@@ -610,7 +612,18 @@ export function Session({ user, onClose, onFinish }: SessionProps) {
               Rien à réviser pour l'instant.
             </div>
             <div className="mt-1 text-[13.5px] text-muted">
-              Reviens plus tard ou ajuste ton rythme dans tes réglages.
+              Reviens plus tard ou{' '}
+              {onOpenSettings ? (
+                <button
+                  onClick={onOpenSettings}
+                  className="underline underline-offset-2 hover:text-ink"
+                >
+                  ajuste ton rythme dans tes réglages
+                </button>
+              ) : (
+                'ajuste ton rythme dans tes réglages'
+              )}
+              .
             </div>
           </div>
           <button
