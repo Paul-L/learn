@@ -1,0 +1,16 @@
+// Config Cloudflare Workers — déploiement statique (Static Assets).
+// Évite le plugin Workers/Vite qui exige Vite ≥ 6.
+//
+// `name` doit correspondre au Worker existant sur le dashboard
+// (voir Settings → General → Worker name). Le renommer ici sans
+// renommer côté dashboard créerait un nouveau Worker.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "learn",
+  "compatibility_date": "2026-05-01",
+  "assets": {
+    "directory": "./dist",
+    // Toute route inconnue sert index.html — c'est la PWA qui route ensuite.
+    "not_found_handling": "single-page-application"
+  }
+}

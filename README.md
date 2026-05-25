@@ -69,19 +69,26 @@ Puis dans Chrome / Safari :
 3. Sur iPhone : *Partager → Sur l'écran d'accueil* pour tester l'installation
    plein écran.
 
-## Déploiement (Cloudflare Pages)
+## Déploiement (Cloudflare Workers — Static Assets)
 
-Le `public/` contient déjà `_redirects` (fallback SPA → `index.html`) et
-`_headers` (cache court pour `sw.js`, immutable pour `/assets/*`).
+`wrangler.jsonc` à la racine configure un déploiement Workers Static Assets :
+`./dist` est uploadé tel quel, `not_found_handling: "single-page-application"`
+sert `index.html` sur toute route inconnue (fallback SPA natif).
+
+> Le `name` du `wrangler.jsonc` doit correspondre au Worker existant sur le
+> dashboard Cloudflare (Settings → General → Worker name). Renommer ici sans
+> renommer côté dashboard crée un nouveau Worker.
 
 ```bash
 pnpm run build
-# Soit via Wrangler (CLI Cloudflare) :
-pnpm dlx wrangler pages deploy dist --project-name=pareto-english
-# Soit en connectant le repo GitHub depuis dash.cloudflare.com :
-#   Build command : pnpm run build
-#   Build output  : dist
+npx wrangler deploy
 ```
+
+Pour un déploiement automatique sur push : connecter le repo depuis le
+dashboard Cloudflare (Workers & Pages → Create → Import a repository) avec
+build command `pnpm run build`. La détection du framework Vite est
+**volontairement contournée** par `wrangler.jsonc` (sinon Cloudflare exigerait
+Vite ≥ 6 via son plugin Workers/Vite).
 
 ## État
 
