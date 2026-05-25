@@ -45,6 +45,17 @@ export interface Phrase {
   /** Regroupement thématique (request, question, social…). */
   category?: string;
   audioRef?: string;
+  /**
+   * Mot caché pour l'exercice "cloze" (à trous).
+   * Doit apparaître tel quel dans `textEn`. Si absent, l'item n'est pas
+   * éligible au cloze (l'expression sert alors uniquement à mémoriser le bloc).
+   */
+  blank?: string;
+  /**
+   * Distracteurs éditoriaux pour le cloze (3 alternatives plausibles).
+   * Si absent, ils seront générés à la volée depuis le corpus.
+   */
+  distractors?: string[];
 }
 
 /** Phrase d'exemple rattachée à un mot ou à une expression. */
@@ -77,6 +88,11 @@ export interface User {
   dailyGoal: number;
   /** Date de création (epoch ms). */
   createdAt: number;
+  /**
+   * Date de fin d'onboarding (epoch ms). Si absente, l'utilisateur n'a pas
+   * encore terminé l'onboarding — on lui redemande à chaque lancement.
+   */
+  onboardedAt?: number;
 }
 
 /** Trace d'une session d'apprentissage (pour les statistiques et la série). */

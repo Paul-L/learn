@@ -35,8 +35,56 @@ L'application est disponible sur l'adresse indiquée par Vite (par défaut
 
 React 18 · TypeScript · Vite · vite-plugin-pwa · Dexie (IndexedDB) · ts-fsrs · Tailwind CSS
 
+## Corpus
+
+Trois fichiers TSV éditables à la main dans `src/data/corpus/` :
+
+- `words.tsv` — mots de contenu (rang, lemme, PoS, traduction FR, IPA).
+- `phrases.tsv` — expressions toutes faites avec champ `blank` pour le cloze.
+- `examples.tsv` — phrases d'exemple liées par référence textuelle (lemme du
+  mot, ou `textEn` exact de l'expression).
+
+Le loader (`src/data/corpus/index.ts`) parse les TSV à l'import, dérive des IDs
+stables (`w-<slug>`, `p-<slug>`) et valide la cohérence (doublons, exemples
+orphelins, cloze.blank absent du textEn). Une incohérence lève une erreur dès
+le chargement de l'app — fail fast.
+
+> Pour ajouter du contenu : éditer les TSV, relancer `pnpm run dev`. Le
+> `seedCorpus()` re-synchronise IndexedDB quand le nombre d'items change.
+
+## Tester la PWA en local
+
+```bash
+pnpm run build
+pnpm run preview
+```
+
+Puis dans Chrome / Safari :
+
+1. Ouvrir l'URL servie par `preview`, vérifier que l'app installable apparaît
+   dans la barre d'adresse (icône « Installer »).
+2. Bascule **DevTools → Network → Offline**, recharger : l'app doit tourner
+   hors-ligne, les sessions persister, la synthèse vocale fonctionner (sur
+   iOS, vérifier en sortant Safari du Wi-Fi).
+3. Sur iPhone : *Partager → Sur l'écran d'accueil* pour tester l'installation
+   plein écran.
+
+## Déploiement (Cloudflare Pages)
+
+Le `public/` contient déjà `_redirects` (fallback SPA → `index.html`) et
+`_headers` (cache court pour `sw.js`, immutable pour `/assets/*`).
+
+```bash
+pnpm run build
+# Soit via Wrangler (CLI Cloudflare) :
+pnpm dlx wrangler pages deploy dist --project-name=pareto-english
+# Soit en connectant le repo GitHub depuis dash.cloudflare.com :
+#   Build command : pnpm run build
+#   Build output  : dist
+```
+
 ## État
 
-Fondation du projet : modèle de données, persistance hors-ligne et moteur de
-répétition espacée sont en place. L'interface reste à construire — voir la section
-« Prochaines étapes » de `CLAUDE.md`.
+MVP fonctionnel : onboarding, file de session, FSRS, jauge de couverture,
+streak strict, jalons en mots maîtrisés, PWA installable. Corpus initial de
+~130 mots et 30 expressions à étendre éditorialement.

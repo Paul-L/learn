@@ -1,109 +1,139 @@
-import { useEffect, useState } from 'react';
-import { DEFAULT_USER_ID, db, ensureDefaultUser, seedCorpus } from './db/db';
-import { Rating, createReviewState, gradeReview } from './srs/scheduler';
-import type { ReviewState, Word } from './types/models';
+import { Fragment, useEffect, useState } from 'react';
+import { TabBar, type TabId } from './ui/TabBar';
+import { OnboardWelcome } from './screens/OnboardWelcome';
+import { OnboardSetup } from './screens/OnboardSetup';
+import { HomeScreen } from './screens/Home';
+import { Session, type ReviewedItemSummary, type SessionFinishResult } from './screens/Session';
+import { Recap } from './screens/Recap';
+import { ProgressScreen } from './screens/Progress';
+import {
+  DEFAULT_USER_ID,
+  completeOnboarding,
+  ensureDefaultUser,
+  seedCorpus,
+} from './db/db';
+import { useCurrentUser } from './db/hooks';
+import type { PaceKey } from './srs/stats';
 
-/**
- * Écran de vérification de la fondation.
- *
- * Ce composant n'est PAS l'application finale : il confirme que la couche
- * données (modèle, Dexie, FSRS, corpus) est bien câblée. L'UI réelle se
- * construit à partir du prototype de design (cf. Prompt-design-prototype.md)
- * et du PRD (Anglais-Pareto_Viabilite-et-PRD.md).
- */
+type Route = 'onboard-welcome' | 'onboard-setup' | 'app' | 'session' | 'recap';
 
-interface Foundation {
-  userName: string;
-  wordCount: number;
-  phraseCount: number;
-  preview: Word[];
+interface RecapData {
+  items: number;
+  correct: number;
+  xp: number;
+  prevCoverage: number;
+  newCoverage: number;
+  streak: number;
+  reviewedItems: ReviewedItemSummary[];
 }
 
 export default function App() {
-  const [data, setData] = useState<Foundation | null>(null);
-  const [demo, setDemo] = useState<string | null>(null);
+  // Le user vient de Dexie via useLiveQuery : toute mise à jour (onboarding,
+  // changement de rythme…) propage automatiquement sans refetch manuel.
+  const user = useCurrentUser();
+  const [route, setRoute] = useState<Route | null>(null);
+  const [tab, setTab] = useState<TabId>('home');
+  const [draftName, setDraftName] = useState('');
+  const [draftPace, setDraftPace] = useState<PaceKey>('std');
+  const [submitting, setSubmitting] = useState(false);
+  const [recapData, setRecapData] = useState<RecapData | null>(null);
 
+  // Amorçage : seed du corpus + création du profil par défaut s'il manque.
+  // Le user lui-même est ensuite observé par useCurrentUser().
   useEffect(() => {
     void (async () => {
       await seedCorpus();
-      const user = await ensureDefaultUser();
-      const [wordCount, phraseCount, preview] = await Promise.all([
-        db.words.count(),
-        db.phrases.count(),
-        db.words.orderBy('rank').limit(5).toArray(),
-      ]);
-      setData({ userName: user.name, wordCount, phraseCount, preview });
+      await ensureDefaultUser();
     })();
   }, []);
 
-  async function runFsrsDemo() {
-    const first = await db.words.orderBy('rank').first();
-    if (!first) return;
-    let review: ReviewState = createReviewState(DEFAULT_USER_ID, 'word', first.id);
-    review = gradeReview(review, Rating.Good);
-    const next = review.card.due.toLocaleString('fr-FR');
-    setDemo(`Carte « ${first.lemma} » notée « Bien » → prochaine révision le ${next}.`);
+  // Premier rendu où le user est connu : choisir la route d'entrée et
+  // pré-remplir le brouillon d'onboarding.
+  useEffect(() => {
+    if (!user || route !== null) return;
+    setDraftName(user.name);
+    setRoute(user.onboardedAt ? 'app' : 'onboard-welcome');
+  }, [user, route]);
+
+  const handleOnboardDone = async () => {
+    if (submitting) return;
+    setSubmitting(true);
+    try {
+      await completeOnboarding(draftName, draftPace);
+      setRoute('app');
+      setTab('home');
+    } finally {
+      setSubmitting(false);
+    }
+  };
+
+  const handleSessionFinish = (result: SessionFinishResult) => {
+    setRecapData({
+      items: result.items,
+      correct: result.correct,
+      xp: 12 + result.correct * 4,
+      prevCoverage: result.prevCoverage,
+      newCoverage: result.newCoverage,
+      streak: result.streak,
+      reviewedItems: result.reviewedItems,
+    });
+    setRoute('recap');
+  };
+
+  if (!user || route === null) {
+    return (
+      <div className="app-shell flex items-center justify-center">
+        <div className="text-[12px] uppercase tracking-[0.18em] text-muted">Initialisation…</div>
+      </div>
+    );
   }
 
   return (
-    <div className="mx-auto flex min-h-full max-w-md flex-col gap-5 px-5 py-10">
-      <header>
-        <p className="text-sm font-semibold uppercase tracking-wide text-amber-700">
-          Pareto English
-        </p>
-        <h1 className="mt-1 text-2xl font-bold text-stone-800">Fondation du projet</h1>
-        <p className="mt-1 text-sm text-stone-500">
-          Apprentissage de l'anglais par la loi de Pareto — PWA.
-        </p>
-      </header>
-
-      {!data ? (
-        <p className="text-sm text-stone-500">Initialisation de la base locale…</p>
-      ) : (
-        <>
-          <section className="rounded-2xl border border-stone-200 bg-white p-5">
-            <h2 className="text-sm font-semibold text-stone-700">Briques en place</h2>
-            <ul className="mt-3 space-y-1.5 text-sm text-stone-600">
-              <li>✓ Modèle de données typé (TypeScript)</li>
-              <li>✓ Persistance locale Dexie / IndexedDB</li>
-              <li>✓ Moteur de répétition espacée FSRS</li>
-              <li>✓ PWA installable (vite-plugin-pwa)</li>
-            </ul>
-          </section>
-
-          <section className="rounded-2xl border border-stone-200 bg-white p-5">
-            <h2 className="text-sm font-semibold text-stone-700">Corpus chargé</h2>
-            <p className="mt-2 text-sm text-stone-600">
-              Profil local : <strong>{data.userName}</strong> · {data.wordCount} mots ·{' '}
-              {data.phraseCount} expressions.
-            </p>
-            <ul className="mt-3 space-y-1 text-sm">
-              {data.preview.map((w) => (
-                <li key={w.id} className="flex justify-between">
-                  <span className="font-medium text-stone-800">{w.lemma}</span>
-                  <span className="text-stone-500">{w.translationFr}</span>
-                </li>
-              ))}
-            </ul>
-          </section>
-
-          <section className="rounded-2xl border border-stone-200 bg-white p-5">
-            <h2 className="text-sm font-semibold text-stone-700">Test du moteur FSRS</h2>
-            <button
-              type="button"
-              onClick={() => void runFsrsDemo()}
-              className="mt-3 rounded-xl bg-amber-700 px-4 py-2 text-sm font-medium text-white transition hover:bg-amber-800"
-            >
-              Simuler une révision
-            </button>
-            {demo && <p className="mt-3 text-sm text-stone-600">{demo}</p>}
-          </section>
-
-          <p className="text-center text-xs text-stone-400">
-            Fondation prête. La suite (UI, sessions, gamification) est décrite dans
-            CLAUDE.md et le PRD.
-          </p>
-        </>
+    <div className="app-shell">
+      {route === 'onboard-welcome' && (
+        <OnboardWelcome onNext={() => setRoute('onboard-setup')} />
+      )}
+      {route === 'onboard-setup' && (
+        <OnboardSetup
+          name={draftName}
+          setName={setDraftName}
+          pace={draftPace}
+          setPace={setDraftPace}
+          onBack={() => setRoute('onboard-welcome')}
+          onDone={() => void handleOnboardDone()}
+          submitting={submitting}
+        />
+      )}
+      {route === 'app' && (
+        <Fragment>
+          {tab === 'home' && (
+            <HomeScreen user={user} onStartSession={() => setRoute('session')} />
+          )}
+          {tab === 'progress' && <ProgressScreen userId={DEFAULT_USER_ID} />}
+          <TabBar tab={tab} setTab={setTab} />
+        </Fragment>
+      )}
+      {route === 'session' && (
+        <Session
+          user={user}
+          onClose={() => setRoute('app')}
+          onFinish={handleSessionFinish}
+        />
+      )}
+      {route === 'recap' && recapData && (
+        <Recap
+          items={recapData.items}
+          correct={recapData.correct}
+          xp={recapData.xp}
+          prevCoverage={recapData.prevCoverage}
+          newCoverage={recapData.newCoverage}
+          streak={recapData.streak}
+          reviewedItems={recapData.reviewedItems}
+          onDone={() => {
+            setRoute('app');
+            setTab('home');
+          }}
+        />
       )}
     </div>
   );

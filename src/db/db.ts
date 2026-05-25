@@ -1,6 +1,7 @@
 import Dexie, { type Table } from 'dexie';
 import type { Example, Phrase, ReviewState, Session, User, Word } from '../types/models';
-import { sampleExamples, samplePhrases, sampleWords } from '../data/corpus.sample';
+import { corpusExamples, corpusPhrases, corpusWords } from '../data/corpus';
+import { PACE_TO_GOAL, type PaceKey } from '../srs/stats';
 
 /** MVP : un seul profil local, sans système de comptes. */
 export const DEFAULT_USER_ID = 'local-user';
@@ -28,27 +29,52 @@ db.version(1).stores({
   sessions: 'id, userId, startedAt',
 });
 
-/** Charge le corpus d'exemple en base au tout premier lancement. */
+/**
+ * Charge le corpus en base au tout premier lancement (et le re-synchronise
+ * si le nombre d'items en base ne correspond plus au corpus de référence —
+ * cas d'une mise à jour de l'app qui apporte de nouveaux mots).
+ */
 export async function seedCorpus(): Promise<void> {
-  const count = await db.words.count();
-  if (count > 0) return;
+  const [wordsInDb, phrasesInDb] = await Promise.all([
+    db.words.count(),
+    db.phrases.count(),
+  ]);
+  if (wordsInDb === corpusWords.length && phrasesInDb === corpusPhrases.length) return;
+
   await db.transaction('rw', db.words, db.phrases, db.examples, async () => {
-    await db.words.bulkPut(sampleWords);
-    await db.phrases.bulkPut(samplePhrases);
-    await db.examples.bulkPut(sampleExamples);
+    await db.words.bulkPut(corpusWords);
+    await db.phrases.bulkPut(corpusPhrases);
+    await db.examples.bulkPut(corpusExamples);
   });
 }
 
 /** Garantit l'existence du profil local et le renvoie. */
-export async function ensureDefaultUser(name = 'Moi'): Promise<User> {
+export async function ensureDefaultUser(name = ''): Promise<User> {
   const existing = await db.users.get(DEFAULT_USER_ID);
   if (existing) return existing;
   const user: User = {
     id: DEFAULT_USER_ID,
     name,
-    dailyGoal: 20,
+    dailyGoal: PACE_TO_GOAL.std,
     createdAt: Date.now(),
   };
   await db.users.put(user);
   return user;
+}
+
+/**
+ * Finalise l'onboarding : enregistre le prénom, l'objectif quotidien dérivé
+ * du rythme choisi, et marque l'utilisateur comme onboardé.
+ */
+export async function completeOnboarding(name: string, pace: PaceKey): Promise<User> {
+  const trimmed = name.trim() || 'Moi';
+  const dailyGoal = PACE_TO_GOAL[pace];
+  await db.users.update(DEFAULT_USER_ID, {
+    name: trimmed,
+    dailyGoal,
+    onboardedAt: Date.now(),
+  });
+  const updated = await db.users.get(DEFAULT_USER_ID);
+  if (!updated) throw new Error('User disparu après update');
+  return updated;
 }

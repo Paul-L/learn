@@ -1,0 +1,36 @@
+# Expressions toutes faites Pareto English — apprises EN BLOC.
+# Format : rank<TAB>textEn<TAB>translationFr<TAB>category<TAB>blank<TAB>distractors
+# - `blank` doit apparaître TEL QUEL dans textEn (apostrophes, majuscules…).
+# - `distractors` : exactement 3, séparés par |.
+# - `category` : request | question | social | structure | other
+rank	textEn	translationFr	category	blank	distractors
+1	I'd like to have a coffee	je voudrais un café	request	have	take|get|make
+2	Can I have a coffee?	puis-je avoir un café ?	request	have	take|get|make
+3	How much is it?	combien ça coûte ?	question	much	many|long|old
+4	I don't understand	je ne comprends pas	social	don't	doesn't|didn't|won't
+5	There is some bread	il y a du pain	structure	is	are|was|be
+6	I'm looking for it	je le cherche	social	for	at|to|on
+7	Could you help me?	pourriez-vous m'aider ?	request	Could	Would|Should|Did
+8	What's your name?	comment t'appelles-tu ?	question	What's	Where's|How's|When's
+9	Where is the bathroom?	où sont les toilettes ?	question	Where	What|How|When
+10	Nice to meet you	enchanté·e	social	meet	see|know|find
+11	How are you?	comment vas-tu ?	social	are	is|do|were
+12	I am from France	je viens de France	social	from	at|to|in
+13	I'd like to book a table	je voudrais réserver une table	request	book	have|get|take
+14	What time is it?	quelle heure est-il ?	question	time	day|hour|moment
+15	Can you say it again?	pouvez-vous répéter ?	request	again	twice|more|now
+16	How do you say this in English?	comment dit-on cela en anglais ?	question	do	is|did|does
+17	I have a question	j'ai une question	social	question	problem|word|name
+18	Excuse me	excusez-moi	social	Excuse	Sorry|Pardon|Forgive
+19	Thank you very much	merci beaucoup	social	very	so|too|quite
+20	You're welcome	je vous en prie	social	You're	You|Your|Yours
+21	I'm sorry	je suis désolé·e	social	sorry	sad|tired|late
+22	See you tomorrow	à demain	social	tomorrow	today|yesterday|later
+23	I would like to learn English	je voudrais apprendre l'anglais	request	would	will|could|should
+24	What does it mean?	qu'est-ce que ça veut dire ?	question	mean	say|do|need
+25	Where do you live?	où habites-tu ?	question	live	work|come|go
+26	I'm looking for the station	je cherche la gare	social	looking	going|waiting|coming
+27	Can I pay by card?	puis-je payer par carte ?	request	by	with|on|in
+28	Do you speak English?	parlez-vous anglais ?	question	Do	Are|Can|Will
+29	I need some help	j'ai besoin d'aide	request	some	any|much|more
+30	It's too expensive	c'est trop cher	social	too	so|very|much

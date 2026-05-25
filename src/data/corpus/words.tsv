@@ -1,0 +1,137 @@
+# Mots de contenu Pareto English — top fréquence NGSL filtré.
+# Format : rank<TAB>lemma<TAB>pos<TAB>translationFr<TAB>ipa
+# PoS : noun | verb | adjective | adverb | other
+# IPA optionnel ; si rempli, conserver les barres /…/.
+# Les mots-outils (the, a, of, to, can, will…) sont volontairement absents :
+# ils sont absorbés via les expressions toutes faites (cf. phrases.tsv).
+rank	lemma	pos	translationFr	ipa
+1	time	noun	le temps	/taɪm/
+2	year	noun	l'année	/jɪr/
+3	people	noun	les gens	/ˈpiːpəl/
+4	way	noun	la façon / le chemin	/weɪ/
+5	day	noun	le jour	/deɪ/
+6	man	noun	l'homme	/mæn/
+7	thing	noun	la chose	/θɪŋ/
+8	woman	noun	la femme	/ˈwʊmən/
+9	life	noun	la vie	/laɪf/
+10	child	noun	l'enfant	/tʃaɪld/
+11	world	noun	le monde	/wɜːrld/
+12	school	noun	l'école	/skuːl/
+13	country	noun	le pays	/ˈkʌntri/
+14	family	noun	la famille	/ˈfæməli/
+15	student	noun	l'étudiant·e	/ˈstuːdənt/
+16	group	noun	le groupe	/ɡruːp/
+17	problem	noun	le problème	/ˈprɒbləm/
+18	hand	noun	la main	/hænd/
+19	part	noun	la partie	/pɑːrt/
+20	place	noun	l'endroit	/pleɪs/
+21	week	noun	la semaine	/wiːk/
+22	company	noun	l'entreprise	/ˈkʌmpəni/
+23	number	noun	le nombre	/ˈnʌmbər/
+24	night	noun	la nuit	/naɪt/
+25	point	noun	le point	/pɔɪnt/
+26	home	noun	la maison	/hoʊm/
+27	water	noun	l'eau	/ˈwɔːtər/
+28	room	noun	la pièce / la chambre	/ruːm/
+29	mother	noun	la mère	/ˈmʌðər/
+30	money	noun	l'argent	/ˈmʌni/
+31	story	noun	l'histoire	/ˈstɔːri/
+32	fact	noun	le fait	/fækt/
+33	month	noun	le mois	/mʌnθ/
+34	book	noun	le livre	/bʊk/
+35	eye	noun	l'œil	/aɪ/
+36	job	noun	l'emploi	/dʒɒb/
+37	word	noun	le mot	/wɜːrd/
+38	head	noun	la tête	/hɛd/
+39	house	noun	la maison	/haʊs/
+40	friend	noun	l'ami·e	/frɛnd/
+41	father	noun	le père	/ˈfɑːðər/
+42	hour	noun	l'heure	/aʊr/
+43	game	noun	le jeu	/ɡeɪm/
+44	city	noun	la ville	/ˈsɪti/
+45	name	noun	le nom	/neɪm/
+46	team	noun	l'équipe	/tiːm/
+47	minute	noun	la minute	/ˈmɪnɪt/
+48	idea	noun	l'idée	/aɪˈdiːə/
+49	body	noun	le corps	/ˈbɒdi/
+50	information	noun	l'information	/ˌɪnfərˈmeɪʃən/
+51	parent	noun	le parent	/ˈpɛrənt/
+52	face	noun	le visage	/feɪs/
+53	door	noun	la porte	/dɔːr/
+54	health	noun	la santé	/hɛlθ/
+55	morning	noun	le matin	/ˈmɔːrnɪŋ/
+56	teacher	noun	le·la professeur·e	/ˈtiːtʃər/
+57	car	noun	la voiture	/kɑːr/
+58	question	noun	la question	/ˈkwɛstʃən/
+59	area	noun	la zone / la région	/ˈɛriə/
+60	end	noun	la fin	/ɛnd/
+61	bread	noun	le pain	/brɛd/
+62	coffee	noun	le café	/ˈkɔːfi/
+63	street	noun	la rue	/striːt/
+64	bus	noun	le bus	/bʌs/
+65	train	noun	le train	/treɪn/
+66	food	noun	la nourriture	/fuːd/
+67	store	noun	le magasin	/stɔːr/
+68	ticket	noun	le billet / le ticket	/ˈtɪkɪt/
+69	phone	noun	le téléphone	/foʊn/
+70	table	noun	la table	/ˈteɪbəl/
+71	know	verb	savoir / connaître	/noʊ/
+72	think	verb	penser	/θɪŋk/
+73	want	verb	vouloir	/wɑːnt/
+74	use	verb	utiliser	/juːz/
+75	work	verb	travailler	/wɜːrk/
+76	need	verb	avoir besoin	/niːd/
+77	say	verb	dire	/seɪ/
+78	make	verb	faire / fabriquer	/meɪk/
+79	get	verb	obtenir / recevoir	/ɡɛt/
+80	take	verb	prendre	/teɪk/
+81	see	verb	voir	/siː/
+82	come	verb	venir	/kʌm/
+83	go	verb	aller	/ɡoʊ/
+84	find	verb	trouver	/faɪnd/
+85	give	verb	donner	/ɡɪv/
+86	tell	verb	dire / raconter	/tɛl/
+87	ask	verb	demander	/æsk/
+88	try	verb	essayer	/traɪ/
+89	feel	verb	ressentir	/fiːl/
+90	leave	verb	partir / quitter	/liːv/
+91	call	verb	appeler	/kɔːl/
+92	help	verb	aider	/hɛlp/
+93	show	verb	montrer	/ʃoʊ/
+94	play	verb	jouer	/pleɪ/
+95	run	verb	courir	/rʌn/
+96	move	verb	bouger / déménager	/muːv/
+97	live	verb	vivre / habiter	/lɪv/
+98	write	verb	écrire	/raɪt/
+99	read	verb	lire	/riːd/
+100	learn	verb	apprendre	/lɜːrn/
+101	understand	verb	comprendre	/ˌʌndərˈstænd/
+102	speak	verb	parler	/spiːk/
+103	open	verb	ouvrir	/ˈoʊpən/
+104	close	verb	fermer	/kloʊz/
+105	eat	verb	manger	/iːt/
+106	drink	verb	boire	/drɪŋk/
+107	buy	verb	acheter	/baɪ/
+108	pay	verb	payer	/peɪ/
+109	wait	verb	attendre	/weɪt/
+110	good	adjective	bon / bien	/ɡʊd/
+111	new	adjective	nouveau / neuf	/nuː/
+112	long	adjective	long	/lɔːŋ/
+113	great	adjective	excellent / formidable	/ɡreɪt/
+114	little	adjective	petit	/ˈlɪtəl/
+115	old	adjective	vieux	/oʊld/
+116	big	adjective	grand	/bɪɡ/
+117	small	adjective	petit	/smɔːl/
+118	different	adjective	différent	/ˈdɪfərənt/
+119	important	adjective	important	/ɪmˈpɔːrtənt/
+120	easy	adjective	facile	/ˈiːzi/
+121	hard	adjective	difficile / dur	/hɑːrd/
+122	happy	adjective	heureux / content	/ˈhæpi/
+123	ready	adjective	prêt	/ˈrɛdi/
+124	true	adjective	vrai	/truː/
+125	sure	adjective	sûr / certain	/ʃʊr/
+126	free	adjective	libre / gratuit	/friː/
+127	full	adjective	plein	/fʊl/
+128	cold	adjective	froid	/koʊld/
+129	hot	adjective	chaud	/hɒt/
+130	today	adverb	aujourd'hui	/təˈdeɪ/

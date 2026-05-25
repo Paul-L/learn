@@ -8,10 +8,86 @@ body,
   height: 100%;
 }
 
+html,
+body {
+  background-color: #ede7dc;
+}
+
 body {
   margin: 0;
-  background-color: #f5f5f4;
-  color: #292524;
-  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: #1f1a14;
+  font-family: 'Geist', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
   -webkit-font-smoothing: antialiased;
+  overscroll-behavior-y: none;
+}
+
+/* Coque applicative : pleine hauteur dynamique (gère la barre d'adresse mobile),
+   centrée et bornée à une largeur mobile sur grand écran. */
+.app-shell {
+  position: relative;
+  width: 100%;
+  max-width: 440px;
+  height: 100vh;
+  height: 100dvh;
+  margin-inline: auto;
+  background-color: #f8f5f0;
+  overflow: hidden;
+}
+
+.num-serif {
+  font-family: 'Instrument Serif', ui-serif, Georgia, serif;
+  font-style: italic;
+  letter-spacing: -0.01em;
+}
+
+.scroll-y {
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+.scroll-y::-webkit-scrollbar {
+  display: none;
+}
+
+.fade-in {
+  animation: fadeIn 260ms ease both;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.pop-in {
+  animation: popIn 320ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: scale(0.94);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.shake {
+  animation: shake 280ms ease both;
+}
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-6px);
+  }
+  75% {
+    transform: translateX(6px);
+  }
 }

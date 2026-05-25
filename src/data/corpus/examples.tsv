@@ -1,0 +1,58 @@
+# Phrases d'exemple Pareto English.
+# Format : itemType<TAB>itemRef<TAB>sentenceEn<TAB>translationFr
+# - itemType : word | phrase
+# - itemRef : pour word → le lemma exact ; pour phrase → le textEn exact.
+# - sentenceEn DOIT contenir le lemma tel quel pour les mots (la DiscoverCard
+#   le souligne en le coupant autour). Éviter les sous-chaînes (« day » dans
+#   « today », « way » dans « always »…).
+itemType	itemRef	sentenceEn	translationFr
+word	time	I don't have much time today.	Je n'ai pas beaucoup de temps aujourd'hui.
+word	year	She lived there for a year.	Elle y a vécu un an.
+word	people	A lot of people speak English.	Beaucoup de gens parlent anglais.
+word	way	What's the best way to learn?	Quelle est la meilleure façon d'apprendre ?
+word	day	Have a nice day!	Bonne journée !
+word	man	He is a kind man.	C'est un homme gentil.
+word	thing	I have one thing to ask you.	J'ai une chose à te demander.
+word	woman	She is a strong woman.	C'est une femme forte.
+word	life	I love my life.	J'aime ma vie.
+word	child	The child is asleep.	L'enfant dort.
+word	world	Welcome to the new world.	Bienvenue dans le nouveau monde.
+word	school	I go to school every morning.	Je vais à l'école tous les matins.
+word	country	France is my country.	La France est mon pays.
+word	family	I love my family.	J'aime ma famille.
+word	student	She is a good student.	C'est une bonne étudiante.
+word	group	We work in a small group.	Nous travaillons en petit groupe.
+word	problem	We have a small problem.	Nous avons un petit problème.
+word	hand	Give me your hand.	Donne-moi la main.
+word	part	This is the best part.	C'est la meilleure partie.
+word	place	This is a nice place.	C'est un endroit sympa.
+word	week	I see her every week.	Je la vois toutes les semaines.
+word	company	I work for a big company.	Je travaille pour une grande entreprise.
+word	number	Can I have your number?	Puis-je avoir ton numéro ?
+word	night	Good night!	Bonne nuit !
+word	point	That's a good point.	C'est un bon point.
+word	home	I'm going home.	Je rentre à la maison.
+word	water	Can I have some water?	Puis-je avoir de l'eau ?
+word	room	Is there a free room?	Y a-t-il une chambre libre ?
+word	mother	I love my mother.	J'aime ma mère.
+word	money	I don't have much money.	Je n'ai pas beaucoup d'argent.
+word	know	I know the answer.	Je connais la réponse.
+word	think	I think you're right.	Je pense que tu as raison.
+word	want	I want to learn English.	Je veux apprendre l'anglais.
+word	work	I work in a small office.	Je travaille dans un petit bureau.
+word	need	I need some help.	J'ai besoin d'aide.
+word	make	Let's make a plan.	Faisons un plan.
+word	get	I'll get the bill.	Je vais chercher l'addition.
+word	take	I'll take this one.	Je prends celui-ci.
+word	good	This is a good idea.	C'est une bonne idée.
+word	new	I bought a new car.	J'ai acheté une nouvelle voiture.
+phrase	I'd like to have a coffee	I'd like to have some water, please.	Je voudrais de l'eau, s'il vous plaît.
+phrase	Can I have a coffee?	Can I have the bill, please?	Puis-je avoir l'addition, s'il vous plaît ?
+phrase	How much is it?	How much is it for one ticket?	Combien ça coûte pour un billet ?
+phrase	I don't understand	Sorry, I don't understand the question.	Désolé, je ne comprends pas la question.
+phrase	Could you help me?	Excuse me, could you help me with this?	Excusez-moi, pourriez-vous m'aider avec ça ?
+phrase	What's your name?	Hi! What's your name?	Salut ! Comment t'appelles-tu ?
+phrase	How are you?	Hello! How are you today?	Bonjour ! Comment vas-tu aujourd'hui ?
+phrase	Nice to meet you	Nice to meet you too.	Enchanté également.
+phrase	Thank you very much	Thank you very much for your help.	Merci beaucoup pour votre aide.
+phrase	Do you speak English?	Excuse me, do you speak English?	Excusez-moi, parlez-vous anglais ?
