@@ -150,8 +150,21 @@ export function HomeScreen({ user, onStartSession }: HomeScreenProps) {
   const newCount = stats?.newCount ?? 0;
   const streak = stats?.streak ?? 0;
   const gap = paretoGapHint(coverage);
-  const minutesEstimate = Math.max(2, Math.round(sessionSize * 0.6));
+  // ~7 s par item en moyenne → 0.12 min/item. Plancher à 1 min pour ne pas
+  // afficher « 0 min » sur les très courtes sessions.
+  const minutesEstimate = Math.max(1, Math.round(sessionSize * 0.12));
   const newInSession = program.find((p) => p.label.startsWith('Découvrir'));
+  // Une fois l'objectif quotidien atteint, le bouton ne lance plus « la
+  // session du jour » : il enchaîne sur du bonus. Texte neutre, mêmes
+  // style et comportement — pas d'incitation à l'overuse.
+  const goalReached =
+    stats !== undefined && stats.todayItemsSeen >= user.dailyGoal;
+  const ctaLabel =
+    sessionSize === 0
+      ? 'Rien à réviser pour l’instant'
+      : goalReached
+        ? 'Continuer · session bonus'
+        : 'Démarrer la session du jour';
 
   return (
     <div className="fade-in absolute inset-0 flex flex-col">
@@ -218,9 +231,7 @@ export function HomeScreen({ user, onStartSession }: HomeScreenProps) {
             <Icon name="play" size={20} />
           </div>
           <div className="flex-1 text-left">
-            <div className="text-[15px] font-medium">
-              {sessionSize === 0 ? 'Rien à réviser pour l’instant' : 'Démarrer la session du jour'}
-            </div>
+            <div className="text-[15px] font-medium">{ctaLabel}</div>
             {sessionSize > 0 && (
               <div className="text-[12.5px] text-bone/60">
                 ≈ {minutesEstimate} min · {sessionSize} étapes

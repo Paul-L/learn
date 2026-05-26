@@ -30,6 +30,23 @@ db.version(1).stores({
 });
 
 /**
+ * v2 — recalibrage des paliers (cf. `PACE_TO_GOAL` dans `src/srs/stats.ts`).
+ * Anciens objectifs : 6 / 10 / 18. Nouveaux : 10 / 20 / 40.
+ * Idempotent côté Dexie : ne s'exécute qu'une fois par client.
+ */
+db.version(2).upgrade(async (tx) => {
+  await tx
+    .table('users')
+    .toCollection()
+    .modify((u: User) => {
+      if (u.dailyGoal === 6) u.dailyGoal = 10;
+      else if (u.dailyGoal === 10) u.dailyGoal = 20;
+      else if (u.dailyGoal === 18) u.dailyGoal = 40;
+      // Autres valeurs (déjà migré, ou personnalisé) : on laisse intact.
+    });
+});
+
+/**
  * Charge le corpus en base au tout premier lancement (et le re-synchronise
  * si le nombre d'items en base ne correspond plus au corpus de référence —
  * cas d'une mise à jour de l'app qui apporte de nouveaux mots).

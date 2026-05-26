@@ -123,6 +123,19 @@ Petites améliorations issues du test réel de l'app.
   `useInProgressTerms`) + légende des 4 paliers en langage simple. Sur Recap :
   `MaturityBar` à côté de chaque item, alimentée par la maturité post-notation
   (`enrichWithMaturity()` relit les `ReviewState` persistés avant `onFinish`).
+- [x] **Recalibrage des paliers (4 niveaux)** — `PACE_TO_GOAL` passe à
+  easy=10 / std=20 / intense=40 / marathon=60 (nouveau palier) avec libellés
+  alignés sur la vitesse réelle (~7 s/item). Icône `mountain` ajoutée à
+  `Icon.tsx`. Migration Dexie v2 dans `src/db/db.ts` qui remappe les anciens
+  `dailyGoal` (6→10, 10→20, 18→40) en idempotent. `minutesEstimate` du
+  bouton Home recalibré à 0.12 min/item (plancher 1).
+- [x] **« Continuer » en primary sur Recap** — quand `canContinue` est vrai,
+  le bouton Continuer prend le style primary (`bg-ink`) et Retour à l'accueil
+  devient secondary. Sinon, comportement inchangé. Aucun déclenchement auto.
+- [x] **Label Home dynamique** — quand l'objectif quotidien est atteint et
+  qu'il reste à réviser, le bouton affiche « Continuer · session bonus » au
+  lieu de « Démarrer la session du jour » — pas de couleur d'alerte, pas
+  d'emoji, pas d'incitation.
 
 ---
 

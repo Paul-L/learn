@@ -34,7 +34,20 @@ export interface WeeklyDay {
   today?: boolean;
 }
 
-export const PACE_TO_GOAL = { easy: 6, std: 10, intense: 18 } as const;
+/**
+ * Paliers de rythme quotidien (mots/jour). Recalibrés sur la vitesse réelle
+ * observée — ~7 s par item sur des mots déjà introduits — alors que les
+ * libellés précédents tablaient sur ~50 s/item, trop pessimiste.
+ *
+ * Toute modification ici doit être accompagnée d'une upgrade Dexie pour
+ * remapper les `dailyGoal` existants (cf. `src/db/db.ts` version 2+).
+ */
+export const PACE_TO_GOAL = {
+  easy: 10,
+  std: 20,
+  intense: 40,
+  marathon: 60,
+} as const;
 export type PaceKey = keyof typeof PACE_TO_GOAL;
 
 /** Compte par catégorie de maturité pour un utilisateur. */

@@ -151,21 +151,35 @@ export function Recap({
           </div>
         )}
 
+        {/* Quand une session suivante est dispo, « Continuer » est l'action
+            attendue après un bilan réussi : on lui donne le primary. Sinon,
+            Home reprend naturellement la place principale. Pas de relance
+            automatique, l'utilisateur reste maître du clic. */}
         <div className="mt-6 space-y-2.5">
-          <button
-            onClick={onDone}
-            className="flex w-full items-center justify-center gap-2 rounded-2xl bg-ink py-4 text-[15px] font-medium text-bone transition active:scale-[0.99]"
-          >
-            Retour à l'accueil
-            <Icon name="arrow-right" size={18} />
-          </button>
-          {canContinue && (
+          {canContinue ? (
+            <>
+              <button
+                onClick={onContinue}
+                className="flex w-full items-center justify-center gap-2 rounded-2xl bg-ink py-4 text-[15px] font-medium text-bone transition active:scale-[0.99]"
+              >
+                Continuer la révision
+                <Icon name="arrow-right" size={18} />
+              </button>
+              <button
+                onClick={onDone}
+                className="flex w-full items-center justify-center gap-2 rounded-2xl border border-line bg-paper py-3.5 text-[14.5px] font-medium text-ink transition active:scale-[0.99]"
+              >
+                <Icon name="home" size={16} />
+                Retour à l'accueil
+              </button>
+            </>
+          ) : (
             <button
-              onClick={onContinue}
-              className="flex w-full items-center justify-center gap-2 rounded-2xl border border-line bg-paper py-3.5 text-[14.5px] font-medium text-ink transition active:scale-[0.99]"
+              onClick={onDone}
+              className="flex w-full items-center justify-center gap-2 rounded-2xl bg-ink py-4 text-[15px] font-medium text-bone transition active:scale-[0.99]"
             >
-              <Icon name="refresh" size={16} />
-              Continuer la révision
+              Retour à l'accueil
+              <Icon name="arrow-right" size={18} />
             </button>
           )}
         </div>

@@ -22,6 +22,7 @@ export type IconName =
   | 'coffee'
   | 'zap'
   | 'wave'
+  | 'mountain'
   | 'settings';
 
 interface IconProps {
@@ -214,6 +215,12 @@ export function Icon({ name, size = 20, stroke = 1.75, className = '' }: IconPro
       return (
         <svg {...props}>
           <path d="M2 12c2 0 2-4 4-4s2 8 4 8 2-8 4-8 2 4 4 4 2-2 4-2" />
+        </svg>
+      );
+    case 'mountain':
+      return (
+        <svg {...props}>
+          <path d="M3 20l6-11 4 6 3-5 5 10z" />
         </svg>
       );
     case 'settings':

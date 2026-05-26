@@ -21,9 +21,10 @@ interface PaceOption {
  * (la source de vérité de la dérivation pace → dailyGoal).
  */
 const PACES: PaceOption[] = [
-  { id: 'easy', label: 'Tranquille', desc: '5 min · 6 mots/jour', icon: 'coffee' },
-  { id: 'std', label: 'Standard', desc: '8 min · 10 mots/jour', icon: 'wave' },
-  { id: 'intense', label: 'Intensif', desc: '15 min · 18 mots/jour', icon: 'zap' },
+  { id: 'easy', label: 'Tranquille', desc: '~1 min · 10 mots/jour', icon: 'coffee' },
+  { id: 'std', label: 'Standard', desc: '~2-3 min · 20 mots/jour', icon: 'wave' },
+  { id: 'intense', label: 'Intensif', desc: '~5 min · 40 mots/jour', icon: 'zap' },
+  { id: 'marathon', label: 'Marathon', desc: '~7-8 min · 60 mots/jour', icon: 'mountain' },
 ];
 
 /** Reconstitue le pace actuel à partir de `dailyGoal` (round-trip stable). */
